@@ -1,0 +1,25 @@
+//Microsoft Developer Studio generated resource script.
+//
+// Version: 9.3
+
+#ifndef _OXSpinCtrl_RC__
+#define _OXSpinCtrl_RC__
+#include "OXMainRes.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#undef APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_OX_SPINVERCUR          CURSOR  DISCARDABLE     "res\\OXSpinVer.cur"
+IDC_OX_SPINHORCUR          CURSOR  DISCARDABLE     "res\\OXSpinHor.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif //_OXSpinCtrl_RC__

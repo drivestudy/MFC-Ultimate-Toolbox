@@ -1,0 +1,115 @@
+//Microsoft Developer Studio generated resource script.
+//
+// Version: 9.3
+
+#include "OXMainRes.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OX_FILEOPENDUMMY DIALOG DISCARDABLE  109, 35, 165, 134
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Open"
+FONT 8, "Helv"
+BEGIN
+    LTEXT           "File &Name:",stc3,168,0,76,10
+    EDITTEXT        edt1,168,10,90,12,ES_AUTOHSCROLL | ES_OEMCONVERT
+    LISTBOX         lst1,168,26,90,68,LBS_SORT | LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_DISABLENOSCROLL | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "&Directories:",-1,7,6,92,9
+    LISTBOX         lst2,7,32,92,68,LBS_SORT | LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_DISABLENOSCROLL | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "List Files of &Type:",stc2,168,98,90,9
+    COMBOBOX        cmb1,168,108,90,36,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | 
+                    WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Dri&ves:",stc4,7,104,92,9
+    COMBOBOX        cmb2,7,114,92,68,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | 
+                    CBS_AUTOHSCROLL | CBS_SORT | CBS_HASSTRINGS | WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,105,6,50,14,WS_GROUP
+    PUSHBUTTON      "Cancel",IDCANCEL,105,24,50,14,WS_GROUP
+    PUSHBUTTON      "&Help",psh15,105,46,50,14,WS_GROUP
+    CONTROL         "&Read Only",chx1,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,105,68,50,12
+    LTEXT           "",stc1,109,84,23,12
+    EDITTEXT        IDC_OX_DIRECTORY,7,16,92,12,ES_AUTOHSCROLL | WS_GROUP
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "OXMainRes.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_OX_INVALID_DIR      "The directory specifiaction is invalid (%1)"
+    IDS_OX_CREATE_NEW_DIR   "The specified directory (%1) does not exist.  Do you want to create it ?"
+    IDS_OX_FAILED_CREATE_DIR "Directory creation failed"
+    IDS_OX_NON_EXISTING_DIR "The specified directory does not exist"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

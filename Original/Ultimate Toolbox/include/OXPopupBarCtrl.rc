@@ -1,0 +1,131 @@
+//Microsoft Developer Studio generated resource script.
+//
+// Version: 9.3
+
+#ifndef _OXPOPUPBARCTRL_RC__
+#define _OXPOPUPBARCTRL_RC__
+#include "OXMainRes.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "OXMainRes.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+
+IDS_OX_BROWSECLRDESCRIPTION		"R:%d G:%d B:%d"
+IDS_OX_BROWSECLRDEFAULT			"Default"
+IDS_OX_BROWSECLRCUSTOM			"Custom..."
+IDS_OX_POPUPBARTEAROFF			"Drag to make this menu float"
+IDS_OX_POPUPBARCAPTION			"Floating bar"
+IDS_OX_CLRPICKER_BLACK			"Black"             
+IDS_OX_CLRPICKER_BROWN			"Brown"             
+IDS_OX_CLRPICKER_DARKOLIVEGREEN		"Dark Olive Green"  
+IDS_OX_CLRPICKER_DARKGREEN		"Dark Green"        
+IDS_OX_CLRPICKER_DARKTEAL		"Dark Teal"         
+IDS_OX_CLRPICKER_DARKBLUE		"Dark blue"         
+IDS_OX_CLRPICKER_INDIGO			"Indigo"            
+IDS_OX_CLRPICKER_DARKGREY		"Dark grey"         
+
+IDS_OX_CLRPICKER_DARKRED		"Dark red"          
+IDS_OX_CLRPICKER_ORANGE			"Orange"            
+IDS_OX_CLRPICKER_DARKYELLOW		"Dark yellow"       
+IDS_OX_CLRPICKER_GREEN			"Green"             
+IDS_OX_CLRPICKER_TEAL			"Teal"              
+IDS_OX_CLRPICKER_BLUE			"Blue"              
+IDS_OX_CLRPICKER_BLUEGREY		"Blue-grey"         
+IDS_OX_CLRPICKER_GREY60			"Grey - 60"         
+
+IDS_OX_CLRPICKER_RED			"Red"               
+IDS_OX_CLRPICKER_LIGHTORANGE		"Light orange"      
+IDS_OX_CLRPICKER_LIME			"Lime"              
+IDS_OX_CLRPICKER_SEAGREEN		"Sea green"         
+IDS_OX_CLRPICKER_AGUA			"Aqua"              
+IDS_OX_CLRPICKER_LIGHTBLUE		"Light blue"        
+IDS_OX_CLRPICKER_VIOLET			"Violet"            
+IDS_OX_CLRPICKER_GREY50			"Grey - 50"         
+
+IDS_OX_CLRPICKER_PINK			"Pink"              
+IDS_OX_CLRPICKER_GOLD			"Gold"              
+IDS_OX_CLRPICKER_YELLOW			"Yellow"            
+IDS_OX_CLRPICKER_BRIGHTGREEN		"Bright green"      
+IDS_OX_CLRPICKER_TURQUOISE		"Turquoise"         
+IDS_OX_CLRPICKER_SKYBLUE		"Skyblue"           
+IDS_OX_CLRPICKER_PLUM			"Plum"              
+IDS_OX_CLRPICKER_LIGHTGREY		"Light grey"        
+
+IDS_OX_CLRPICKER_ROSE			"Rose"              
+IDS_OX_CLRPICKER_TAN			"Tan"               
+IDS_OX_CLRPICKER_LIGHTYELLOW		"Light yellow"      
+IDS_OX_CLRPICKER_PALEGREEN		"Pale green "       
+IDS_OX_CLRPICKER_PALETURQUOISE		"Pale turquoise"    
+IDS_OX_CLRPICKER_PALEBLUE		"Pale blue"         
+IDS_OX_CLRPICKER_LAVENDER		"Lavender"          
+IDS_OX_CLRPICKER_WHITE			"White"             
+IDS_OX_CLRPICKER_LIGHTGREEN		"Light green"
+IDS_OX_CLRPICKER_GREY40			"Grey - 40"
+
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
+#endif //_OXPOPUPBARCTRL_RC__

@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_Unicode|Win32">
+      <Configuration>Debug_Unicode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Shared|Win32">
+      <Configuration>Release_Shared</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Unicode|Win32">
+      <Configuration>Release_Unicode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6E1019D0-4AA0-4233-B32D-D085CD79E526}</ProjectGuid>
+    <RootNamespace>VisualStudioLikeDemo</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Shared|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Shared|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.61030.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Shared|Win32'">
+    <OutDir>.\Release_Shared\</OutDir>
+    <IntDir>.\Release_Shared\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'">
+    <OutDir>.\Release_Unicode\</OutDir>
+    <IntDir>.\Release_Unicode\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'">
+    <OutDir>.\Debug_Unicode\</OutDir>
+    <IntDir>.\Debug_Unicode\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Shared|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release_Shared/VisualStudioLikeDemo.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\..\include;..\..\..\source\utsampleabout;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release_Shared/VisualStudioLikeDemo.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release_Shared/</AssemblerListingLocation>
+      <ObjectFileName>.\Release_Shared/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release_Shared/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>..\..\..\include;..\..\..\source\utsampleabout;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(Configuration)\$(ProjectFileName).exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Release_Shared/VisualStudioLikeDemo.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release_Shared/VisualStudioLikeDemo.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/VisualStudioLikeDemo.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\include;..\..\..\source\utsampleabout;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/VisualStudioLikeDemo.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>..\..\..\include;..\..\..\source\utsampleabout;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(Configuration)\$(ProjectFileName).exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/VisualStudioLikeDemo.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/VisualStudioLikeDemo.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/VisualStudioLikeDemo.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\..\include;..\..\..\source\utsampleabout;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/VisualStudioLikeDemo.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>..\..\..\include;..\..\..\source\utsampleabout;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(Configuration)\$(ProjectFileName).exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Release/VisualStudioLikeDemo.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/VisualStudioLikeDemo.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release_Unicode/VisualStudioLikeDemo.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\..\include;..\..\..\source\utsampleabout;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release_Unicode/VisualStudioLikeDemo.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release_Unicode/</AssemblerListingLocation>
+      <ObjectFileName>.\Release_Unicode/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release_Unicode/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>..\..\..\include;..\..\..\source\utsampleabout;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(Configuration)\$(ProjectFileName).exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Release_Unicode/VisualStudioLikeDemo.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>wWinMainCRTStartup</EntryPointSymbol>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release_Unicode/VisualStudioLikeDemo.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug_Unicode/VisualStudioLikeDemo.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\include;..\..\..\source\utsampleabout;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug_Unicode/VisualStudioLikeDemo.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug_Unicode/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug_Unicode/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug_Unicode/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>..\..\..\include;..\..\..\source\utsampleabout;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(Configuration)\$(ProjectFileName).exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug_Unicode/VisualStudioLikeDemo.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>wWinMainCRTStartup</EntryPointSymbol>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug_Unicode/VisualStudioLikeDemo.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="3DTabViewBar.cpp" />
+    <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="..\..\..\Source\OXToolTipCtrl.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Shared|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TabViewBar.cpp" />
+    <ClCompile Include="VisualStudioLikeDemo.cpp" />
+    <ClCompile Include="VisualStudioLikeDemoDoc.cpp" />
+    <ClCompile Include="VisualStudioLikeDemoView.cpp" />
+    <ClCompile Include="..\..\..\Source\COPYTREE.CPP" />
+    <ClCompile Include="..\..\..\Source\DIR.CPP" />
+    <ClCompile Include="..\..\..\Source\DSTRLIST.CPP" />
+    <ClCompile Include="..\..\..\Source\FILE.CPP" />
+    <ClCompile Include="..\..\..\source\UTSampleAbout\HtmlCtrl.cpp" />
+    <ClCompile Include="..\..\..\source\MFCToolBar.cpp" />
+    <ClCompile Include="..\..\..\Source\OX3DTabView.cpp" />
+    <ClCompile Include="..\..\..\source\OXAdvancedAssert.cpp" />
+    <ClCompile Include="..\..\..\source\OXAdvancedAssertMail.cpp" />
+    <ClCompile Include="..\..\..\Source\OXBackgroundPainter.cpp" />
+    <ClCompile Include="..\..\..\Source\OXBMPFilePickerCombo.cpp" />
+    <ClCompile Include="..\..\..\Source\OXCaptionPainter.cpp" />
+    <ClCompile Include="..\..\..\Source\OXColorPickerButton.cpp" />
+    <ClCompile Include="..\..\..\Source\OXColorPickerCtrl.cpp" />
+    <ClCompile Include="..\..\..\Source\OXCoolComboBox.cpp" />
+    <ClCompile Include="..\..\..\source\OXCoolControlOrganizer.cpp" />
+    <ClCompile Include="..\..\..\source\OXCoolCtrl.cpp" />
+    <ClCompile Include="..\..\..\Source\OXCustomizeBackgroundPage.cpp" />
+    <ClCompile Include="..\..\..\Source\OXCustomizeCaptionPage.cpp" />
+    <ClCompile Include="..\..\..\source\OXCustomizeCoolControlsPage.cpp" />
+    <ClCompile Include="..\..\..\source\OXCustomizeIntelliMousePage.cpp" />
+    <ClCompile Include="..\..\..\Source\OXCustomizeSplashWindowPage.cpp" />
+    <ClCompile Include="..\..\..\Source\OXCustomizeTrayIconPage.cpp" />
+    <ClCompile Include="..\..\..\Source\Oxdib.cpp" />
+    <ClCompile Include="..\..\..\source\OXDockTabCtrl.cpp" />
+    <ClCompile Include="..\..\..\Source\OXDragDockContext.CPP" />
+    <ClCompile Include="..\..\..\Source\OXEdit.cpp" />
+    <ClCompile Include="..\..\..\Source\OXFontPickerButton.cpp" />
+    <ClCompile Include="..\..\..\Source\OXFrameWndDock.CPP" />
+    <ClCompile Include="..\..\..\Source\OXHistoryCtrl.cpp" />
+    <ClCompile Include="..\..\..\Source\OXHookWnd.cpp" />
+    <ClCompile Include="..\..\..\source\OXIntelliMouse.cpp" />
+    <ClCompile Include="..\..\..\Source\OXIteratorRegistryItem.cpp" />
+    <ClCompile Include="..\..\..\Source\OXMDIFloatWnd.cpp" />
+    <ClCompile Include="..\..\..\source\OXMultiComboBox.cpp" />
+    <ClCompile Include="..\..\..\Source\OXPopupBarCtrl.cpp" />
+    <ClCompile Include="..\..\..\Source\OXPreviewDialog.cpp" />
+    <ClCompile Include="..\..\..\Source\OXRectTracker.cpp" />
+    <ClCompile Include="..\..\..\Source\OXRegistryItem.cpp" />
+    <ClCompile Include="..\..\..\Source\OXScrollWnd.cpp" />
+    <ClCompile Include="..\..\..\Source\OXSizeCtrlBar.CPP" />
+    <ClCompile Include="..\..\..\Source\OXSizeDlgBar.cpp" />
+    <ClCompile Include="..\..\..\Source\OXSizeDockBar.cpp" />
+    <ClCompile Include="..\..\..\Source\OXSizeToolBar.cpp" />
+    <ClCompile Include="..\..\..\source\OXSkinnedComboBox.cpp" />
+    <ClCompile Include="..\..\..\source\OXSkinnedSpinCtrl.cpp" />
+    <ClCompile Include="..\..\..\source\OXSkinnedTabCtrl.cpp" />
+    <ClCompile Include="..\..\..\source\OXSkins.cpp" />
+    <ClCompile Include="..\..\..\Source\OXSplashWnd.cpp" />
+    <ClCompile Include="..\..\..\Source\OXSplashWndDIB.cpp" />
+    <ClCompile Include="..\..\..\Source\OXSplitterRect.cpp" />
+    <ClCompile Include="..\..\..\Source\OXSzMiniDockFrmWnd.cpp" />
+    <ClCompile Include="..\..\..\Source\OXTabView.cpp" />
+    <ClCompile Include="..\..\..\source\OXUxTheme.cpp" />
+    <ClCompile Include="..\..\..\Source\Path.cpp" />
+    <ClCompile Include="..\..\..\source\UTBStrOp.cpp" />
+    <ClCompile Include="..\..\..\source\Xstatus4.cpp" />
+    <ClCompile Include="..\..\..\Source\XSTRING.CPP" />
+    <ClCompile Include="..\..\..\Source\OXBitmapButton.cpp" />
+    <ClCompile Include="..\..\..\Source\OXBitmapMenu.cpp" />
+    <ClCompile Include="..\..\..\Source\OXBitmapMenuOrganizer.cpp" />
+    <ClCompile Include="..\..\..\Source\OXButtonAppearanceDlg.cpp" />
+    <ClCompile Include="..\..\..\Source\OXChildFrameState.cpp" />
+    <ClCompile Include="..\..\..\Source\OXCoolToolBar.cpp" />
+    <ClCompile Include="..\..\..\Source\OXCustomizeCommandsPage.cpp" />
+    <ClCompile Include="..\..\..\Source\OXCustomizeInstanceManagerPage.cpp" />
+    <ClCompile Include="..\..\..\Source\OXCustomizeManager.cpp" />
+    <ClCompile Include="..\..\..\Source\OXCustomizePage.cpp" />
+    <ClCompile Include="..\..\..\Source\OXCustomizeShortkeysPage.cpp" />
+    <ClCompile Include="..\..\..\Source\OXCustomizeTabbedMDIPage.cpp" />
+    <ClCompile Include="..\..\..\Source\OXCustomizeToolbarsPage.cpp" />
+    <ClCompile Include="..\..\..\Source\OXCustomizeWorkspaceStatePage.cpp" />
+    <ClCompile Include="..\..\..\Source\OXDocTemplateSpy.cpp" />
+    <ClCompile Include="..\..\..\Source\OXDragDropCommands.cpp" />
+    <ClCompile Include="..\..\..\Source\OXHistoryCombo.cpp" />
+    <ClCompile Include="..\..\..\Source\OXImageListBox.cpp" />
+    <ClCompile Include="..\..\..\Source\OXInstanceManager.cpp" />
+    <ClCompile Include="..\..\..\Source\OXLayoutManager.cpp" />
+    <ClCompile Include="..\..\..\Source\OXListBoxEx.cpp" />
+    <ClCompile Include="..\..\..\Source\OXMenuBar.cpp" />
+    <ClCompile Include="..\..\..\Source\OXOptionTreeCtrl.cpp" />
+    <ClCompile Include="..\..\..\Source\OXRegistryValFile.cpp" />
+    <ClCompile Include="..\..\..\Source\OXSeparator.cpp" />
+    <ClCompile Include="..\..\..\Source\OXShortcutBar.cpp" />
+    <ClCompile Include="..\..\..\Source\OXShortkeysOrganizer.cpp" />
+    <ClCompile Include="..\..\..\Source\OXSplitterColRowState.cpp" />
+    <ClCompile Include="..\..\..\Source\OXStatic.cpp" />
+    <ClCompile Include="..\..\..\Source\OXTabClientWnd.cpp" />
+    <ClCompile Include="..\..\..\Source\OXTaskbarIcon.cpp" />
+    <ClCompile Include="..\..\..\Source\OXWorkspaceState.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VisualStudioLikeDemo.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3DTabViewBar.h" />
+    <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="..\..\..\Include\OX3DTabView.h" />
+    <ClInclude Include="..\..\..\Include\OXBackgroundPainter.h" />
+    <ClInclude Include="..\..\..\Include\OXBaseSubclassedComboBox.h" />
+    <ClInclude Include="..\..\..\Include\OXBitmapButton.h" />
+    <ClInclude Include="..\..\..\Include\OXBitmapMenu.h" />
+    <ClInclude Include="..\..\..\Include\OXBitmapMenuOrganizer.h" />
+    <ClInclude Include="..\..\..\Include\OXButtonAppearanceDlg.h" />
+    <ClInclude Include="..\..\..\Include\OXCaptionPainter.h" />
+    <ClInclude Include="..\..\..\Include\OXCoolToolBar.h" />
+    <ClInclude Include="..\..\..\Include\OXCustomizeBackgroundPage.h" />
+    <ClInclude Include="..\..\..\Include\OXCustomizeCaptionPage.h" />
+    <ClInclude Include="..\..\..\Include\OXCustomizeCommandsPage.h" />
+    <ClInclude Include="..\..\..\Include\OXCustomizeInstanceManagerPage.h" />
+    <ClInclude Include="..\..\..\Include\OXCustomizeManager.h" />
+    <ClInclude Include="..\..\..\Include\OXCustomizePage.h" />
+    <ClInclude Include="..\..\..\Include\OXCustomizeShortkeysPage.h" />
+    <ClInclude Include="..\..\..\Include\OXCustomizeSplashWindowPage.h" />
+    <ClInclude Include="..\..\..\Include\OXCustomizeToolbarsPage.h" />
+    <ClInclude Include="..\..\..\Include\OXCustomizeTrayIconPage.h" />
+    <ClInclude Include="..\..\..\Include\OXCustomizeWorkspaceStatePage.h" />
+    <ClInclude Include="..\..\..\Include\OXDragDropCommands.h" />
+    <ClInclude Include="..\..\..\Include\OXEdit.h" />
+    <ClInclude Include="..\..\..\Include\OXFontPickerButton.h" />
+    <ClInclude Include="..\..\..\Include\OXFrameWndDock.h" />
+    <ClInclude Include="..\..\..\Include\OXHistoryCombo.h" />
+    <ClInclude Include="..\..\..\Include\OXHistoryCtrl.h" />
+    <ClInclude Include="..\..\..\Include\OXImageListBox.h" />
+    <ClInclude Include="..\..\..\Include\OXIteratorRegistryItem.h" />
+    <ClInclude Include="..\..\..\Include\OXMenuBar.h" />
+    <ClInclude Include="..\..\..\Include\OXRegistryItem.h" />
+    <ClInclude Include="..\..\..\Include\OXScrollWnd.h" />
+    <ClInclude Include="..\..\..\Include\OXShortcutBar.h" />
+    <ClInclude Include="..\..\..\Include\OXShortkeysOrganizer.h" />
+    <ClInclude Include="..\..\..\Include\OXSizeCtrlBar.h" />
+    <ClInclude Include="..\..\..\Include\OXSizeDockBar.h" />
+    <ClInclude Include="..\..\..\include\OXSkins.h" />
+    <ClInclude Include="..\..\..\Include\OXSplashWnd.h" />
+    <ClInclude Include="..\..\..\Include\OXSplitterRect.h" />
+    <ClInclude Include="..\..\..\Include\OXStatic.h" />
+    <ClInclude Include="..\..\..\include\OXSzMiniDockFrmWnd.h" />
+    <ClInclude Include="..\..\..\Include\OXTabClientWnd.h" />
+    <ClInclude Include="..\..\..\Include\OXTabView.h" />
+    <ClInclude Include="..\..\..\Include\OXTaskbarIcon.h" />
+    <ClInclude Include="..\..\..\Include\OXWorkspaceState.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="TabViewBar.h" />
+    <ClInclude Include="VisualStudioLikeDemo.h" />
+    <ClInclude Include="VisualStudioLikeDemoDoc.h" />
+    <ClInclude Include="VisualStudioLikeDemoView.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Include\OXRegistryItem.inl" />
+    <None Include="..\..\..\Include\OXTaskbarIcon.inl" />
+    <None Include="res\VisualStudioLikeDemo.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\coolbar.bmp" />
+    <Image Include="res\il_3dtab.bmp" />
+    <Image Include="res\il_class.bmp" />
+    <Image Include="res\il_filev.bmp" />
+    <Image Include="res\Logo.bmp" />
+    <Image Include="res\tb_window.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\VisualStudioLikeDemo.ico" />
+    <Image Include="res\VisualStudioLikeDemoDoc.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

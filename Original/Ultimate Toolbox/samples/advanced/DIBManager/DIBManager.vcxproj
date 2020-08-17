@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FDF923F4-1373-4F7A-8739-F797B30655AF}</ProjectGuid>
+    <RootNamespace>DIBManager</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.61030.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/DIBManager.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\include;..\..\..\source\utsampleabout;..\..\..\lib\jpeg\jpegsrc6;..\..\..\lib\jpeg;..\..\..\archive\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/DIBManager.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>..\..\..\include;..\..\..\source\utsampleabout;..\..\..\lib\jpeg\jpegsrc6;..\..\..\lib\jpeg;..\..\..\archive\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>jpgd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(Configuration)\$(ProjectFileName).exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\lib\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCD;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/DIBManager.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/DIBManager.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/DIBManager.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\..\include;..\..\..\source\utsampleabout;..\..\..\lib\jpeg\jpegsrc6;..\..\..\lib\jpeg;..\..\..\archive\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/DIBManager.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>..\..\..\include;..\..\..\source\utsampleabout;..\..\..\lib\jpeg\jpegsrc6;..\..\..\lib\jpeg;..\..\..\archive\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>jpgr.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(Configuration)\$(ProjectFileName).exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\lib\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBC;MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDatabaseFile>.\Release/DIBManager.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/DIBManager.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="DIBManager.cpp" />
+    <ClCompile Include="DIBManagerDoc.cpp" />
+    <ClCompile Include="DIBManagerView.cpp" />
+    <ClCompile Include="ExportDlg.cpp" />
+    <ClCompile Include="ImageInfoDlg.cpp" />
+    <ClCompile Include="ImportDlg.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="OXDocMgr.cpp" />
+    <ClCompile Include="..\..\..\source\OXPreviewDialog.cpp" />
+    <ClCompile Include="OXWinApp.cpp" />
+    <ClCompile Include="ProtectedFile.cpp" />
+    <ClCompile Include="ResampleImageDlg.cpp" />
+    <ClCompile Include="ScaleRollupDlg.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TreeFilesDlg.cpp" />
+    <ClCompile Include="WorkspaceDlg.cpp" />
+    <ClCompile Include="..\..\..\Source\Convfile.cpp" />
+    <ClCompile Include="..\..\..\Source\Copytree.cpp" />
+    <ClCompile Include="..\..\..\Source\Cpystdlg.cpp" />
+    <ClCompile Include="..\..\..\Source\Dir.cpp" />
+    <ClCompile Include="..\..\..\Source\Dirlist.cpp" />
+    <ClCompile Include="..\..\..\Source\Dstrlist.cpp" />
+    <ClCompile Include="..\..\..\Source\File.cpp" />
+    <ClCompile Include="..\..\..\Source\Filelist.cpp" />
+    <ClCompile Include="..\..\..\source\UTSampleAbout\HtmlCtrl.cpp" />
+    <ClCompile Include="..\..\..\Source\Mdeldlg.cpp" />
+    <ClCompile Include="..\..\..\source\MFCToolBar.cpp" />
+    <ClCompile Include="..\..\..\source\OX3DTabView.cpp" />
+    <ClCompile Include="..\..\..\source\OXAdvancedAssert.cpp" />
+    <ClCompile Include="..\..\..\source\OXAdvancedAssertMail.cpp" />
+    <ClCompile Include="..\..\..\Source\Oxbitbuf.cpp" />
+    <ClCompile Include="..\..\..\Source\OXBitmapMenu.cpp" />
+    <ClCompile Include="..\..\..\Source\OXBitmapMenuOrganizer.cpp" />
+    <ClCompile Include="..\..\..\Source\OXBMPFle.cpp" />
+    <ClCompile Include="..\..\..\Source\OXCaptionPainter.cpp" />
+    <ClCompile Include="..\..\..\Source\OXChildFrameState.cpp" />
+    <ClCompile Include="..\..\..\Source\Oxcmpfl.cpp" />
+    <ClCompile Include="..\..\..\Source\Oxcompr.cpp" />
+    <ClCompile Include="..\..\..\Source\OXCoolBar.cpp" />
+    <ClCompile Include="..\..\..\Source\OXCoolToolBar.cpp" />
+    <ClCompile Include="..\..\..\Source\OXDFlHdr.cpp" />
+    <ClCompile Include="..\..\..\Source\Oxdib.cpp" />
+    <ClCompile Include="..\..\..\Source\OXDirDlg.cpp" />
+    <ClCompile Include="..\..\..\Source\OXDlgBar.cpp" />
+    <ClCompile Include="..\..\..\source\oxdocktabctrl.cpp" />
+    <ClCompile Include="..\..\..\Source\OXDocTemplateSpy.cpp" />
+    <ClCompile Include="..\..\..\Source\OXDragDockContext.CPP" />
+    <ClCompile Include="..\..\..\Source\OXFrameWndDock.CPP" />
+    <ClCompile Include="..\..\..\Source\OXGphFle.cpp" />
+    <ClCompile Include="..\..\..\Source\OXHistoryCombo.cpp" />
+    <ClCompile Include="..\..\..\Source\OXHookWnd.cpp" />
+    <ClCompile Include="..\..\..\Source\OXJPGCod.cpp" />
+    <ClCompile Include="..\..\..\Source\OXJPGCom.cpp" />
+    <ClCompile Include="..\..\..\Source\OXJPGDom.cpp" />
+    <ClCompile Include="..\..\..\Source\OXJPGExp.cpp" />
+    <ClCompile Include="..\..\..\Source\OXJPGFle.cpp" />
+    <ClCompile Include="..\..\..\Source\OXMDIFloatWnd.cpp" />
+    <ClCompile Include="..\..\..\Source\OXMenuBar.cpp" />
+    <ClCompile Include="..\..\..\Source\OXRectTracker.cpp" />
+    <ClCompile Include="..\..\..\Source\OXRegistryItem.cpp" />
+    <ClCompile Include="..\..\..\Source\OXRegistryValFile.cpp" />
+    <ClCompile Include="..\..\..\Source\OXRollup.CPP" />
+    <ClCompile Include="..\..\..\Source\OXScrollTip.cpp" />
+    <ClCompile Include="..\..\..\Source\OXScrollTipOwner.cpp" />
+    <ClCompile Include="..\..\..\source\OXShortcutBar.cpp" />
+    <ClCompile Include="..\..\..\Source\OXSizeCtrlBar.CPP" />
+    <ClCompile Include="..\..\..\Source\OXSizeDlgBar.cpp" />
+    <ClCompile Include="..\..\..\Source\OXSizeDockBar.cpp" />
+    <ClCompile Include="..\..\..\Source\OXSizeToolBar.cpp" />
+    <ClCompile Include="..\..\..\source\OXSkinnedComboBox.cpp" />
+    <ClCompile Include="..\..\..\source\OXSkinnedSpinCtrl.cpp" />
+    <ClCompile Include="..\..\..\source\OXSkinnedTabCtrl.cpp" />
+    <ClCompile Include="..\..\..\source\OXSkins.cpp" />
+    <ClCompile Include="..\..\..\Source\OXSpinCtrl.cpp" />
+    <ClCompile Include="..\..\..\Source\OXSplashWnd.cpp" />
+    <ClCompile Include="..\..\..\Source\OXSplashWndDIB.cpp" />
+    <ClCompile Include="..\..\..\Source\OXSplitterColRowState.cpp" />
+    <ClCompile Include="..\..\..\Source\OXSplitterRect.cpp" />
+    <ClCompile Include="..\..\..\Source\OXSzMiniDockFrmWnd.cpp" />
+    <ClCompile Include="..\..\..\Source\OXTabClientWnd.cpp" />
+    <ClCompile Include="..\..\..\Source\OXTleBar.CPP" />
+    <ClCompile Include="..\..\..\Source\OXToolTipCtrl.cpp" />
+    <ClCompile Include="..\..\..\source\OXUxTheme.cpp" />
+    <ClCompile Include="..\..\..\Source\OXWorkspaceState.cpp" />
+    <ClCompile Include="..\..\..\Source\Oxzoomvw.cpp" />
+    <ClCompile Include="..\..\..\Source\Path.cpp" />
+    <ClCompile Include="..\..\..\Source\Pathiter.cpp" />
+    <ClCompile Include="..\..\..\Source\Progress.cpp" />
+    <ClCompile Include="..\..\..\source\UTBStrOp.cpp" />
+    <ClCompile Include="..\..\..\Source\UTSampleAbout\UTSampleAbout.cpp" />
+    <ClCompile Include="..\..\..\Source\Watchbuf.cpp" />
+    <ClCompile Include="..\..\..\Source\Xstatus4.cpp" />
+    <ClCompile Include="..\..\..\Source\Xstring.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DIBManager.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\source\UTSampleAbout\HtmlCtrl.h" />
+    <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="..\..\..\Include\CONVFILE.h" />
+    <ClInclude Include="..\..\..\Include\CRYPFILE.h" />
+    <ClInclude Include="DIBManager.h" />
+    <ClInclude Include="DIBManagerDoc.h" />
+    <ClInclude Include="DIBManagerView.h" />
+    <ClInclude Include="ExportDlg.h" />
+    <ClInclude Include="ImageInfoDlg.h" />
+    <ClInclude Include="ImportDlg.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="..\..\..\Include\OXBitmapMenu.h" />
+    <ClInclude Include="..\..\..\Include\OXBitmapMenuOrganizer.h" />
+    <ClInclude Include="..\..\..\Include\OXCMPFL.H" />
+    <ClInclude Include="..\..\..\Include\OXCOMPR.h" />
+    <ClInclude Include="..\..\..\Include\OXDIB.H" />
+    <ClInclude Include="OXDocMgr.h" />
+    <ClInclude Include="..\..\..\include\OXPreviewDialog.h" />
+    <ClInclude Include="OXWinApp.h" />
+    <ClInclude Include="..\..\..\Include\OXZOOMVW.h" />
+    <ClInclude Include="ProtectedFile.h" />
+    <ClInclude Include="ResampleImageDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ScaleRollupDlg.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="TreeFilesDlg.h" />
+    <ClInclude Include="WorkspaceDlg.h" />
+    <ClInclude Include="..\..\..\Include\XSTATUS4.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Include\OXZOOMVW.inl" />
+    <None Include="res\DIBManager.rc2" />
+    <None Include="Cup.avi" />
+    <None Include="search.avi" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\bmp00001.bmp" />
+    <Image Include="Res\BMPdemo.BMP" />
+    <Image Include="res\check.bmp" />
+    <Image Include="Res\CoolBarWallPaper.bmp" />
+    <Image Include="res\DIBManager.ico" />
+    <Image Include="res\DIBManagerDoc.ico" />
+    <Image Include="Res\dummy.bmp" />
+    <Image Include="Res\dummy1.bmp" />
+    <Image Include="Res\dummyhot.bmp" />
+    <Image Include="res\imagelis.bmp" />
+    <Image Include="res\logo.bmp" />
+    <Image Include="Res\logo_dum.bmp" />
+    <Image Include="Res\mainfram.bmp" />
+    <Image Include="Res\mainfram_copy.bmp" />
+    <Image Include="Res\newtool.BMP" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="Res\ToolbarHot.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,108 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0\stshfdbch0\stshfloch0\stshfhich0\stshfbi0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f37\froman\fcharset238\fprq2 Times New Roman CE;}
+{\f38\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f40\froman\fcharset161\fprq2 Times New Roman Greek;}{\f41\froman\fcharset162\fprq2 Times New Roman Tur;}{\f42\froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\f43\froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f44\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f45\froman\fcharset163\fprq2 Times New Roman (Vietnamese);}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;
+\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;
+\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext0 Normal;}{\*\cs10 \additive \ssemihidden 
+Default Paragraph Font;}{\*\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}}{\*\latentstyles\lsdstimax156\lsdlockeddef0}{\*\rsidtbl \rsid2045420\rsid3091920
+\rsid11024440\rsid12255586}{\*\generator Microsoft Word 11.0.5604;}{\info{\author TvmServer}{\operator TvmServer}{\creatim\yr2005\mo1\dy17\hr17\min20}{\revtim\yr2005\mo1\dy17\hr17\min20}{\version5}{\edmins0}{\nofpages3}{\nofwords667}{\nofchars3807}
+{\*\company Dundas India}{\nofcharsws4466}{\vern24689}}\widowctrl\ftnbj\aenddoc\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3
+\jcompress\viewkind1\viewscale116\viewzk2\nolnhtadjtbl\rsidroot11024440 \fet0\sectd \linex0\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3
+\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain 
+\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b\fs42\cf2\insrsid12255586\charrsid2045420 COXRulerBar & COXRulerOrganizer}{\b\fs42\insrsid12255586\charrsid2045420 
+\par }{\b\fs16\insrsid12255586 Copyright \'a9 }{\b\fs16\insrsid11024440 The Code Project}{\b\fs16\insrsid3091920  1997 - 2005}{\b\fs16\insrsid12255586 , All Rights Reserved
+\par }{\insrsid12255586 
+\par We introduce a couple of classes that allows you to display horizontal and/or vertical ruler bars attached to }{\b\insrsid12255586 any}{\insrsid12255586 
+ window. By definition the ruler bar is rectangular area with scale. Ruler bar has base unit (by default we use 1 inch as base unit) and every base unit is designated by corresponding number on the scale. If distance between two units is big enough the ti
+cks will be drawn on the scale.
+\par 
+\par Ruler bars are drawn in the non-client area of the attached window, much the same like scroll bars. 
+\par 
+\par Let's go to the details about the classes that implement the support for ruler bars.
+\par 
+\par First of all, we've got the class that implements all the functionality that has to do with the appearance of the ruler bar. This class is called }{\ul\cf2\insrsid12255586 COXRulerBar}{\insrsid12255586 . Refer to the }{\ul\cf2\insrsid12255586 description}
+{\insrsid12255586  of the class and }{\ul\cf2\insrsid12255586 function reference}{\insrsid12255586  for details on this class. Briefly, COXRulerBar provides the functionality of drawing the ruler bar. using this class you can }{\insrsid12255586 highlight}
+{\insrsid12255586  any area on the ruler bar, define any base unit to be used on ruler bar scale, zoom and scroll the contents of the ruler bar.
+\par 
+\par COXRulerBar itself is useful control but in most cases you would be 
+interested in using it in combination with another window. The analogy with scroll bar comes here in handy.You can use the CScrollBar control independently but in most cases you want to associate it with some window that supports scrolling functionality a
+nd use it without caring to much about creating the scroll bars, positioning them and constantly updating them. 
+\par 
+\par The same story with ruler bars. Wouldn't it be nice to have automatic support for horizontal and/or vertical ruler bars for any window?
+\par 
+\par The COXRulerOrganizer class provides that kind of functionality.
+\par 
+\par 
+\par In order to provide ruler bars for any window you have to do the following:
+\par 
+\par 1)\~\~\~ declare an object of COXRulerOrganizer class so the lifetime of such object would be at least the same as the lifetime of the window for which ruler bars support must be provided.
+\par }{\i\cf1\insrsid12255586 \~\~\~ class CMyView : public CView
+\par \~\~\~ \{
+\par \~\~\~ . . . . . . . . . . . . . . . 
+\par \~\~\~ protected:
+\par \~\~\~\~\~\~\~ COXRulerOrganizer m_ruler;
+\par \~\~\~ . . . . . . . . . . . . . . . 
+\par \~\~\~ \}
+\par }{\insrsid12255586 
+\par 2)\~\~\~ Attach the window to COXRulerOrganizer object using }{\ul\cf2\insrsid12255586 Attach()}{\insrsid12255586  function. In this function you can specify what ruler bars (horizontal and/or vertical) should be shown from the very beginning.
+\par }{\i\cf1\insrsid12255586 \~\~\~ int CMyView::OnCreate(LPCREATESTRUCT lpCreateStruct) 
+\par \~\~\~ \{
+\par \~\~\~\~\~\~\~ if (CMyView::OnCreate(lpCreateStruct) == -1)
+\par \~\~\~\~\~\~\~\~\~\~\~ return -1;
+\par \~\~\~\~\~\~\~ . . . . . . . . . . . . . . . }{\i\cf6\insrsid12255586 
+\par \~\~\~\~\~\~\~ }{\i\cf11\insrsid12255586 // atach view to the COXRulerOrganizer object and display 
+\par \~\~\~\~\~\~\~ // bot horizontal and vertical ruler bars}{\i\cf6\insrsid12255586 
+\par }{\i\cf1\insrsid12255586 \~\~\~\~\~\~\~ VERIFY(m_ruler.Attach(this,TRUE,TRUE));
+\par \~\~\~\~\~\~\~ . . . . . . . . . . . . . . . 
+\par \~\~\~\~\~\~\~ return 0;
+\par \~\~\~ \}
+\par }{\insrsid12255586 \~\~\~ 
+\par 
+\par }{\b\insrsid12255586 That's it}{\insrsid12255586 . 
+\par After attaching the window all its mouse movements will be traced and displayed on the ruler bars and if this window supports scrolling the ruler bars will be scrolled correspondingly.
+\par 
+\par After a window is attached to the COXRulerOrganizer object you can use a lot of COXRulerOrganizer functions that would allow you to utilize this class functionality to the full extent.
+\par 
+\par 1)\~\~\~ }{\b\insrsid12255586 Show/hide ruler bars}{\insrsid12255586 . In order to do that call the following functions:
+\par }\pard \ql \li360\ri360\nowidctlpar\faauto\rin360\lin360\itap0 {\ul\cf2\insrsid12255586 SetShowHorzRulerBar();
+\par SetShowVertRulerBar();}{\insrsid12255586 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\insrsid12255586 2)\~\~ }{\b\insrsid12255586 Change height/width of the bars}{\insrsid12255586 . Call the following functions:
+\par }\pard \ql \li360\ri360\nowidctlpar\faauto\rin360\lin360\itap0 {\ul\cf2\insrsid12255586 SetHorzRulerBarHeight();
+\par SetVertRulerBarWidth();}{\insrsid12255586 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\insrsid12255586 3)\~\~\~ }{\b\insrsid12255586 Retrieve the position of the ruler bars:}{\insrsid12255586 
+\par }\pard \ql \li360\ri360\nowidctlpar\faauto\rin360\lin360\itap0 {\ul\cf2\insrsid12255586 GetHorzRulerBarRect();
+\par GetVertRulerBarRect();}{\insrsid12255586 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\insrsid12255586 4)\~\~ }{\b\insrsid12255586 Direct access to the underlying COXRulerBar objects:}{\insrsid12255586 
+\par }\pard \ql \li360\ri360\nowidctlpar\faauto\rin360\lin360\itap0 {\ul\cf2\insrsid12255586 GetHorzRulerBar();
+\par GetVertRulerBar();}{\insrsid12255586 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\insrsid12255586 5)\~\~ }{\b\insrsid12255586 Set of wrapper functions that call corresponding COXRulerBar functions:}{\insrsid12255586 
+\par }\pard \ql \li360\ri360\nowidctlpar\faauto\rin360\lin360\itap0 {\insrsid12255586 // hilite area on the ruler bar
+\par }{\ul\cf2\insrsid12255586 HiliteRuler();
+\par }{\insrsid12255586 
+\par // change base unit
+\par }{\ul\cf2\insrsid12255586 CalibrateRuler();
+\par }{\insrsid12255586 
+\par // scroll the contents of the ruler bar
+\par }{\ul\cf2\insrsid12255586 ScrollRuler();
+\par }{\insrsid12255586 
+\par // zoom in or zoom out the contents of the ruler
+\par }{\ul\cf2\insrsid12255586 ZoomRuler();}{\insrsid12255586 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\insrsid12255586 \~
+\par You can use these function at any time in your code as long as some window is attached to the corresponding COXRulerOrganizer object. For example: 
+\par }\pard \ql \li360\ri360\nowidctlpar\faauto\rin360\lin360\itap0 {\i\cf11\insrsid12255586 // hide horizontal ruler 
+\par }{\i\cf1\insrsid12255586 m_ruler.SetShowHorzRulerBar(FALSE);
+\par }{\i\cf6\insrsid12255586 
+\par }{\i\cf11\insrsid12255586 //use centimeters as base units for the horizontal and vertical ruler bars
+\par }{\i\cf1\insrsid12255586 m_ruler.CalibrateRuler(254,TRUE);
+\par m_ruler.CalibrateRuler(254,FALSE);}{\insrsid12255586 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\insrsid12255586 \~
+\par 
+\par }{\b\insrsid12255586 Dependency:
+\par }\pard \ql \li360\ri360\nowidctlpar\faauto\rin360\lin360\itap0 {\cf6\insrsid12255586 "OXRulerOrganizer.h"}{\insrsid12255586 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\insrsid12255586 \~
+\par }{\b\insrsid12255586 Source code files:
+\par }\pard \ql \li360\ri360\nowidctlpar\faauto\rin360\lin360\itap0 {\cf6\insrsid12255586 "OXRulerOrganizer.cpp"
+\par "OXHookWnd.cpp" \~\~\~\~\~\~\~\~\~\~\~ implementation of the COXRulerOrganizer parent class - COXHookWnd}{\insrsid12255586 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\insrsid12255586 
+\par }}

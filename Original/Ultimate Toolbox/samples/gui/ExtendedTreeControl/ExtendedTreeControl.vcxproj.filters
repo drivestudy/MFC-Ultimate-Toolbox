@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{933bae3b-89dd-4e25-b2a6-b2b478970ef2}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Ultimate ToolBox">
+      <UniqueIdentifier>{9efa9a43-6789-4556-88fc-c13c8df1d3f0}</UniqueIdentifier>
+      <Extensions>*.cpp</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f19d7631-672e-4607-a6a4-aedde3cfd267}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Ultimate ToolBox Headers">
+      <UniqueIdentifier>{66a27a89-659a-416f-958a-6fd3086b1fd8}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{b3f666fd-e5bc-46ec-a865-c4e6394d7a4f}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ExtendedTreeControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendedTreeControlDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXCalendar.cpp">
+      <Filter>Source Files\Ultimate ToolBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXCalendarPopup.cpp">
+      <Filter>Source Files\Ultimate ToolBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXHookWnd.cpp">
+      <Filter>Source Files\Ultimate ToolBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXItemTip.cpp">
+      <Filter>Source Files\Ultimate ToolBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXItemTipWnd.cpp">
+      <Filter>Source Files\Ultimate ToolBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXLayoutManager.cpp">
+      <Filter>Source Files\Ultimate ToolBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXSeparator.cpp">
+      <Filter>Source Files\Ultimate ToolBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXTreeCal.cpp">
+      <Filter>Source Files\Ultimate ToolBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXTreeCombo.cpp">
+      <Filter>Source Files\Ultimate ToolBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXTreeCtrl.cpp">
+      <Filter>Source Files\Ultimate ToolBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXTreeEdit.cpp">
+      <Filter>Source Files\Ultimate ToolBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXTreeHeader.cpp">
+      <Filter>Source Files\Ultimate ToolBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXTreeItem.cpp">
+      <Filter>Source Files\Ultimate ToolBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXUxTheme.cpp">
+      <Filter>Source Files\Ultimate ToolBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\UTBStrOp.cpp">
+      <Filter>Source Files\Ultimate ToolBox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ExtendedTreeControl.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExtendedTreeControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendedTreeControlDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\OXTreeCal.h">
+      <Filter>Header Files\Ultimate ToolBox Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\OXTreeCtrl.h">
+      <Filter>Header Files\Ultimate ToolBox Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\OXTreeEdit.h">
+      <Filter>Header Files\Ultimate ToolBox Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\OXTreeHeader.h">
+      <Filter>Header Files\Ultimate ToolBox Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\OXTreeItem.h">
+      <Filter>Header Files\Ultimate ToolBox Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ExtendedTreeControl.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\One\Two\DemoBrowser\Demos\Controls\ExtendedTree\il_tree.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="il_tree.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ExtendedTreeControl.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="ExtendedTreeControl.exe.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

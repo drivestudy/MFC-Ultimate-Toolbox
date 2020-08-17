@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UT2003", "UT2003.vcproj", "{C1D739E0-F6A2-4E42-B8A3-246D05085E89}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+		Unicode Debug = Unicode Debug
+		Unicode Release = Unicode Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C1D739E0-F6A2-4E42-B8A3-246D05085E89}.Debug.ActiveCfg = Debug|Win32
+		{C1D739E0-F6A2-4E42-B8A3-246D05085E89}.Debug.Build.0 = Debug|Win32
+		{C1D739E0-F6A2-4E42-B8A3-246D05085E89}.Release.ActiveCfg = Release|Win32
+		{C1D739E0-F6A2-4E42-B8A3-246D05085E89}.Release.Build.0 = Release|Win32
+		{C1D739E0-F6A2-4E42-B8A3-246D05085E89}.Unicode Debug.ActiveCfg = Unicode Debug|Win32
+		{C1D739E0-F6A2-4E42-B8A3-246D05085E89}.Unicode Debug.Build.0 = Unicode Debug|Win32
+		{C1D739E0-F6A2-4E42-B8A3-246D05085E89}.Unicode Release.ActiveCfg = Unicode Release|Win32
+		{C1D739E0-F6A2-4E42-B8A3-246D05085E89}.Unicode Release.Build.0 = Unicode Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

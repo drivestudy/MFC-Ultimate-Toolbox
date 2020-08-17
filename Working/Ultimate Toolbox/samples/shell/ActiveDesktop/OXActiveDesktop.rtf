@@ -1,0 +1,17 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f16\fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Verdana;}
+{\f17\froman\fcharset238\fprq2 Times New Roman CE;}{\f18\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f20\froman\fcharset161\fprq2 Times New Roman Greek;}{\f21\froman\fcharset162\fprq2 Times New Roman Tur;}
+{\f22\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f113\fswiss\fcharset238\fprq2 Verdana CE;}{\f114\fswiss\fcharset204\fprq2 Verdana Cyr;}{\f116\fswiss\fcharset161\fprq2 Verdana Greek;}{\f117\fswiss\fcharset162\fprq2 Verdana Tur;}
+{\f118\fswiss\fcharset186\fprq2 Verdana Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;
+\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\nowidctlpar\widctlpar\adjustright \fs20\cgrid \snext0 
+Normal;}{\*\cs10 \additive Default Paragraph Font;}{\s15\nowidctlpar\widctlpar\adjustright \f16\lang4105\cgrid \sbasedon0 \snext15 Body Text;}}{\info{\title The COXActiveDesktop class is a wrapper for IActiveDesktop  interface}{\author Dmitriy}
+{\operator Dmitriy}{\creatim\yr2000\mo3\dy5\hr18\min30}{\revtim\yr2000\mo3\dy5\hr18\min30}{\version2}{\edmins0}{\nofpages1}{\nofwords101}{\nofchars576}{\*\company Home}{\nofcharsws707}{\vern71}}
+\widowctrl\ftnbj\aenddoc\formshade\viewkind1\viewscale80\pgbrdrhead\pgbrdrfoot \fet0\sectd \linex0\headery709\footery709\colsx709\endnhere\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2
+\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6
+\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang
+{\pntxtb (}{\pntxta )}}\pard\plain \s15\nowidctlpar\widctlpar\adjustright \f16\lang4105\cgrid {The }{\b COXActiveDesktop}{
+ class is a wrapper for IActiveDesktop  interface. In order to explore this class you have to have ActiveDesktop installed. That means that shell32.dll must be version 4.71 or better as well as explorer.exe. To start to work with this class call }{\i\cf2 
+::CoInitialize()}{ function before using this class, in }{\i\cf2 InitInstance()}{, for example. Once you have finished to work with this class, call }{\i\cf2 ::CoUninitialize()}{. First called function of the class must be }{\i\cf2 Init()}{
+ and it must succeed. After that you have different functions to manage by the Active Desktop items, like }{\i\cf2 GetComponent()}{, }{\i\cf2 ModifyItem()}{, }{\i\cf2 RemoveItem()}{
+ etc. The items may be of different types, like controls, webpages and others.
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\f16\fs24\lang4105 
+\par }}

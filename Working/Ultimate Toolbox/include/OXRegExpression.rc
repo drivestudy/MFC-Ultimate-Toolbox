@@ -1,0 +1,99 @@
+//Microsoft Developer Studio generated resource script.
+//
+// Version: 9.3
+
+#ifndef _OXREGEXPRESSION_RC__
+#define _OXREGEXPRESSION_RC__
+#include "OXMainRes.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "OXMainRes.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+
+IDS_OX_REGEXPMUSTCHARBEFORE		"Must preceed character before."
+IDS_OX_REGEXPUNEXPSPECCHAR		"Unexpected special char has been found."
+IDS_OX_REGEXPNOTALLOWEDSEQ		"Not allowed sequence has been found"
+IDS_OX_REGEXPMUSTFOLLOWBYCHAR		"Must follow by character."
+IDS_OX_REGEXPUNEXPENDOFSTR		"Unexpected end of string has been reached."
+IDS_OX_REGEXPONLYDIGIT			"Only digit allowed."
+IDS_OX_REGEXPUNEXPASCIIEND		"Unexpected end of the ASCII sequence."
+IDS_OX_REGEXPNOASCII			"No ASCII value."
+IDS_OX_REGEXPINVALIDASCIINUMBER		"Invalid ASCII number."
+IDS_OX_REGEXPNOENDSPLASH		"No ending slash has been found while processing ASCII value."
+IDS_OX_REGEXPNOVALUESINPARENTHS		"No values between parentheses."
+IDS_OX_REGEXPTOOMANYCOMMAS		"Too many commas in the sequence. Only one allowed."
+IDS_OX_REGEXPNOCLOSEPARENTH		"No closing parentheses has been found."
+IDS_OX_REGEXPUNEXPSTRINGEND		"Unexpected end of string."
+IDS_OX_REGEXPSECONDGREATER		"Second value must be greater first one."
+IDS_OX_REGEXPNOSUCHREFRENS		"No such back reference."
+IDS_OX_REGEXPUNKNOWNERROR		"Unknown error"
+
+
+ 
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+#endif //_OXREGEXPRESSION_RC__
+

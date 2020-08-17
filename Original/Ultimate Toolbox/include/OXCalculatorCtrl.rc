@@ -1,0 +1,336 @@
+//Microsoft Developer Studio generated resource script.
+//
+// Version: 9.3
+
+#ifndef _OXCALCULATORCTRL_RC__
+#define _OXCALCULATORCTRL_RC__
+
+#include "OXMainRes.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resrc1.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""OXBitmapButton.rc""\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_OX_DIALOG_CALCULATOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 164
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 127
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OX_DIALOG_CALCULATOR DIALOGEX 0, 0, 168, 131
+STYLE WS_CHILD
+EXSTYLE WS_EX_STATICEDGE
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Back\nDelete the last digit of the displayed number (<Backspace>)",
+                    IDC_OX_BUTTON_BACK,"Button",BS_OWNERDRAW | WS_TABSTOP,86,22,
+                    27,16
+    CONTROL         "CE\nClears the displayed number (<Del>)",
+                    IDC_OX_BUTTON_CLEARNUMBER,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,116,22,23,16
+    CONTROL         "C\nClears the current calculation (<Esc>)",
+                    IDC_OX_BUTTON_CLEAR,"Button",BS_OWNERDRAW | WS_TABSTOP,141,
+                    22,23,16
+    CONTROL         "7\nPuts this number in the calculator display (<7>)",
+                    IDC_OX_BUTTON_7,"Button",BS_OWNERDRAW | WS_TABSTOP,56,41,20,
+                    16
+    CONTROL         "8\nPuts this number in the calculator display (<8>)",
+                    IDC_OX_BUTTON_8,"Button",BS_OWNERDRAW | WS_TABSTOP,78,41,20,
+                    16
+    CONTROL         "9\nPuts this number in the calculator display (<9>)",
+                    IDC_OX_BUTTON_9,"Button",BS_OWNERDRAW | WS_TABSTOP,100,41,
+                    20,16
+    CONTROL         "4\nPuts this number in the calculator display (<4>)",
+                    IDC_OX_BUTTON_4,"Button",BS_OWNERDRAW | WS_TABSTOP,56,59,20,
+                    16
+    CONTROL         "5\nPuts this number in the calculator display (<5>)",
+                    IDC_OX_BUTTON_5,"Button",BS_OWNERDRAW | WS_TABSTOP,78,59,20,
+                    16
+    CONTROL         "6\nPuts this number in the calculator display (<6>)",
+                    IDC_OX_BUTTON_6,"Button",BS_OWNERDRAW | WS_TABSTOP,100,59,
+                    20,16
+    CONTROL         "1\nPuts this number in the calculator display (<1>)",
+                    IDC_OX_BUTTON_1,"Button",BS_OWNERDRAW | WS_TABSTOP,56,77,20,
+                    16
+    CONTROL         "2\nPuts this number in the calculator display (<2>)",
+                    IDC_OX_BUTTON_2,"Button",BS_OWNERDRAW | WS_TABSTOP,78,77,20,
+                    16
+    CONTROL         "3\nPuts this number in the calculator display (<3>)",
+                    IDC_OX_BUTTON_3,"Button",BS_OWNERDRAW | WS_TABSTOP,100,77,
+                    20,16
+    CONTROL         "0\nPuts this number in the calculator display (<0>)",
+                    IDC_OX_BUTTON_0,"Button",BS_OWNERDRAW | WS_TABSTOP,56,95,20,
+                    16
+    CONTROL         "+/-\nChanges the sign of the displayed number (<F9>)",
+                    IDC_OX_BUTTON_CHANGESIGN,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    78,95,20,16
+    CONTROL         ".\nInserts a decimal point (<.>)",IDC_OX_BUTTON_DELIMITER,
+                    "Button",BS_OWNERDRAW | WS_TABSTOP,100,95,20,16
+    CONTROL         "/\nDivides (</>)",IDC_OX_BUTTON_DIVIDE,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,122,41,20,16
+    CONTROL         "*\nMultiplies (<*>)",IDC_OX_BUTTON_MULTIPLY,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,122,59,20,16
+    CONTROL         "-\nSubtracts (<->)",IDC_OX_BUTTON_SUBTRACT,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,122,77,20,16
+    CONTROL         "+\nAdds (<+>)",IDC_OX_BUTTON_ADD,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,122,95,20,16
+    CONTROL         "sqrt\nCalculates the square root of the displayed number (<@>)",
+                    IDC_OX_BUTTON_SQRT,"Button",BS_OWNERDRAW | WS_TABSTOP,144,
+                    41,20,16
+    CONTROL         "mod\nDisplays the modulus, or remainder, of x/y (<%>)",
+                    IDC_OX_BUTTON_MOD,"Button",BS_OWNERDRAW | WS_TABSTOP,144,59,
+                    20,16
+    CONTROL         "1/x\nCalculates the reciprocal of the displayed number (<r>)",
+                    IDC_OX_BUTTON_RECIPROCAL,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    144,77,20,16
+    CONTROL         "=\nPerforms any operation on the previous two numbers. To repeat the last operation, click again (<=>)",
+                    IDC_OX_BUTTON_EQUAL,"Button",BS_OWNERDRAW | WS_TABSTOP,144,
+                    95,20,16
+    COMBOBOX        IDC_OX_COMBO_NUMBER_SYSTEM,4,23,46,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "sin\nCalculates the sine of the displayed number (<s>)",
+                    IDC_OX_BUTTON_SIN,"Button",BS_OWNERDRAW | WS_TABSTOP,4,41,
+                    21,16
+    CONTROL         "cos\nCalculates the cosine of the displayed number (<o>)",
+                    IDC_OX_BUTTON_COS,"Button",BS_OWNERDRAW | WS_TABSTOP,27,41,
+                    21,16
+    CONTROL         "tan\nCalculates the tangent of the displayed number (<t>)",
+                    IDC_OX_BUTTON_TAN,"Button",BS_OWNERDRAW | WS_TABSTOP,4,59,
+                    21,16
+    CONTROL         "tanh\nCalculates the hyperbolic tangent of the displayed number (<c>)",
+                    IDC_OX_BUTTON_COTAN,"Button",BS_OWNERDRAW | WS_TABSTOP,27,
+                    59,21,16
+    CONTROL         "n!\nCalculates the factorial of the displayed number (<!>)",
+                    IDC_OX_BUTTON_FACTORIAL,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    4,77,21,16
+    CONTROL         "x^y\nComputes x raised to the yth power (<^>)",
+                    IDC_OX_BUTTON_POWER,"Button",BS_OWNERDRAW | WS_TABSTOP,27,
+                    77,21,16
+    CONTROL         "Scientific",IDC_OX_CHECK_SCIENTIFIC,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,4,116,41,10
+    CONTROL         "PI\nDisplays the value of pi (<p>)",IDC_OX_BUTTON_PI,
+                    "Button",BS_OWNERDRAW | WS_TABSTOP,56,22,20,16
+    RTEXT           "",IDC_OX_STATIC_DISPLAY,4,4,160,13,SS_CENTERIMAGE,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "ln\nCalculates natural (base e) logarithm of the displayed number (<n>)",
+                    IDC_OX_BUTTON_NATURAL_LOGARITHM,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,4,95,21,16
+    CONTROL         "log\nCalculates the common (base 10) logarithm of the displayed number (<l>)",
+                    IDC_OX_BUTTON_LOGARITHM,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    27,95,21,16
+    CONTROL         "A\nPuts this number in the calculator display (<A>)",
+                    IDC_OX_BUTTON_A,"Button",BS_OWNERDRAW | WS_TABSTOP,56,113,
+                    16,15
+    CONTROL         "B\nPuts this number in the calculator display (<B>)",
+                    IDC_OX_BUTTON_B,"Button",BS_OWNERDRAW | WS_TABSTOP,74,113,
+                    16,15
+    CONTROL         "C\nPuts this number in the calculator display (<C>)",
+                    IDC_OX_BUTTON_C,"Button",BS_OWNERDRAW | WS_TABSTOP,92,113,
+                    16,15
+    CONTROL         "D\nPuts this number in the calculator display (<D>)",
+                    IDC_OX_BUTTON_D,"Button",BS_OWNERDRAW | WS_TABSTOP,110,113,
+                    16,15
+    CONTROL         "E\nPuts this number in the calculator display (<E>)",
+                    IDC_OX_BUTTON_E,"Button",BS_OWNERDRAW | WS_TABSTOP,128,113,
+                    16,15
+    CONTROL         "F\nPuts this number in the calculator display (<F>)",
+                    IDC_OX_BUTTON_F,"Button",BS_OWNERDRAW | WS_TABSTOP,146,113,
+                    16,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_OX_DIALOG_CALCULATOR DLGINIT
+BEGIN
+    IDC_OX_COMBO_NUMBER_SYSTEM, 0x403, 4, 0
+0x6544, 0x0063, 
+    IDC_OX_COMBO_NUMBER_SYSTEM, 0x403, 4, 0
+0x6548, 0x0078, 
+    IDC_OX_COMBO_NUMBER_SYSTEM, 0x403, 4, 0
+0x634f, 0x0074, 
+    IDC_OX_COMBO_NUMBER_SYSTEM, 0x403, 4, 0
+0x6942, 0x006e, 
+    0
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+
+
+IDS_OX_CALCDIVIDEZERO				"Cannot divide by zero"
+IDS_OX_RESULTTOOLARGE				"Result is too large"
+IDS_OX_CALCOKBUTTON				"OK"
+IDS_OX_CALCCANCELBUTTON				"Cancel"
+
+ 
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDD_OX_DIALOG_CALCULATOR ACCELERATORS DISCARDABLE 
+BEGIN
+    "!",            IDC_OX_BUTTON_FACTORIAL,   ASCII,  NOINVERT
+    "%",            IDC_OX_BUTTON_MOD,         ASCII,  NOINVERT
+    "*",            IDC_OX_BUTTON_MULTIPLY,    ASCII,  NOINVERT
+    "+",            IDC_OX_BUTTON_ADD,         ASCII,  NOINVERT
+    "-",            IDC_OX_BUTTON_SUBTRACT,    ASCII,  NOINVERT
+    ".",            IDC_OX_BUTTON_DELIMITER,   ASCII,  NOINVERT
+    "/",            IDC_OX_BUTTON_DIVIDE,      ASCII,  NOINVERT
+    "0",            IDC_OX_BUTTON_0,           ASCII,  NOINVERT
+    "1",            IDC_OX_BUTTON_1,           ASCII,  NOINVERT
+    "2",            IDC_OX_BUTTON_2,           ASCII,  NOINVERT
+    "3",            IDC_OX_BUTTON_3,           ASCII,  NOINVERT
+    "4",            IDC_OX_BUTTON_4,           ASCII,  NOINVERT
+    "5",            IDC_OX_BUTTON_5,           ASCII,  NOINVERT
+    "6",            IDC_OX_BUTTON_6,           ASCII,  NOINVERT
+    "7",            IDC_OX_BUTTON_7,           ASCII,  NOINVERT
+    "8",            IDC_OX_BUTTON_8,           ASCII,  NOINVERT
+    "9",            IDC_OX_BUTTON_9,           ASCII,  NOINVERT
+    "=",            IDC_OX_BUTTON_EQUAL,       ASCII,  NOINVERT
+    "@",            IDC_OX_BUTTON_SQRT,        ASCII,  NOINVERT
+    "A",            IDC_OX_BUTTON_A,           ASCII,  NOINVERT
+    "B",            IDC_OX_BUTTON_B,           ASCII,  NOINVERT
+    "C",            IDC_OX_BUTTON_C,           ASCII,  NOINVERT
+    "D",            IDC_OX_BUTTON_D,           ASCII,  NOINVERT
+    "E",            IDC_OX_BUTTON_E,           ASCII,  NOINVERT
+    "F",            IDC_OX_BUTTON_F,           ASCII,  NOINVERT
+    "H",            IDC_OX_BUTTON_COTAN,       ASCII,  NOINVERT
+    "L",            IDC_OX_BUTTON_LOGARITHM,   ASCII,  NOINVERT
+    "N",            IDC_OX_BUTTON_NATURAL_LOGARITHM, ASCII, NOINVERT
+    "O",            IDC_OX_BUTTON_COS,         ASCII,  NOINVERT
+    "P",            IDC_OX_BUTTON_PI,          ASCII,  NOINVERT
+    "R",            IDC_OX_BUTTON_RECIPROCAL,  ASCII,  NOINVERT
+    "S",            IDC_OX_BUTTON_SIN,         ASCII,  NOINVERT
+    "T",            IDC_OX_BUTTON_TAN,         ASCII,  NOINVERT
+    VK_BACK,        IDC_OX_BUTTON_BACK,        VIRTKEY, NOINVERT
+    VK_DELETE,      IDC_OX_BUTTON_CLEARNUMBER, VIRTKEY, NOINVERT
+    VK_ESCAPE,      IDC_OX_BUTTON_CLEAR,       VIRTKEY, NOINVERT
+    VK_F9,          IDC_OX_BUTTON_CHANGESIGN,  VIRTKEY, NOINVERT
+    94,             IDC_OX_BUTTON_POWER,       ASCII,  NOINVERT
+    "a",            IDC_OX_BUTTON_A,           ASCII,  NOINVERT
+    "b",            IDC_OX_BUTTON_B,           ASCII,  NOINVERT
+    "c",            IDC_OX_BUTTON_C,           ASCII,  NOINVERT
+    "d",            IDC_OX_BUTTON_D,           ASCII,  NOINVERT
+    "e",            IDC_OX_BUTTON_E,           ASCII,  NOINVERT
+    "f",            IDC_OX_BUTTON_F,           ASCII,  NOINVERT
+    "h",            IDC_OX_BUTTON_COTAN,       ASCII,  NOINVERT
+    "l",            IDC_OX_BUTTON_LOGARITHM,   ASCII,  NOINVERT
+    "n",            IDC_OX_BUTTON_NATURAL_LOGARITHM, ASCII, NOINVERT
+    "o",            IDC_OX_BUTTON_COS,         ASCII,  NOINVERT
+    "p",            IDC_OX_BUTTON_PI,          ASCII,  NOINVERT
+    "r",            IDC_OX_BUTTON_RECIPROCAL,  ASCII,  NOINVERT
+    "s",            IDC_OX_BUTTON_SIN,         ASCII,  NOINVERT
+    "t",            IDC_OX_BUTTON_TAN,         ASCII,  NOINVERT
+END
+
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "afxres.rc"         // Standard components
+#include "OXBitmapButton.rc"
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
+#endif //_OXCALCULATORCTRL_RC__

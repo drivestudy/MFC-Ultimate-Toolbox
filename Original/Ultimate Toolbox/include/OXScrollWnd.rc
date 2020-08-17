@@ -1,0 +1,101 @@
+//Microsoft Developer Studio generated resource script.
+//
+// Version: 9.3
+
+#ifndef _OXSCROLLWND_RC__
+#define _OXSCROLLWND_RC__
+#include "OXMainRes.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+
+
+IDS_OX_ZOOMPOPUPMENU			"Zoom"
+IDS_OX_SETZOOM10				"10%"
+IDS_OX_SETZOOM25				"25%"
+IDS_OX_SETZOOM50				"50%"
+IDS_OX_SETZOOM100				"100%"
+IDS_OX_SETZOOM200				"200%"
+IDS_OX_SETZOOM300				"300%"
+IDS_OX_SETZOOM400				"400%"
+IDS_OX_SETZOOM500				"500%"
+IDS_OX_SETZOOM600				"600%"
+IDS_OX_SETZOOM700				"700%"
+IDS_OX_SETZOOM800				"800%"
+IDS_OX_SETZOOM900				"900%"
+IDS_OX_SETZOOM1000				"1000%"
+IDS_OX_SIZETOCONTENT			"Zoom to content"
+IDS_OX_ALWAYSFITWINDOW			"Always fit window"
+IDS_OX_USETRACKZOOM			"Use track zoom"
+IDS_OX_SMOOTHSCROLLING			"Smooth scrolling"
+IDS_OX_RULERBARPOPUPMENU		"Ruler bars"
+IDS_OX_SHOWHORZRULERBAR		"Horizontal"
+IDS_OX_SHOWVERTRULERBAR		"Vertical"
+IDS_OX_RULERBAR_INCHES			"Inches"
+IDS_OX_RULERBAR_CENTIMETERS	"Centimeters"
+
+
+ 
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+#endif //_OXSCROLLWND_RC__
+

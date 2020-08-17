@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c0da3cff-4189-4a93-b4f2-2e1e521f5842}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Ultimate Toolbox Source">
+      <UniqueIdentifier>{1b34646a-d532-448c-83be-af142bc8bd4d}</UniqueIdentifier>
+      <Extensions>*.cpp</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{d3aa3478-2b46-4fcc-8176-246366535960}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Ultimate Toolbox Include">
+      <UniqueIdentifier>{d81679a2-a712-4f45-9b46-b52f8d2fdbf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{34fc1ef6-bc5b-4981-89b1-6f7d07645e67}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FoldersBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinsDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinsDemoDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinsDemoView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkspaceBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\MFCToolBar.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OX3DTabView.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXAdvancedAssert.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXAdvancedAssertMail.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXBitmapButton.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXBitmapMenu.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXBitmapMenuOrganizer.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXBrowseColorEdit.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXBrowseDirEdit.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXCalculatorCtrl.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXCalculatorEdit.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXCalendar.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXCalendarEdit.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXCalendarPopup.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXChildFrameState.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXColorPickerCtrl.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXCoolComboBox.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXCoolToolBar.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXDockTabCtrl.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXDocTemplateSpy.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXDragDockContext.CPP">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXEdit.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXFolderPickerDlg.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXFrameWndDock.CPP">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXHistoryCombo.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXHookWnd.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXIPEdit.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXItemTip.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXItemTipWnd.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXListEdit.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXMaskedEdit.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXMDIFloatWnd.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXMenuBar.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXPhysicalEdit.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXPhysicalEditEx.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXPopupBarCtrl.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXPropertiesWnd.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXPropertyDescriptionPane.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\oxpropertytree.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXRectTracker.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXShdWnd.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXShellFolderTree.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXShellNamespaceNavigator.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXShortcutBar.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXSizeCtrlBar.CPP">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXSizeDockBar.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXSizeToolBar.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXSkinnedComboBox.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXSkinnedSpinCtrl.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXSkinnedTabCtrl.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXSkins.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXSplitterColRowState.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXSplitterRect.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXStatic.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXSzMiniDockFrmWnd.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXTabClientWnd.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\OXToolTipCtrl.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXTreeCal.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXTreeCombo.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXTreeCtrl.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXTreeEdit.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXTreeHeader.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXTreeItem.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXUxTheme.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OXWorkspaceState.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\UTBStrOp.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Xstatus4.cpp">
+      <Filter>Source Files\Ultimate Toolbox Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SkinsDemo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FoldersBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinsDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinsDemoDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinsDemoView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkspaceBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\OXSkins.h">
+      <Filter>Header Files\Ultimate Toolbox Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\include\res\command_group.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\include\res\custom_button.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\large.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\gui\Shortcutbar\res\large.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\include\res\new_popup_menu.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\include\res\noimage.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\include\res\separator.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\gui\Shortcutbar\res\ShortcutBar.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SkinsDemo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SkinsDemoDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\small.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\gui\Shortcutbar\res\small.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar2Disabled.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar2Hot.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar2Normal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TreeImages.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\gui\Shortcutbar\res\TreeImages.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\include\res\OXHandCursor.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\include\res\OXNoHandCursor.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\include\res\OXNotes.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\include\res\OXSpinHor.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\include\res\OXSpinVer.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\include\res\oxtbcopy.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\include\res\oxtbmove.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\include\res\oxtbremove.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\include\res\scrl_all.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\include\res\scrl_bottomleft.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\include\res\scrl_bottomright.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\include\res\scrl_down.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\include\res\scrl_left.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\include\res\scrl_leftright.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\include\res\scrl_right.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\include\res\scrl_topbottom.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\include\res\scrl_topleft.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\include\res\scrl_topright.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\include\res\scrl_up.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SkinsDemo.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

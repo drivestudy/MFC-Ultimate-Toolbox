@@ -1,0 +1,142 @@
+//Microsoft Developer Studio generated resource script.
+//
+// Version: 9.3
+
+#ifndef _OXFOLDERPICKERDLG_RC__
+#define _OXFOLDERPICKERDLG_RC__
+
+#include "OXMainRes.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""OXHistoryCombo.rc""\r\n"
+    "#include ""OXShellFolderTree.rc""\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OX_FOLDERPICKER_DIALOG DIALOGEX 0, 0, 330, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ertretrert"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Tree1",IDC_OX_TREE_SHELL_FOLDERS,"SysTreeView32",
+                    TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | 
+                    TVS_EDITLABELS | TVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,156,7,167,164,WS_EX_CLIENTEDGE
+    COMBOBOX        IDC_OX_COMBO_CURRENT_FOLDER,6,7,125,72,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "->",IDC_OX_BUTTON_BROWSE_FOLDER,136,7,14,13
+    CONTROL         "Display <&Desktop> item",
+                    IDC_OX_CHECK_DISPLAY_DESKTOP_ITEM,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,70,90,10
+    CONTROL         "Show right click popup &menu",IDC_OX_CHECK_POPUP_MENU,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,85,107,10
+    CONTROL         "Show &only file system folders",
+                    IDC_OX_CHECK_ONLY_FILE_SYSTEM_FOLDERS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,100,105,10
+    CONTROL         "Show &files",IDC_OX_CHECK_SHOW_FILES,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,115,48,10
+    CONTROL         "Notify about &errors",IDC_OX_CHECK_ERROR_NOTIFY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,130,73,10
+    DEFPUSHBUTTON   "OK",IDOK,7,157,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,81,157,50,14
+    GROUPBOX        "Settings",IDC_STATIC,6,58,125,86
+    PUSHBUTTON      "Refresh",IDC_OX_BUTTON_REFRESH_ALL,7,39,50,14
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+
+
+IDS_OX_FOLDERPICKERTITLE			"Shell Namespace"
+IDS_OX_FOLDERPICKERDLGTITLE			"Picker Folder"
+IDS_OX_FOLDERPICKERROOT				" [ Root Folder - "
+IDS_OX_FOLDERPICKERDESKTOP			"Desktop"
+
+ 
+END
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "afxres.rc"         // Standard components
+#include "OXHistoryCombo.rc"
+#include "OXShellFolderTree.rc"
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
+#endif //_OXFOLDERPICKERDLG_RC__
+
+

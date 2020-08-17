@@ -1,0 +1,782 @@
+//Microsoft Developer Studio generated resource script.
+//
+// Version: 9.3
+
+#ifndef _OXCUSTOMIZEMANAGER_RC__
+#define _OXCUSTOMIZEMANAGER_RC__
+
+#include "OXMainRes.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "OXMainRes.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_OX_CUSTOMIZE_COMMANDGROUP ICON    DISCARDABLE     "res\\command_group.ico"
+IDI_OX_CUSTOMIZE_SEPARATOR ICON    DISCARDABLE     "res\\separator.ico"
+IDI_OX_CUSTOMIZE_NOIMAGE ICON    DISCARDABLE     "res\\noimage.ico"
+IDI_OX_CUSTOMIZE_NEWPOPUPMENU ICON    DISCARDABLE     "res\\new_popup_menu.ico"
+IDI_OX_CUSTOMIZE_CUSTOMBUTTON ICON    DISCARDABLE     "res\\custom_button.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_OX_CUSTOMIZE_CAPTION_PAINTER BITMAP  DISCARDABLE     "res\\caption.bmp"
+IDB_OX_CUSTOMIZE_TABBEDMDI BITMAP  DISCARDABLE     "res\\tabbedmdi.bmp"
+IDB_OX_CUSTOMIZETABBEDMDI_ORIENTATION BITMAP  DISCARDABLE     "res\\oxcusttabmdi_orient.bmp"
+IDB_OX_CUSTOMIZETABBEDMDI_SETTINGS BITMAP  DISCARDABLE     "res\\oxcusttabmdi_settings.bmp"
+IDB_OX_CUSTOMIZETABBEDMDI_APPEARANCE BITMAP  DISCARDABLE     "res\\oxcusttabmdi_appearance.bmp"
+IDB_OX_CUSTOMIZETABBEDMDI_DISPLAY BITMAP  DISCARDABLE     "res\\oxcusttabmdi_display.bmp"
+IDB_OX_CUSTOMIZETABBEDMDI_POSITIONING BITMAP  DISCARDABLE     "res\\oxcusttabmdi_positioning.bmp"
+IDB_OX_CUSTOMIZE_WORKSPACE_STATE BITMAP  DISCARDABLE     "res\\workspace_state.bmp"
+IDB_OX_CUSTOMIZEWORKSPACESTATE_PAGES BITMAP  DISCARDABLE     "res\\oxcustom.bmp"
+IDB_OX_CUSTOMIZE_TOOLBARS  BITMAP  DISCARDABLE     "res\\toolbars.bmp"
+IDB_OX_CUSTOMIZE_COMMANDS  BITMAP  DISCARDABLE     "res\\commands.bmp"
+IDB_OX_IL_CUSTOMIZE_CUSTOM_IMAGES BITMAP  DISCARDABLE     "res\\il_oxcustomize_custom_images.bmp"
+IDB_OX_CUSTOMIZE_BACKGROUND_PAINTER BITMAP  DISCARDABLE     "res\\bkgnd_painter.bmp"
+IDB_OX_CUSTOMIZE_COOLCONTROLS BITMAP  DISCARDABLE     "res\\coolcontrols.bmp"
+IDB_OX_CUSTOMIZECOOLCONTROLS_CONTROLS BITMAP  DISCARDABLE     "res\\oxcustcoolcontrols_controls.bmp"
+IDB_OX_CUSTOMIZE_TRAYICON  BITMAP  DISCARDABLE     "res\\trayicon.bmp"
+IDB_OX_CUSTOMIZE_INSTANCE_MANAGER BITMAP  DISCARDABLE     "res\\instance_manager.bmp"
+IDB_OX_CUSTOMIZE_SPLASHWINDOW BITMAP  DISCARDABLE     "res\\splashwindow.bmp"
+IDB_OX_CUSTOMIZE_SHORTKEYS BITMAP  DISCARDABLE     "res\\shortkeys.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OX_CUSTOMIZEMANAGER_DIALOG DIALOGEX 0, 0, 382, 257
+STYLE DS_CENTER | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Customize"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,211,240,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,265,240,50,14
+    LTEXT           "Static",IDC_OX_SHB_PAGES,7,3,91,225,WS_BORDER
+    PUSHBUTTON      "Apply",IDC_OX_BUTTON_APPLY,319,240,50,14
+    LTEXT           "Static",IDC_OX_STATIC_TITLE,110,3,265,11,SS_CENTERIMAGE
+    LTEXT           "",IDC_OX_SEPARATOR_BOTTOM,7,231,368,8,SS_SUNKEN
+    LTEXT           "",IDC_OX_SEPARATOR_TITLE,110,15,265,8,SS_SUNKEN
+END
+
+IDD_OX_PAGE_CAPTION_PAINTER DIALOG DISCARDABLE  0, 0, 227, 207
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Paint the caption of windows in the framework",
+                    IDC_OX_CHECK_PAINT_CAPTION,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,1,5,161,10
+    COMBOBOX        IDC_OX_COMBO_CAPTION_STATE,19,30,190,51,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Text font ...",IDC_OX_BUTTON_TEXTFONT,0,52,62,16
+    PUSHBUTTON      "Small text font ...",IDC_OX_BUTTON_SMALLTEXTFONT,0,73,
+                    62,16
+    CONTROL         "\nChoose color to be used to fill the caption background",
+                    IDC_OX_BUTTON_BACKCOLOR,"Button",BS_OWNERDRAW | BS_LEFT | 
+                    BS_VCENTER | WS_TABSTOP,50,97,64,17
+    COMBOBOX        IDC_OX_COMBO_TEXT_ALIGNMENT,53,130,58,117,
+                    CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_OX_COMBO_TEXT_ELLIPSIS,53,147,58,58,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "&Gradient Filling",IDC_OX_CHECK_GRADIENT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,128,102,62,10
+    COMBOBOX        IDC_OX_COMBO_GRADIENT_ALIGNMENT,162,115,57,60,
+                    CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_OX_COMBO_GRADIENT_ALGORITHM,162,132,57,43,
+                    CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_OX_EDIT_NUMSHADES,188,148,30,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin2",IDC_OX_SPIN_NUMSHADES,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,213,148,9,12
+    LTEXT           "Background color",IDC_STATIC,0,97,40,18
+    LTEXT           "",IDC_OX_STATIC_TEXTFONT,65,53,161,14,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    GROUPBOX        "",IDC_OX_GRADIENT_GROUP,122,93,104,72
+    LTEXT           "",IDC_OX_SEPARATOR_CAPTION,19,17,190,8,SS_SUNKEN
+    LTEXT           "Alignment",IDC_STATIC,128,118,32,8
+    LTEXT           "Algorithm",IDC_STATIC,128,134,30,8
+    LTEXT           "Number of shades",IDC_STATIC,128,150,58,8
+    GROUPBOX        "",IDC_OX_TEXTPROPERTIES_GROUP,0,121,115,44
+    LTEXT           "Text alignment",IDC_STATIC,4,132,47,8
+    LTEXT           "Ellipsis in text",IDC_STATIC,4,150,42,8
+    GROUPBOX        "Filling Preview",IDC_OX_PREVIEW_GROUP,0,170,226,34
+    CTEXT           "",IDC_OX_STATIC_PREVIEW,6,182,214,14,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    LTEXT           "",IDC_OX_STATIC_SMALLTEXTFONT,65,73,161,14,
+                    SS_CENTERIMAGE | SS_SUNKEN
+END
+
+IDD_OX_PAGE_TABBEDMDI DIALOG DISCARDABLE  0, 0, 236, 207
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Support Tabbed MDI",IDC_OX_CHECK_SUPPORT_TABBEDMDI,
+                    "Button",BS_AUTOCHECKBOX | BS_LEFT | BS_TOP | 
+                    BS_MULTILINE | WS_TABSTOP,1,5,83,10
+    CONTROL         "Tree1",IDC_OX_TREE_TABCTRL_SETTINGS,"SysTreeView32",
+                    TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | 
+                    TVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,0,19,235,168
+    LTEXT           "The distance between the tab control and parent frame borders",
+                    IDC_OX_STATIC_OFFSET,0,194,200,8
+    EDITTEXT        IDC_OX_EDIT_OFFSET,202,192,23,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin2",IDC_OX_SPIN_OFFSET,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,225,192,9,12
+END
+
+IDD_OX_PAGE_WORKSPACE_STATE DIALOG DISCARDABLE  0, 0, 236, 207
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Remember main window size and position",
+                    IDC_OX_CHECK_MAINWND,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,0,5,147,10
+    CONTROL         "Remember docking windows and bars size and position",
+                    IDC_OX_CHECK_BAR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,
+                    18,190,10
+    CONTROL         "Remember splitter panes position",IDC_OX_CHECK_SPLITTER,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,31,119,10
+    CONTROL         "Remember opened documents and child windows placement",
+                    IDC_OX_CHECK_CHILD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    0,44,207,10
+    CONTROL         "Tree1",IDC_OX_TREE_CUSTOMIZE_PAGES,"SysTreeView32",
+                    TVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,0,69,235,134
+    LTEXT           "",IDC_OX_SEPARATOR_WORKSPACE,22,57,190,8,SS_SUNKEN
+END
+
+IDD_OX_PAGE_TOOLBARS DIALOG DISCARDABLE  0, 0, 236, 207
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tree1",IDC_OX_TREE_TOOLBARS,"SysTreeView32",
+                    TVS_EDITLABELS | TVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,0,17,140,188
+    PUSHBUTTON      "New Toolbar",IDC_OX_BUTTON_NEW,155,18,68,14
+    PUSHBUTTON      "Delete",IDC_OX_BUTTON_DELETE,155,36,68,14
+    PUSHBUTTON      "Rename",IDC_OX_BUTTON_RENAME,155,54,68,14
+    PUSHBUTTON      "Reset",IDC_OX_BUTTON_RESET,155,72,68,14
+    PUSHBUTTON      "Reset All",IDC_OX_BUTTON_RESET_ALL,155,90,68,14
+    CONTROL         "Show Tooltips",IDC_OX_CHECK_TOOLTIPS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,155,137,61,10
+    CONTROL         "Cool look",IDC_OX_CHECK_COOL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,155,150,45,10
+    CONTROL         "Show Gripper",IDC_OX_CHECK_GRIPPER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,155,163,59,10
+    EDITTEXT        IDC_OX_EDIT_BORDER_SIZE,194,176,29,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin2",IDC_OX_SPIN_BORDER_SIZE,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,223,176,9,12
+    LTEXT           "Toolbars",IDC_OX_SEPARATOR_TOOLBARS,0,5,140,9,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "Operations",IDC_OX_SEPARATOR_OPERATIONS,155,5,80,9,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "Options",IDC_OX_SEPARATOR_OPTIONS,155,124,80,9,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "Border size",IDC_OX_STATIC_BORDER_SIZE,155,178,36,8
+END
+
+IDD_OX_PAGE_COMMANDS DIALOG DISCARDABLE  0, 0, 236, 207
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tree1",IDC_OX_TREE_COMMANDS,"SysTreeView32",
+                    TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | 
+                    TVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,0,17,140,144
+    LTEXT           "Commands",IDC_OX_SEPARATOR_COMMANDS,0,5,140,9,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "Description",IDC_OX_SEPARATOR_DESCRIPTION,155,5,80,9,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "Static",IDC_OX_STATIC_DESCRIPTION,155,17,80,24
+    CONTROL         "Modify selection",IDC_OX_BUTTON_MODIFY_SELECTION,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,155,52,80,16
+    CONTROL         "Icons in menu",IDC_OX_CHECK_ICONS_IN_MENU,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,155,133,60,10
+    CONTROL         "Show only recently used items in menu",
+                    IDC_OX_CHECK_SHOW_ONLY_RECENTLY_USED,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFT | BS_TOP | BS_MULTILINE | 
+                    WS_TABSTOP,155,146,80,19
+    LTEXT           "Options",IDC_OX_SEPARATOR_OPTIONS,156,119,80,9,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    GROUPBOX        "Custom Button Preview",
+                    IDC_OX_STATIC_CUSTOM_BUTTON_PREVIEW,0,165,235,39
+END
+
+IDD_OX_PAGE_BACKGROUND_PAINTER DIALOG DISCARDABLE  0, 0, 227, 207
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Paint the background of windows in the framework",
+                    IDC_OX_CHECK_PAINT_BACKGROUND,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,0,5,175,10
+    CONTROL         "Paint only the client area",IDC_OX_CHECK_ONLYCLIENT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,22,19,93,10
+    CONTROL         "&Tile",IDC_OX_ALIGN_TILE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,7,42,27,10
+    CONTROL         "&Stretch",IDC_OX_ALIGN_STRETCH,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,166,42,39,10
+    CONTROL         "T&opLeft",IDC_OX_ALIGN_TOPLEFT,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,7,63,41,10
+    CONTROL         "To&pCenter",IDC_OX_ALIGN_TOPCENTER,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,89,63,49,10
+    CONTROL         "TopR&ight",IDC_OX_ALIGN_TOPRIGHT,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,166,63,45,10
+    CONTROL         "C&enterLeft",IDC_OX_ALIGN_CENTERLEFT,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,7,74,49,10
+    CONTROL         "&Center",IDC_OX_ALIGN_CENTER,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,89,74,37,10
+    CONTROL         "Ce&nterRight",IDC_OX_ALIGN_CENTERRIGHT,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,166,74,53,10
+    CONTROL         "Botto&mLeft",IDC_OX_ALIGN_BOTTOMLEFT,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,7,86,50,10
+    CONTROL         "BottomCente&r",IDC_OX_ALIGN_BOTTOMCENTER,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,89,86,59,10
+    CONTROL         "BottomRig&ht",IDC_OX_ALIGN_BOTTOMRIGHT,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,166,86,55,10
+    CONTROL         "Use default image",
+                    IDC_OX_RADIO_BCKGND_IMG_SOURCE_DEFAULT,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,0,107,73,10
+    CONTROL         "Open image with file name",
+                    IDC_OX_RADIO_BCKGND_IMG_SOURCE_FILENAME,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,0,120,99,10
+    COMBOBOX        IDC_OX_FILENAME,0,132,181,72,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "\nChoose color to fill the background",
+                    IDC_OX_BACK_COLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,166,
+                    103,61,16
+    LTEXT           "Static",IDC_OX_IMAGE,0,159,227,45,SS_SUNKEN
+    GROUPBOX        "Image painting type",IDC_OX_GROUP_PAINT_TYPE,0,33,227,
+                    67
+    LTEXT           "Background color:",IDC_OX_STATIC_BACKGROUND_COLOR,105,
+                    107,59,8
+    LTEXT           "",IDC_OX_SEPARATOR1,8,52,210,8,SS_SUNKEN
+    LTEXT           "Preview",IDC_OX_SEPARATOR2,0,150,227,8,SS_SUNKEN
+END
+
+IDD_OX_PAGE_COOLCONTROLS DIALOG DISCARDABLE  0, 0, 236, 207
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Convert common controls to cool controls",
+                    IDC_OX_CHECK_CONVERT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,0,7,146,10
+    CONTROL         "Tree1",IDC_OX_TREE_CONTROL_TYPES,"SysTreeView32",
+                    TVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,0,24,235,180
+    PUSHBUTTON      "Convert All",IDC_OX_BUTTON_CONVERT_ALL,177,5,58,15
+END
+
+IDD_OX_PAGE_TRAYICON DIALOG DISCARDABLE  0, 0, 236, 207
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Display tray icon",IDC_OX_CHECK_SHOW_TRAYICON,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,0,5,67,10
+    CONTROL         "On left click",IDC_OX_RADIO_DISPLAY_MENU_LEFTCLICK,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,86,
+                    33,53,10
+    CONTROL         "On right click",IDC_OX_RADIO_DISPLAY_MENU_RIGHTCLICK,
+                    "Button",BS_AUTORADIOBUTTON | WS_TABSTOP,148,33,53,10
+    EDITTEXT        IDC_OX_EDIT_ICON_TOOLTIP,28,57,207,12,ES_AUTOHSCROLL
+    CONTROL         "Display default icon",IDC_OX_RADIO_ICON_SOURCE_DEFAULT,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,1,80,
+                    77,10
+    CONTROL         "Select icon from the specified source file",
+                    IDC_OX_RADIO_ICON_SOURCE_FILE,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,1,105,140,10
+    COMBOBOX        IDC_OX_COMBO_ICONSOURCE_FILENAME,1,118,186,86,
+                    CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_OX_LIST_ICON,0,135,235,69,LBS_OWNERDRAWFIXED | 
+                    LBS_NOINTEGRALHEIGHT | LBS_MULTICOLUMN | WS_VSCROLL | 
+                    WS_HSCROLL | WS_TABSTOP
+    LTEXT           "",IDC_OX_SEPARATOR_SELECT_ICON,144,106,92,8,SS_SUNKEN
+    LTEXT           "Display Settings",IDC_OX_SEPARATOR_DISPLAY_SETTINGS,0,
+                    21,235,10,SS_SUNKEN
+    LTEXT           "Tooltip",IDC_STATIC,0,59,22,8
+    ICON            "",IDC_OX_STATIC_DEFAULT_ICON,88,79,20,20,SS_CENTERIMAGE | 
+                    SS_REALSIZEIMAGE
+    LTEXT           "Activate context menu:",IDC_STATIC,1,34,74,8
+END
+
+IDD_OX_PAGE_INSTANCE_MANAGER DIALOG DISCARDABLE  0, 0, 236, 207
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "No limit for the number of running instances",
+                    IDC_OX_RADIO_MAXNUMBER_INSTANCE_NOLIMIT,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,1,18,151,10
+    CONTROL         "Run only one instance",
+                    IDC_OX_RADIO_MAXNUMBER_INSTANCE_ONLYONE,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,1,31,87,10
+    CONTROL         "Limit to",IDC_OX_RADIO_MAXNUMBER_INSTANCE_LIMITTO,
+                    "Button",BS_AUTORADIOBUTTON | WS_TABSTOP,1,45,38,10
+    EDITTEXT        IDC_OX_EDIT_LIMIT_NUMBER,40,43,29,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin2",IDC_OX_SPIN_LIMIT_NUMBER,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,66,43,8,12
+    CONTROL         "List1",IDC_OX_LIST_INSTANCES,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,0,100,140,104
+    PUSHBUTTON      "Close",IDC_OX_BUTTON_CLOSE,153,99,68,14
+    PUSHBUTTON      "Switch To...",IDC_OX_BUTTON_SWITCH_TO,153,117,68,14
+    PUSHBUTTON      "Bring To Front",IDC_OX_BUTTON_BRING_TO_FRONT,153,135,68,
+                    14
+    PUSHBUTTON      "Maximize",IDC_OX_BUTTON_MAXIMIZE,153,153,68,14
+    PUSHBUTTON      "Minimize",IDC_OX_BUTTON_MINIMIZE,153,171,68,14
+    PUSHBUTTON      "Restore",IDC_OX_BUTTON_RESTORE,153,189,68,14
+    LTEXT           "Running instances",IDC_OX_SEPARATOR_INSTANCES,0,87,140,
+                    10,SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "Operations",IDC_OX_SEPARATOR_OPERATIONS,153,87,80,10,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "Options",IDC_OX_SEPARATOR_OPTIONS,0,5,235,10,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "instances running simultaneously",IDC_STATIC,74,46,104,
+                    8
+    LTEXT           "Currently running",IDC_STATIC,1,68,54,8
+    CTEXT           "",IDC_OX_STATIC_INSTANCE_COUNT,57,67,19,11,
+                    SS_CENTERIMAGE | NOT WS_GROUP
+    LTEXT           "instance(s) of the application",IDC_STATIC,80,68,91,8,
+                    SS_CENTERIMAGE
+END
+
+IDD_OX_PAGE_SPLASHWINDOW DIALOG DISCARDABLE  0, 0, 236, 207
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Display splash window at the start of application",
+                    IDC_OX_CHECK_DISPLAY_SPLASHWINDOW,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,0,5,166,10
+    CONTROL         "Show image for",IDC_OX_RADIO_SHOW_FOR,"Button",
+                    BS_AUTORADIOBUTTON | BS_LEFT | BS_VCENTER | WS_GROUP | 
+                    WS_TABSTOP,0,36,62,10
+    CONTROL         "Show infinitely",IDC_OX_RADIO_SHOW_INFINITELY,"Button",
+                    BS_AUTORADIOBUTTON | BS_LEFT | BS_VCENTER | WS_TABSTOP,
+                    166,36,61,10
+    EDITTEXT        IDC_OX_EDIT_SHOW_FOR,65,35,31,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_OX_SPIN_SHOW_FOR,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,91,35,8,13
+    CONTROL         "Hide splash window if mouse or keyboard button has been pressed",
+                    IDC_OX_CHECK_INTERRUPTABLE,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFT | BS_TOP | BS_MULTILINE | WS_TABSTOP,0,52,226,10
+    CONTROL         "Display default image",
+                    IDC_OX_RADIO_IMAGE_SOURCE_DEFAULT,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,0,87,83,10
+    CONTROL         "Open image file",IDC_OX_RADIO_IMAGE_SOURCE_FILE,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,0,105,65,10
+    COMBOBOX        IDC_OX_COMBO_IMAGESOURCE_FILENAME,1,118,186,86,
+                    CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Preview...",IDC_OX_BUTTON_PREVIEW,174,84,62,15
+    CONTROL         "Color",IDC_OX_RADIO_COLOR,"Button",BS_AUTORADIOBUTTON | 
+                    BS_LEFT | BS_VCENTER | WS_GROUP | WS_TABSTOP,0,161,32,10
+    CONTROL         "None",IDC_OX_RADIO_COLOR_NONE,"Button",
+                    BS_AUTORADIOBUTTON | BS_LEFT | BS_VCENTER | WS_TABSTOP,0,
+                    175,33,10
+    CONTROL         "Color at point",IDC_OX_RADIO_COLORATPOINT,"Button",
+                    BS_AUTORADIOBUTTON | BS_LEFT | BS_VCENTER | WS_TABSTOP,0,
+                    188,54,10
+    CONTROL         "\nChoose color that will be treated as transparent",
+                    IDC_OX_BUTTON_TRANSPARENT_COLOR,"Button",BS_OWNERDRAW | 
+                    BS_LEFT | BS_VCENTER | WS_TABSTOP,70,158,58,15
+    EDITTEXT        IDC_OX_EDIT_XCOORD,70,187,20,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OX_EDIT_YCOORD,104,187,20,12,ES_AUTOHSCROLL
+    LTEXT           "",IDC_OX_SEPARATOR_OPEN_IMAGE,67,106,169,8,SS_SUNKEN
+    LTEXT           "Display Settings",IDC_OX_SEPARATOR_DISPLAY_SETTINGS,0,
+                    22,235,10,SS_SUNKEN
+    LTEXT           "",IDC_OX_SEPARATOR_PREVIEW,89,88,82,8,SS_SUNKEN
+    LTEXT           "Transparent color",IDC_OX_SEPARATOR_TRANSPARENT_COLOR,0,
+                    145,236,9,SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "X",IDC_STATIC,62,189,8,8
+    LTEXT           "Y",IDC_STATIC,96,189,8,8
+    LTEXT           "millisecond(s)",IDC_STATIC,101,37,42,8
+    LTEXT           "Color tolerance",IDC_STATIC,142,162,48,8
+    EDITTEXT        IDC_OX_EDIT_COLOR_TOLERANCE,193,160,30,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_OX_SPIN_COLOR_TOLERANCE,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,222,160,10,12
+END
+
+IDD_OX_PAGE_INTELLIMOUSE DIALOG DISCARDABLE  0, 0, 236, 207
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Support IntelliMouse",IDC_OX_CHECK_SUPPORT_INTELLIMOUSE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,7,80,10
+    CONTROL         "Only in Views",IDC_OX_CHECK_ONLY_VIEWS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,21,20,58,10
+    LTEXT           "Start IntelliMouse support when a user",
+                    IDC_OX_SEPARATOR_START_EVENT,0,39,235,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    COMBOBOX        IDC_OX_COMBO_START_EVENT,1,54,162,118,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "The following key must be pressed simultenuously",
+                    IDC_OX_SEPARATOR_KEYPRESSED,0,86,235,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CONTROL         "Shift",IDC_OX_CHECK_SHIFT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,21,102,30,10
+    CONTROL         "Ctrl",IDC_OX_CHECK_CTRL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,21,115,30,10
+    CONTROL         "Alt",IDC_OX_CHECK_ALT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,21,128,30,10
+END
+
+IDD_OX_PAGE_SHORTKEYS DIALOG DISCARDABLE  0, 0, 236, 207
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tree1",IDC_OX_TREE_COMMANDS,"SysTreeView32",
+                    TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | 
+                    TVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,0,17,104,143
+    LTEXT           "Commands",IDC_OX_SEPARATOR_COMMANDS,0,5,104,9,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "Description",IDC_OX_SEPARATOR_DESCRIPTION,0,165,104,9,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "Static",IDC_OX_STATIC_DESCRIPTION,0,178,104,24
+    COMBOBOX        IDC_OX_COMBO_TABLE,123,17,112,54,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_OX_LIST_SHORTKEYS,110,47,74,85,LBS_OWNERDRAWVARIABLE | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_HSCROLL | WS_TABSTOP
+    CONTROL         "HotKey1",IDC_OX_HOTKEY_SHORTKEY,"msctls_hotkey32",
+                    WS_BORDER | WS_TABSTOP,109,146,126,14
+    LTEXT           "Static",IDC_OX_STATIC_ASSIGNED_TO,110,177,125,24
+    PUSHBUTTON      "Assign",IDC_OX_BUTTON_ASSIGN,190,46,45,14
+    PUSHBUTTON      "Remove",IDC_OX_BUTTON_REMOVE,190,64,45,14
+    PUSHBUTTON      "Remove All",IDC_OX_BUTTON_REMOVE_ALL,190,82,45,14
+    PUSHBUTTON      "Reset All",IDC_OX_BUTTON_RESET_ALL,190,118,45,14
+    LTEXT           "Shortkeys",IDC_OX_SEPARATOR_SHORTKEYS,110,5,125,9,
+                    SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "for",IDC_OX_STATIC_FOR,110,19,9,8
+    LTEXT           "Current keys",IDC_OX_STATIC_CURRENT_KEYS,110,36,40,8
+    LTEXT           "Press new shortcut key",IDC_OX_STATIC_NEW_KEY,110,136,
+                    74,8
+    LTEXT           "Conflict",IDC_OX_SEPARATOR_CONFLICTS,110,165,125,9,
+                    SS_CENTERIMAGE | SS_SUNKEN
+END
+
+IDD_OX_BUTTONAPPEARANCE_DIALOG DIALOGEX 0, 0, 234, 249
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "Button Appearance"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Image Only",IDC_OX_RADIO_IMAGE_ONLY,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,7,3,51,10
+    CONTROL         "Image and Text",IDC_OX_RADIO_IMAGE_AND_TEXT,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,7,15,65,10
+    EDITTEXT        IDC_OX_EDIT_TEXT,7,41,220,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_OX_COMBO_SHORTKEY,92,57,135,80,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_OX_EDIT_BUTTON_HEIGHT,33,90,42,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_OX_SPIN_BUTTON_HEIGHT,"msctls_updown32",
+                    UDS_WRAP | UDS_SETBUDDYINT | UDS_ALIGNRIGHT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,75,90,9,
+                    12
+    EDITTEXT        IDC_OX_EDIT_BUTTON_WIDTH,116,90,42,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_OX_SPIN_BUTTON_WIDTH,"msctls_updown32",
+                    UDS_WRAP | UDS_SETBUDDYINT | UDS_ALIGNRIGHT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,158,90,9,
+                    12
+    CONTROL         "Horizontally docked",IDC_OX_CHECK_SHOW_HORZDOCK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,125,75,10
+    CONTROL         "Vertically docked",IDC_OX_CHECK_SHOW_VERTDOCK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,100,125,68,10
+    CONTROL         "Floating",IDC_OX_CHECK_SHOW_FLOAT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,186,125,41,10
+    LISTBOX         IDC_OX_LISTBOX_CUSTOM_IMAGES,7,154,220,76,
+                    LBS_OWNERDRAWFIXED | LBS_NOINTEGRALHEIGHT | 
+                    LBS_MULTICOLUMN | NOT WS_BORDER | WS_VSCROLL | 
+                    WS_HSCROLL | WS_TABSTOP,WS_EX_TRANSPARENT | 
+                    WS_EX_STATICEDGE
+    CONTROL         "Display as dropdown button",IDC_OX_CHECK_DROPDOWN,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,234,103,10
+    DEFPUSHBUTTON   "OK",IDOK,177,3,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,177,22,50,14
+    LTEXT           "Images",IDC_OX_STATIC_IMAGES,7,142,220,9,SS_CENTERIMAGE
+    LTEXT           "Text",IDC_OX_STATIC_TEXT,7,29,160,9,SS_CENTERIMAGE
+    LTEXT           "Accelerator key string",IDC_STATIC,7,59,69,8
+    LTEXT           "Height",IDC_STATIC,7,92,22,8
+    LTEXT           "Width",IDC_STATIC,93,92,20,8
+    LTEXT           "Display custom button",IDC_OX_STATIC_DISPLAY_SETTINGS,7,
+                    112,220,8
+    LTEXT           "Custom button sizes",IDC_OX_STATIC_SIZES,7,78,220,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    "IDD_OX_CUSTOMIZEMANAGER_DIALOG", DIALOG
+    BEGIN
+    END
+
+    "IDD_OX_PAGE_CAPTION_PAINTER", DIALOG
+    BEGIN
+    END
+
+    "IDD_OX_PAGE_TABBEDMDI", DIALOG
+    BEGIN
+    END
+
+    "IDD_OX_PAGE_WORKSPACE_STATE", DIALOG
+    BEGIN
+    END
+
+    "IDD_OX_PAGE_TOOLBARS", DIALOG
+    BEGIN
+    END
+
+    "IDD_OX_PAGE_COMMANDS", DIALOG
+    BEGIN
+    END
+
+    "IDD_OX_PAGE_BACKGROUND_PAINTER", DIALOG
+    BEGIN
+    END
+
+    "IDD_OX_PAGE_COOLCONTROLS", DIALOG
+    BEGIN
+    END
+
+    "IDD_OX_PAGE_TRAYICON", DIALOG
+    BEGIN
+    END
+
+    "IDD_OX_PAGE_INSTANCE_MANAGER", DIALOG
+    BEGIN
+    END
+
+    "IDD_OX_PAGE_SPLASHWINDOW", DIALOG
+    BEGIN
+    END
+
+    "IDD_OX_PAGE_INTELLIMOUSE", DIALOG
+    BEGIN
+    END
+
+    "IDD_OX_PAGE_SHORTKEYS", DIALOG
+    BEGIN
+    END
+
+    "IDD_OX_BUTTONAPPEARANCE_DIALOG", DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_OX_TB_COPY           CURSOR  DISCARDABLE     "res\\oxtbcopy.cur"
+IDC_OX_TB_MOVE           CURSOR  DISCARDABLE     "res\\oxtbmove.cur"
+IDC_OX_TB_REMOVE         CURSOR  DISCARDABLE     "res\\oxtbremove.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+
+IDS_OX_CSTMZECOMMANDSADDCUSTOM		"Custom command"
+IDS_OX_CSTMZECOMMANDSHIERARCHY		"Custom commands"
+IDS_OX_CSTMZECOMMANDSTITLE		"Commands"
+IDS_OX_CSTMZECOMMANDSTOOLTIP		"Customize the contents of the toolbars and menus"
+IDS_OX_CSTMZEINSTANCETITLE		"Instance Manager"
+IDS_OX_CSTMZEINSTANCETOOLTIP		"Instance Manager allows you to limit the number of running instances"
+IDS_OX_CSTMZECAPTIONTITLE		"Caption Painter"
+IDS_OX_CSTMZECAPTIONTOOLTIP		"Customize Caption Painter"
+IDS_OX_CSTMZESHORTKEYSTITLE		"Shortkeys"
+IDS_OX_CSTMZESHORTKEYSTOOLTIP		"Customize accelerator tables"
+IDS_OX_CSTMZETABBEDMDITITLE		"Tabbed MDI"
+IDS_OX_CSTMZETABBEDMDITOOLTIP		"Customize Tabbed MDI settings"
+IDS_OX_CSTMZETOOLBARTITLE		"Toolbars"
+IDS_OX_CSTMZETOOLBARTOOLTIP		"Customize the appearance of application's toolbars"
+IDS_OX_CSTMZEWRKSPACETITLE		"Workspace State"
+IDS_OX_CSTMZEWRKSPACETOOLTIP		"Customize Workspace State settings"
+IDS_OX_CSTMZEBCKGRNDTITLE		"Background Painter"
+IDS_OX_CSTMZEBCKGRNDTOOLTIP		"Customize Background Painter"	
+IDS_OX_CSTMZESPLASHTITLE		"Splash Window"
+IDS_OX_CSTMZESPLASHTOOLTIP		"Tooltip for Splash Window"
+IDS_OX_CSTMZETRAYTITLE			"Tray Icon"
+IDS_OX_CSTMZETRAYTOOLTIP		"Customize TrayIcon"
+IDS_OX_CSMZECAPTION_ACTIVESTATE		"Caption in active state"
+IDS_OX_CSMZECAPTION_INACTIVESTATE	"Caption in inactive state"
+IDS_OX_CSMZECAPTION_LEFT		"Left"	
+IDS_OX_CSMZECAPTION_CENTER		"Center"	
+IDS_OX_CSMZECAPTION_RIGHT		"Right"	
+IDS_OX_CSMZECAPTION_LINEAR		"Linear"	
+IDS_OX_CSMZECAPTION_SQUARE		"Square"	
+IDS_OX_CSMZECAPTION_TOPLEFT		"TopLeft"	
+IDS_OX_CSMZECAPTION_TOPCENTER		"TopCenter"
+IDS_OX_CSMZECAPTION_TOPRIGHT		"TopRight"
+IDS_OX_CSMZECAPTION_CENTERLEFT		"CenterLeft"
+IDS_OX_CSMZECAPTION_CENTERRIGHT		"CenterRight"
+IDS_OX_CSMZECAPTION_BOTTOMLEFT		"BottomLeft"
+IDS_OX_CSMZECAPTION_BOTTOMCENTER	"BottomCenter"
+IDS_OX_CSMZECAPTION_BOTTOMRIGHT		"BottomRight"
+IDS_OX_CSMZECAPTION_NONE		"None"	
+IDS_OX_CSMZECAPTION_END			"End"	
+IDS_OX_CSMZECAPTION_PATH		"Path"	
+IDS_OX_CSTMZECOMMANDSNEWMENU		"New Menu"
+IDS_OX_CSTMZECOMMANDSSEPARATOR		"Separator"
+IDS_OX_CSTMZECOMMANDSCUSTOMBUTTONS	"Custom Buttons"
+IDS_OX_CSTMZECOMMANDSDESCSEPARATOR	"Menu or toolbar separator"
+IDS_OX_CSTMZECOMMANDSDESCGROUP		"%s group"
+IDS_OX_CSTMZECOMMANDSDESCNEWGROUP	"New menu group"
+IDS_OX_CSTMZECOMMANDSDESCSET		"Set of toolbars' Custom Buttons"
+IDS_OX_CSTMZECOMMANDSCUSTOMBUTTON	"Custom Button"
+IDS_OX_CSTMZECOOLCONTROLCONVERT		"Convert the following common controls"
+IDS_OX_CSTMZEINSTANCEINSTANCE		"Instance"
+IDS_OX_CSTMZEINSTANCEPID			"PID"
+IDS_OX_CSTMZEINSTANCESTATUS		"Status"
+IDS_OX_CSTMZEINSTANCEINSTANCEF		"Instance %d"
+IDS_OX_CSTMZEINSTANCECURRENT		"Current"
+IDS_OX_CSTMZEINTELLILBDOWN		"Left button down"
+IDS_OX_CSTMZEINTELLIMBDOWN		"Middle button down"
+IDS_OX_CSTMZEINTELLIRBDOWN		"Right button down"
+IDS_OX_CSTMZEINTELLILBUP		"Left button up"
+IDS_OX_CSTMZEINTELLIMBUP		"Middle button up"
+IDS_OX_CSTMZEINTELLIRBUP		"Right button up"
+IDS_OX_CSTMZEINTELLILBDBL		"Left button double click"
+IDS_OX_CSTMZEINTELLIMBDBL		"Middle button double click"
+IDS_OX_CSTMZEINTELLIRBDBL		"Right button double click"
+IDS_OX_CSTMZESHORTKEYSGROUP		"%s group"
+IDS_OX_CSTMZESHORTKEYSASSIGNED		"Currently assigned to the command:\nwith ID=%d"	
+IDS_OX_CSTMZESHORTKEYSASSIGNEDS		"Currently assigned to the command:\n<%s>"
+IDS_OX_CSTMZETABBEDSETTINGS		"Tab control settings"
+IDS_OX_CSTMZETABBEDORIENTATION		"Orientation"
+IDS_OX_CSTMZETABBEDLEFT			"Left"
+IDS_OX_CSTMZETABBEDTOP			"Top"
+IDS_OX_CSTMZETABBEDRIGHT		"Right"
+IDS_OX_CSTMZETABBEDBOTTOM		"Bottom"
+IDS_OX_CSTMZETABBEDAPPEARENCE		"Appearance"
+IDS_OX_CSTMZETABBEDTABBUTTONS		"Tab buttons"
+IDS_OX_CSTMZETABBEDPUSHBUTTONS		"Push buttons"
+IDS_OX_CSTMZETABBEDFLATBUTTONS		"Flat buttons"
+IDS_OX_CSTMZETABBEDDISPLAY		"Display"	
+IDS_OX_CSTMZETABBEDPOSITIONING		"Positioning"
+IDS_OX_CSTMZETABBEDDISPLAY1ROW		"Display only one row of tabs"
+IDS_OX_CSTMZETABBEDDISPLAYMROWS		"Displays multiple rows of tabs, if necessary"
+IDS_OX_CSTMZETABBEDHIGHLIGHT		"Items under the pointer are automatically highlighted"
+IDS_OX_CSTMZETABBEDWIDTH		"Same width for all buttons"	
+IDS_OX_CSTMZETABBEDSTRETCH		"Stretch tabs to fill the entire width of the control"	
+IDS_OX_CSTMZETABBEDOPPOSITE		"Unused tabs move to the opposite side of the control"	
+IDS_OX_CSTMZETABBEDALIGNICON		"Aligns an icon with the left edge of a fixed-width tab"
+IDS_OX_CSTMZETABBEDALIGNLABEL		"Aligns a label with the left edge of a fixed-width tab"
+IDS_OX_CSTMZETOOLBARTITLECUSTOM		"Custom Toolbar %d"
+IDS_OX_CSTMZEWORKSPACEGROUP		"Customize pages (check the page to be displayed)"
+IDS_OX_CSTMZECOOLCTRLSTITLE		"Cool Controls"
+IDS_OX_CSTMZECOOLCTRLSTOOLTIP		"Tooltip for Cool Controls"
+IDS_OX_CSTMZEINTELLIMOUSETITLE		"IntelliMouse Support"
+IDS_OX_CSTMZEINTELLIMOUSETOOLTIP	"Tooltip for IntelliMouse Support"
+
+
+
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+#endif //_OXCUSTOMIZEMANAGER_RC__
+

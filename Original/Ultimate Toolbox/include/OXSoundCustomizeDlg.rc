@@ -1,0 +1,209 @@
+//Microsoft Developer Studio generated resource script.
+//
+// Version: 9.3
+
+#ifndef _OXSoundCustomizeDlg_RC__
+#define _OXSoundCustomizeDlg_RC__
+
+#include "OXMainRes.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OX_DIALOG_CUSTOMIZE_OXSOUND DIALOGEX 0, 0, 300, 321
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Customize Sound Effects"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List of Sound Effects",IDC_OX_EXTTREE_EFFECTSLIST_OXSOUND,
+                    "SysListView32",LVS_REPORT | LVS_SINGLESEL | 
+                    LVS_OWNERDRAWFIXED | WS_BORDER | WS_TABSTOP,7,7,286,159
+    COMBOBOX        IDC_OX_COMBO_EVENT_OXSOUND,13,183,205,51,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWFIXED | CBS_SORT | CBS_HASSTRINGS | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_OX_COMBO_FILENAME_OXSOUND,13,228,205,92,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Start",IDC_OX_BUTTON_PLAY_OXSOUND,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,23,255,54,22
+    CONTROL         "Stop",IDC_OX_BUTTON_STOP_OXSOUND,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,23,282,54,22
+    CONTROL         "One time",IDC_OX_RADIO_LOOPONCE_OXSOUND,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT | WS_GROUP | WS_TABSTOP,107,
+                    254,44,10
+    CONTROL         "Infinitely",IDC_OX_RADIO_LOOPINFINITELY_OXSOUND,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT | WS_TABSTOP,107,266,41,10
+    CONTROL         "Repeat",IDC_OX_RADIO_LOOPREPEAT_OXSOUND,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT | WS_TABSTOP,107,279,39,10
+    EDITTEXT        IDC_OX_EDIT_LOOPCOUNT_OXSOUND,152,277,25,12,ES_AUTOHSCROLL
+    CONTROL         "Force to start playing",IDC_OX_CHECK_FORCE_OXSOUND,"Button",
+                    BS_AUTO3STATE | BS_FLAT | WS_TABSTOP,107,298,81,10
+    PUSHBUTTON      "Add new",IDC_OX_BUTTON_ADD_OXSOUND,243,177,50,14
+    PUSHBUTTON      "Remove",IDC_OX_BUTTON_REMOVE_OXSOUND,243,196,50,14
+    PUSHBUTTON      "Save",IDC_OX_BUTTON_SAVE_OXSOUND,243,215,50,14
+    PUSHBUTTON      "Restore",IDC_OX_BUTTON_RESTORE_OXSOUND,243,234,50,14
+    DEFPUSHBUTTON   "OK",IDOK,243,281,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,243,300,50,14
+    GROUPBOX        "Play",IDC_STATIC,99,244,118,50,BS_FLAT
+    GROUPBOX        "Sound",IDC_STATIC,7,206,217,108,BS_FLAT,
+                    WS_EX_TRANSPARENT
+    GROUPBOX        "Event",IDC_STATIC,7,173,217,28,BS_FLAT
+    LTEXT           "Name of sound file ",IDC_STATIC,14,218,62,8
+    GROUPBOX        "Preview",IDC_STATIC,14,244,72,65,BS_CENTER | BS_FLAT
+    LTEXT           "times",IDC_STATIC,181,279,17,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_OX_DIALOG_CUSTOMIZE_OXSOUND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 314
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""OXBitmapButton.rc""         // BitmapButton resources\r\n"
+    "#include ""OXHistoryCombo.rc""                     // History combo resources\r\n"
+    "\r\n"
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+
+
+IDS_OX_SOUNDCSTMZDLGMOUSEENTER		"Mouse enter"
+IDS_OX_SOUNDCSTMZDLGMOUSELEAVE		"Mouse leave"
+IDS_OX_SOUNDCSTMZDLGLBDOWN 		"Left button down"
+IDS_OX_SOUNDCSTMZDLGLBUP 		"Left button up"
+IDS_OX_SOUNDCSTMZDLGLBDBL 		"Left button double click"
+IDS_OX_SOUNDCSTMZDLGRBDOWN 		"Right button down"
+IDS_OX_SOUNDCSTMZDLGRBUP 		"Right button up"
+IDS_OX_SOUNDCSTMZDLGRBDBL 		"Right button double click"
+IDS_OX_SOUNDCSTMZDLGMBDOWN 		"Middle button down"
+IDS_OX_SOUNDCSTMZDLGMBUP 		"Middle button up"
+IDS_OX_SOUNDCSTMZDLGMBDBL 		"Middle button double click"
+IDS_OX_SOUNDFILE			"Sound File"
+IDS_OX_SOUNDEVENT			"Event Info"
+IDS_OX_SOUNDLOOP			"Loop"
+IDS_OX_SOUND_EVENT			"Event"
+IDS_OX_SOUNDPLAYSOUND			"Play sound events"
+IDS_OX_SOUNDSTOPPLAYING			"Stop playing events"
+IDS_OX_SOUNDREADONLY			" (Read Only)"
+IDS_OX_SOUNDOPENCFILE			"Opened CFile object"
+IDS_OX_SOUNDRESOURCEID			"Resource: ID=%d"
+IDS_OX_SOUNDUNDEFINED			"Undefined"
+IDS_OX_SOUNDINFINITELY			"Infinitely"
+IDS_OX_SOUNDONETIME			"One time"
+IDS_OX_SOUNDTIMES			"%d time%s"	
+IDS_OX_SOUNDEXT				"s"
+IDS_OX_SOUNDWRONGFILE			"Specified %s sound file doesn't exist or is not valid WAV object"
+IDS_OX_SOUNDSPECEVENT			"Specified %s event wasn't defined"
+IDS_OX_SOUNDEVENTREGRED			"Specified %s event is already registered as start playing event"
+IDS_OX_SOUNDEVENTREGSTOP		"Specified %s event is already registered as stop playing event"
+IDS_OX_SOUND_FORCEPLAYASSIGNED		"<Force to start playing> has to be assigned TRUE or FALSE value"
+IDS_OX_SOUNDCURRENTLYEDITING		"You are currently editing a sound event.\n Would you like to save changes before exit?"
+
+ 
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_OX_TREELIST_OXSOUND            BITMAP  DISCARDABLE     "res\\treelist.bmp"
+IDB_OX_BITMAP_PLAY_OXSOUND         BITMAP  DISCARDABLE     "res\\sndplay.bmp"
+IDB_OX_BITMAP_STOP_OXSOUND         BITMAP  DISCARDABLE     "res\\sndstop.bmp"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "OXBitmapButton.rc"         // BitmapButton resources
+#include "OXHistoryCombo.rc"                     // History combo resources
+
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+#endif //_OXSoundCustomizeDlg_RC__

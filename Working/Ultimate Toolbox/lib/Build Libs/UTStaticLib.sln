@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UTStaticLib", "UTStaticLib.vcproj", "{3D7B4E25-D504-4D1A-BBCF-310FA382D57D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		DebugMFCShared = DebugMFCShared
+		DebugMFCStatic = DebugMFCStatic
+		ReleaseMFCShared = ReleaseMFCShared
+		ReleaseMFCStatic = ReleaseMFCStatic
+		UnicodeDebugMFCShared = UnicodeDebugMFCShared
+		UnicodeDebugMFCStatic = UnicodeDebugMFCStatic
+		UnicodeReleaseMFCShared = UnicodeReleaseMFCShared
+		UnicodeReleaseMFCStatic = UnicodeReleaseMFCStatic
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3D7B4E25-D504-4D1A-BBCF-310FA382D57D}.DebugMFCShared.ActiveCfg = DebugMFCShared|Win32
+		{3D7B4E25-D504-4D1A-BBCF-310FA382D57D}.DebugMFCShared.Build.0 = DebugMFCShared|Win32
+		{3D7B4E25-D504-4D1A-BBCF-310FA382D57D}.DebugMFCStatic.ActiveCfg = DebugMFCStatic|Win32
+		{3D7B4E25-D504-4D1A-BBCF-310FA382D57D}.DebugMFCStatic.Build.0 = DebugMFCStatic|Win32
+		{3D7B4E25-D504-4D1A-BBCF-310FA382D57D}.ReleaseMFCShared.ActiveCfg = ReleaseMFCShared|Win32
+		{3D7B4E25-D504-4D1A-BBCF-310FA382D57D}.ReleaseMFCShared.Build.0 = ReleaseMFCShared|Win32
+		{3D7B4E25-D504-4D1A-BBCF-310FA382D57D}.ReleaseMFCStatic.ActiveCfg = ReleaseMFCStatic|Win32
+		{3D7B4E25-D504-4D1A-BBCF-310FA382D57D}.ReleaseMFCStatic.Build.0 = ReleaseMFCStatic|Win32
+		{3D7B4E25-D504-4D1A-BBCF-310FA382D57D}.UnicodeDebugMFCShared.ActiveCfg = UnicodeDebugMFCShared|Win32
+		{3D7B4E25-D504-4D1A-BBCF-310FA382D57D}.UnicodeDebugMFCShared.Build.0 = UnicodeDebugMFCShared|Win32
+		{3D7B4E25-D504-4D1A-BBCF-310FA382D57D}.UnicodeDebugMFCStatic.ActiveCfg = UnicodeDebugMFCStatic|Win32
+		{3D7B4E25-D504-4D1A-BBCF-310FA382D57D}.UnicodeDebugMFCStatic.Build.0 = UnicodeDebugMFCStatic|Win32
+		{3D7B4E25-D504-4D1A-BBCF-310FA382D57D}.UnicodeReleaseMFCShared.ActiveCfg = UnicodeReleaseMFCShared|Win32
+		{3D7B4E25-D504-4D1A-BBCF-310FA382D57D}.UnicodeReleaseMFCShared.Build.0 = UnicodeReleaseMFCShared|Win32
+		{3D7B4E25-D504-4D1A-BBCF-310FA382D57D}.UnicodeReleaseMFCStatic.ActiveCfg = UnicodeReleaseMFCStatic|Win32
+		{3D7B4E25-D504-4D1A-BBCF-310FA382D57D}.UnicodeReleaseMFCStatic.Build.0 = UnicodeReleaseMFCStatic|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,109 @@
+//Microsoft Developer Studio generated resource script.
+//
+// Version: 9.3
+
+#ifndef _OXROLLUP_RC__
+#define _OXROLLUP_RC__
+#include "OXMainRes.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_OX_TITLEBAR_BMP            BITMAP  DISCARDABLE     "RES\\OXRUpBar.bmp"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_OX_ROLLUP_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Dummy"
+    BEGIN
+        MENUITEM "",                            IDM_OX_RU_ABOUT
+        MENUITEM "",                            IDM_OX_RU_CLOSE
+        MENUITEM "",                            IDM_OX_RU_ROLLUP
+        MENUITEM "",                            IDM_OX_RU_ROLLDOWN
+        MENUITEM "",                            IDM_OX_RU_ARRANGE
+        MENUITEM "",                            IDM_OX_RU_ARRANGEALL
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_OX_RUM_ROLLUP       "Roll &Up"
+    IDS_OX_RUM_ROLLDOWN     "Roll &Down"
+    IDS_OX_RUM_ABOUT        "&About"
+    IDS_OX_RUM_CLOSE        "&Close"
+    IDS_OX_RUM_ARRANGE      "A&rrange"
+    IDS_OX_RUM_ARRANGEALL   "Arrange a&ll"
+    IDS_OX_RU_ABOUT         "Rollup Dialogs © 1998-2005 The Code Project"
+    IDS_OX_ROLLUPCAPTION    "No Caption!"
+    IDS_OX_ROLLUPBITMAP     "TITLEBAR_BMP"
+    IDS_OX_ROLLUPCOULDNTALLOCTIMER	"Could not alloc timer!"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
+#endif //_OXROLLUP_RC__

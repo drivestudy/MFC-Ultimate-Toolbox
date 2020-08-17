@@ -1,0 +1,203 @@
+﻿Build started 8/17/2020 2:39:40 PM.
+     1>Project "C:\Users\JonathanMoore\Documents\Visual Studio 2012\Projects\Ciriculum\MFC\Ultimate Toolbox\samples\advanced\VisualStudioLikeDemo\VisualStudioLikeDemo.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\include /I..\..\..\source\utsampleabout /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug/VisualStudioLikeDemo.pch" /Fo".\Debug/" /Fd".\Debug/vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\include /I..\..\..\source\utsampleabout /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug/VisualStudioLikeDemo.pch" /Fo".\Debug/" /Fd".\Debug/vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt 3DTabViewBar.cpp ChildFrm.cpp MainFrm.cpp ..\..\..\Source\OXToolTipCtrl.cpp TabViewBar.cpp VisualStudioLikeDemo.cpp VisualStudioLikeDemoDoc.cpp VisualStudioLikeDemoView.cpp ..\..\..\Source\COPYTREE.CPP ..\..\..\Source\DIR.CPP ..\..\..\Source\DSTRLIST.CPP ..\..\..\Source\FILE.CPP ..\..\..\source\UTSampleAbout\HtmlCtrl.cpp ..\..\..\source\MFCToolBar.cpp ..\..\..\Source\OX3DTabView.cpp ..\..\..\source\OXAdvancedAssert.cpp ..\..\..\source\OXAdvancedAssertMail.cpp ..\..\..\Source\OXBackgroundPainter.cpp ..\..\..\Source\OXBMPFilePickerCombo.cpp ..\..\..\Source\OXCaptionPainter.cpp ..\..\..\Source\OXColorPickerButton.cpp ..\..\..\Source\OXColorPickerCtrl.cpp ..\..\..\Source\OXCoolComboBox.cpp ..\..\..\source\OXCoolControlOrganizer.cpp ..\..\..\source\OXCoolCtrl.cpp ..\..\..\Source\OXCustomizeBackgroundPage.cpp ..\..\..\Source\OXCustomizeCaptionPage.cpp ..\..\..\source\OXCustomizeCoolControlsPage.cpp ..\..\..\source\OXCustomizeIntelliMousePage.cpp ..\..\..\Source\OXCustomizeSplashWindowPage.cpp ..\..\..\Source\OXCustomizeTrayIconPage.cpp ..\..\..\Source\Oxdib.cpp ..\..\..\source\OXDockTabCtrl.cpp ..\..\..\Source\OXDragDockContext.CPP ..\..\..\Source\OXEdit.cpp ..\..\..\Source\OXFontPickerButton.cpp ..\..\..\Source\OXFrameWndDock.CPP ..\..\..\Source\OXHistoryCtrl.cpp ..\..\..\Source\OXHookWnd.cpp ..\..\..\source\OXIntelliMouse.cpp ..\..\..\Source\OXIteratorRegistryItem.cpp ..\..\..\Source\OXMDIFloatWnd.cpp ..\..\..\source\OXMultiComboBox.cpp ..\..\..\Source\OXPopupBarCtrl.cpp ..\..\..\Source\OXPreviewDialog.cpp ..\..\..\Source\OXRectTracker.cpp ..\..\..\Source\OXRegistryItem.cpp ..\..\..\Source\OXScrollWnd.cpp ..\..\..\Source\OXSizeCtrlBar.CPP ..\..\..\Source\OXSizeDlgBar.cpp ..\..\..\Source\OXSizeDockBar.cpp ..\..\..\Source\OXSizeToolBar.cpp ..\..\..\source\OXSkinnedComboBox.cpp ..\..\..\source\OXSkinnedSpinCtrl.cpp ..\..\..\source\OXSkinnedTabCtrl.cpp ..\..\..\source\OXSkins.cpp ..\..\..\Source\OXSplashWnd.cpp ..\..\..\Source\OXSplashWndDIB.cpp ..\..\..\Source\OXSplitterRect.cpp ..\..\..\Source\OXSzMiniDockFrmWnd.cpp ..\..\..\Source\OXTabView.cpp ..\..\..\source\OXUxTheme.cpp ..\..\..\Source\Path.cpp ..\..\..\source\UTBStrOp.cpp ..\..\..\source\Xstatus4.cpp ..\..\..\Source\XSTRING.CPP ..\..\..\Source\OXBitmapButton.cpp ..\..\..\Source\OXBitmapMenu.cpp ..\..\..\Source\OXBitmapMenuOrganizer.cpp ..\..\..\Source\OXButtonAppearanceDlg.cpp ..\..\..\Source\OXChildFrameState.cpp ..\..\..\Source\OXCoolToolBar.cpp ..\..\..\Source\OXCustomizeCommandsPage.cpp ..\..\..\Source\OXCustomizeInstanceManagerPage.cpp ..\..\..\Source\OXCustomizeManager.cpp ..\..\..\Source\OXCustomizePage.cpp ..\..\..\Source\OXCustomizeShortkeysPage.cpp ..\..\..\Source\OXCustomizeTabbedMDIPage.cpp ..\..\..\Source\OXCustomizeToolbarsPage.cpp ..\..\..\Source\OXCustomizeWorkspaceStatePage.cpp ..\..\..\Source\OXDocTemplateSpy.cpp ..\..\..\Source\OXDragDropCommands.cpp ..\..\..\Source\OXHistoryCombo.cpp ..\..\..\Source\OXImageListBox.cpp ..\..\..\Source\OXInstanceManager.cpp ..\..\..\Source\OXLayoutManager.cpp ..\..\..\Source\OXListBoxEx.cpp ..\..\..\Source\OXMenuBar.cpp ..\..\..\Source\OXOptionTreeCtrl.cpp ..\..\..\Source\OXRegistryValFile.cpp ..\..\..\Source\OXSeparator.cpp ..\..\..\Source\OXShortcutBar.cpp ..\..\..\Source\OXShortkeysOrganizer.cpp ..\..\..\Source\OXSplitterColRowState.cpp ..\..\..\Source\OXStatic.cpp ..\..\..\Source\OXTabClientWnd.cpp ..\..\..\Source\OXTaskbarIcon.cpp ..\..\..\Source\OXWorkspaceState.cpp
+         OXWorkspaceState.cpp
+         OXTaskbarIcon.cpp
+         OXTabClientWnd.cpp
+         OXStatic.cpp
+         OXSplitterColRowState.cpp
+         OXShortkeysOrganizer.cpp
+         OXShortcutBar.cpp
+         OXSeparator.cpp
+         OXRegistryValFile.cpp
+         OXOptionTreeCtrl.cpp
+         OXMenuBar.cpp
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(137): warning C4005: 'AFX_IDW_MENUBAR' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxres.h(123) : see previous definition of 'AFX_IDW_MENUBAR'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(313): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(611): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\source\oxmenubar.cpp(267): warning C4018: '<' : signed/unsigned mismatch
+         OXListBoxEx.cpp
+         OXLayoutManager.cpp
+         OXInstanceManager.cpp
+         OXImageListBox.cpp
+         OXHistoryCombo.cpp
+         OXDragDropCommands.cpp
+         OXDocTemplateSpy.cpp
+         OXCustomizeWorkspaceStatePage.cpp
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(137): warning C4005: 'AFX_IDW_MENUBAR' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxres.h(123) : see previous definition of 'AFX_IDW_MENUBAR'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(313): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(611): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+         OXCustomizeToolbarsPage.cpp
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(137): warning C4005: 'AFX_IDW_MENUBAR' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxres.h(123) : see previous definition of 'AFX_IDW_MENUBAR'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(313): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(611): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+         Generating Code...
+         Compiling...
+         OXCustomizeTabbedMDIPage.cpp
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(137): warning C4005: 'AFX_IDW_MENUBAR' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxres.h(123) : see previous definition of 'AFX_IDW_MENUBAR'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(313): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(611): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+         OXCustomizeShortkeysPage.cpp
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(137): warning C4005: 'AFX_IDW_MENUBAR' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxres.h(123) : see previous definition of 'AFX_IDW_MENUBAR'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(313): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(611): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+         OXCustomizePage.cpp
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(137): warning C4005: 'AFX_IDW_MENUBAR' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxres.h(123) : see previous definition of 'AFX_IDW_MENUBAR'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(313): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(611): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+         OXCustomizeManager.cpp
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(137): warning C4005: 'AFX_IDW_MENUBAR' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxres.h(123) : see previous definition of 'AFX_IDW_MENUBAR'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(313): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(611): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+         OXCustomizeInstanceManagerPage.cpp
+         OXCustomizeCommandsPage.cpp
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(137): warning C4005: 'AFX_IDW_MENUBAR' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxres.h(123) : see previous definition of 'AFX_IDW_MENUBAR'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(313): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(611): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+         OXCoolToolBar.cpp
+         OXChildFrameState.cpp
+         OXButtonAppearanceDlg.cpp
+         OXBitmapMenuOrganizer.cpp
+         OXBitmapMenu.cpp
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(137): warning C4005: 'AFX_IDW_MENUBAR' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxres.h(123) : see previous definition of 'AFX_IDW_MENUBAR'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(313): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(611): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+         OXBitmapButton.cpp
+         XSTRING.CPP
+         Xstatus4.cpp
+         UTBStrOp.cpp
+         Path.cpp
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\source\path.cpp(590): warning C4244: '=' : conversion from 'DWORD' to 'BYTE', possible loss of data
+         OXUxTheme.cpp
+         OXTabView.cpp
+         OXSzMiniDockFrmWnd.cpp
+         OXSplitterRect.cpp
+         Generating Code...
+         Compiling...
+         OXSplashWndDIB.cpp
+         OXSplashWnd.cpp
+         OXSkins.cpp
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(137): warning C4005: 'AFX_IDW_MENUBAR' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxres.h(123) : see previous definition of 'AFX_IDW_MENUBAR'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(313): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(611): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+         OXSkinnedTabCtrl.cpp
+         OXSkinnedSpinCtrl.cpp
+         OXSkinnedComboBox.cpp
+         OXSizeToolBar.cpp
+         OXSizeDockBar.cpp
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(137): warning C4005: 'AFX_IDW_MENUBAR' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxres.h(123) : see previous definition of 'AFX_IDW_MENUBAR'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(313): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(611): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+         OXSizeDlgBar.cpp
+         OXSizeCtrlBar.CPP
+         OXScrollWnd.cpp
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\source\oxscrollwnd.cpp(2063): error C2039: 'bWin95' : is not a member of 'AUX_DATA'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\src\mfc\afximpl.h(55) : see declaration of 'AUX_DATA'
+         OXRegistryItem.cpp
+         OXRectTracker.cpp
+         OXPreviewDialog.cpp
+         OXPopupBarCtrl.cpp
+         OXMultiComboBox.cpp
+         OXMDIFloatWnd.cpp
+         OXIteratorRegistryItem.cpp
+         OXIntelliMouse.cpp
+         OXHookWnd.cpp
+         Generating Code...
+         Compiling...
+         OXHistoryCtrl.cpp
+         OXFrameWndDock.CPP
+         OXFontPickerButton.cpp
+         OXEdit.cpp
+         OXDragDockContext.CPP
+         OXDockTabCtrl.cpp
+         Oxdib.cpp
+         OXCustomizeTrayIconPage.cpp
+         OXCustomizeSplashWindowPage.cpp
+         OXCustomizeIntelliMousePage.cpp
+         OXCustomizeCoolControlsPage.cpp
+         OXCustomizeCaptionPage.cpp
+         OXCustomizeBackgroundPage.cpp
+         OXCoolCtrl.cpp
+         OXCoolControlOrganizer.cpp
+         OXCoolComboBox.cpp
+         OXColorPickerCtrl.cpp
+         OXColorPickerButton.cpp
+         OXCaptionPainter.cpp
+         OXBMPFilePickerCombo.cpp
+         Generating Code...
+         Compiling...
+         OXBackgroundPainter.cpp
+         OXAdvancedAssertMail.cpp
+         OXAdvancedAssert.cpp
+         OX3DTabView.cpp
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\source\ox3dtabview.cpp(390): error C2039: 'bWin95' : is not a member of 'AUX_DATA'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\src\mfc\afximpl.h(55) : see declaration of 'AUX_DATA'
+         MFCToolBar.cpp
+         HtmlCtrl.cpp
+         FILE.CPP
+         DSTRLIST.CPP
+         DIR.CPP
+         COPYTREE.CPP
+         VisualStudioLikeDemoView.cpp
+         VisualStudioLikeDemoDoc.cpp
+         VisualStudioLikeDemo.cpp
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(137): warning C4005: 'AFX_IDW_MENUBAR' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxres.h(123) : see previous definition of 'AFX_IDW_MENUBAR'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(313): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(611): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+         TabViewBar.cpp
+         OXToolTipCtrl.cpp
+         MainFrm.cpp
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(137): warning C4005: 'AFX_IDW_MENUBAR' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxres.h(123) : see previous definition of 'AFX_IDW_MENUBAR'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(313): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+     1>c:\users\jonathanmoore\documents\visual studio 2012\projects\ciriculum\mfc\ultimate toolbox\include\oxmenubar.h(611): error C2555: 'COXMenuBar::GetMenu': overriding virtual function return type differs and is not covariant from 'CWnd::GetMenu'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(2429) : see declaration of 'CWnd::GetMenu'
+         ChildFrm.cpp
+         3DTabViewBar.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\JonathanMoore\Documents\Visual Studio 2012\Projects\Ciriculum\MFC\Ultimate Toolbox\samples\advanced\VisualStudioLikeDemo\VisualStudioLikeDemo.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:41.90

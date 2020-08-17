@@ -1,0 +1,66 @@
+{\rtf1\ansi\ansicpg1252\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\froman\fprq2 Times New Roman;}{\f3\froman Times New Roman;}}
+{\colortbl\red0\green0\blue0;\red0\green0\blue255;\red255\green0\blue0;}
+\deflang1033\horzdoc{\*\fchars }{\*\lchars }\pard\plain\f2\fs40\cf1\b COXBackgroundPainter & COXBackgroundPainterOrganizer\plain\f2\fs40\b 
+\par \plain\f2\fs16\b Copyright \'a9 Dundas Software Ltd. 1997 - 1998, All Rights Reserved
+\par \plain\f2\fs20 
+\par COXBackgroundPainter class is designed to simplify the process of window background painting. It provides the functionality of painting the background of the window with specified image and/or color.
+\par For some reason background painting never been a trivial task. By default, painting happens when WM_ERASEBKGND message is sent to window. If you
+\par don't handle this message in any specific way then Windows use background brush associated with the corresponding window class in order to fill the background of the window. So in order to paint the window using different color you would have to handle WM_ERASEBKGND message or alternatively create new window class for your window with the brush of color you need. 
+\par Painting window's background with different color is neither difficult nor interesting task. But painting background of window with some image (like Windows Desktop) could add some value to your application.
+\par COXBackgroundPainter class provides that kind of functionality. And it takes only one function call in order to setup a window to be painted in new fancy way. 
+\par As a number of other Ultimate Toolbox classes COXBackgroundPainter class is derived from COXHookWnd class. This class allows to handle any messages before the hooked window does. Also internally COXBackgroundPainter uses COXDIB object in order to draw 256> color images. 
+\par In order to set any window background to be painted using COXBackgroundPainter object you have to hook such window using the following function: 
+\par \plain\f2\fs20\cf1\ul Attach()\plain\f2\fs20 
+\par In the function you specify the pointer to the window to be hooked, info about the image to be used while painting the background (you can specify COXDIB object, resource or file name), type of image drawing (Tile, Stretch, Center, ...), background color to be used to fill the window background that is not covered by image (refer to the documentation on this function for details), and pointer to the window which top/left point of its paintable rectangle will be used as origin point for painting routines (this is very important if you need to align the background among different child windows of the same parent window). 
+\par It's highly probable that Attach() function will be the only one that you will use in your applications but we defined a set of additional functions that allows you to control all aspects of the class functionality. 
+\par Use \plain\f2\fs20\cf1\ul Detach()\plain\f2\fs20  function in order to unhook any attached window. In order to change window background painting properties at run-time without detaching and attaching it use the following set of functions: 
+\par \plain\f2\fs20\cf1\ul SetWallpaper()
+\par SetPaintType()
+\par SetBkColor() 
+\par SetOriginWnd()
+\par \plain\f2\fs20 
+\par To retrieve background painting properties call: 
+\par \plain\f2\fs20\cf1\ul GetWallpaperImage()
+\par GetPaintType()
+\par GetBkColor()
+\par GetOriginWnd()
+\par \plain\f2\fs20 
+\par As you can see it's really easy to use this class, but unfortunately every story has two sides. We mentioned above about the standard way Windows paints the background of any window. It is TRUE for any window unless specific window handles the process of its drawing and paint its background in different way (e.g. in WM_PAINT handler). Almost all \~ standard controls paint their background and almost all of them do this differently. E.g. some of the controls like tree control, list control or toolbar support powerful NM_CUSTOMDRAW notification. Others, like static or edit controls should handle WM_CTLCOLOR message in order to paint the background. And also we shouldn't forget about ownerdraw controls too! 
+\par The question is how to use COXBackgroundPainter class in such cases. There is no easy answer that will work for any control but generally you can use the following approach:
+\par 1) Try to hook the control using Attach() function and test if\~ it paints the background correctly. If everything is alright then you are lucky and you are using the control that was designed consistently with the Windows treat background painting. 
+\par 2) Otherwise you have to provide the background painting for such control explicitly at some point depending on the functionality of the control (refer to the documentation on the corresponding control to make a decision where to put background painting code). You still\~ can use COXBackgroundPainter class in this case but at the appropriate moment you have to explicitly call the following function in order to paint the background:
+\par \plain\f2\fs20\cf1\ul DrawWallpaper() \plain\f2\fs20 
+\par You only have to specify the device context to paint the background in and this function will take care of everything else itself.
+\par In most applicable cases (like painting the background of dialog, MDIClient or View windows) COXBackgroundPainter class will work without any additional 
+\par efforts from your side. But you still have to have one COXBackgroundPainter object for every window that is going to be hooked. This could be a little bit inconvenient, especially if you are going to provide background painting support for a number of windows within the same framework.
+\par In order to simplify things we designed COXBackgroundPainterOrganizer class. COXBackgroundPainterOrganizer provides very similar to COXBackgroundPainter set of functions. E.g. the definition of Attach() function is completely the same. The only difference is that when you call this function for new window new COXBackgroundPainter object will be instantiated and its Attach() function will be called. At any moment you can define whether given window is attached to a COXBackgroundPainter object calling function: 
+\par \plain\f2\fs20\cf1\ul IsAttached() \plain\f2\fs20 
+\par You can retrieve the pointer to the COXBackgroundPainter object that corresponds to the specified window using function: 
+\par \plain\f2\fs20\cf1\ul GetPainter();\plain\f2\fs20 
+\par Refer to the \plain\f2\fs20\cf1\ul COXBackgroundPainterOrganizer class reference documentation\plain\f2\fs20  for details on the rest of functions.
+\par As long as COXBackgroundPainterOrganizer class provides almost the same functionality as COXBackgroundPainter does and it really simplify things when you hook multiple windows within the same parent window, we suggest that COXBackgroundPainterOrganizer should be used preferably. 
+\par \~
+\par One of an interesting aplication of COXBackgroundPainterOrganizer class is the following: you want to display 256> color image in the About Box of your company logo. If you use Picture (actually, CStatic control) object to do that then you don't have palette support and the size of control will depend on the size of image. Instead you can do the following: 
+\par 1) Create the window that will be used to display picture
+\par 2) Hook this window using COXBackgroundPainterOrganizer object and specify the image that will be displayed
+\par Pretty easy.
+\par 
+\par 
+\par \plain\f2\fs20\cf2\b\i Special note\plain\f2\fs20 :\~\~\~ \plain\f2\fs20\b How to use COXBackgroundPainterOrganizer to display 256> color bitmaps when 256 color video mode is set.\plain\f2\fs20 
+\par 
+\par In order to do that we have to release the background image palette when WM_PALETTECHANGED and WM_QUERYNEWPALETTE messages are sent to attached window. It's implemented automatically for you in COXBackgroundPainter class but there is small problem. WM_PALETTECHANGED and WM_QUERYNEWPALETTE messages are sent only to top-level and overlapped windows. So background images will be correctly displayed for dialog or mainframe window, but for non-overlapped child windows you have to provide some way of notifying them that they have to update system palette. We suggest the following solution for your problem. In the class that is guaranteed to get WM_PALETTECHANGED and WM_QUERYNEWPALETTE messages (e.g. it could be your main frame window or dialog window) you include handlers for them. In the handlers you forward these messages to the windows that are hooked using COXBackgroundPainterOrganizer or alternatively you can send these messages to all descendant windows using CWnd::SendMessageToDescendants() function.
+\par 
+\par 
+\par All above mentioned techniques are implemented in the \plain\f2\fs20\b BackgroundPainter\plain\f2\fs20  sample that can be found in \plain\f2\fs20\cf2 .\\samples\\gui\\BackgroundPainter\plain\f2\fs20  subdirectory
+\par of your Ultimate Toolbox directory.
+\par \~
+\par \~
+\par Source code files: 
+\par "\plain\f2\fs20\b\i OXBackgroundPainter.cpp\plain\f2\fs20 " 
+\par The following file implements hooking functionality: 
+\par "\plain\f2\fs20\b\i OXHookWnd.cpp\plain\f2\fs20 " 
+\par The following file implements support for DIB files: 
+\par "\plain\f2\fs20\b\i OXDib.cpp"\plain\f2\fs20 
+\par 
+\par }
+ 

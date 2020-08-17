@@ -1,0 +1,113 @@
+//Microsoft Developer Studio generated resource script.
+//
+// Version: 9.3
+
+#ifndef _OXHISTORYCOMBO_RC__
+#define _OXHISTORYCOMBO_RC__
+
+#include "OXMainRes.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_OX_HISTORY_COMBO_TOOLS TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_OX_HISTORY_COMBO_NEW
+    BUTTON      ID_OX_HISTORY_COMBO_DELETE
+    BUTTON      ID_OX_HISTORY_COMBO_BROWSE
+    BUTTON      ID_OX_HISTORY_COMBO_RESERVED_1
+    BUTTON      ID_OX_HISTORY_COMBO_RESERVED_2
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_OX_HISTORY_COMBO_TOOLS BITMAP  MOVEABLE PURE   "res\\OXHistoryComboImg.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OX_HISTORY_COMBO_NEW "Add a new item\nAdd"
+    ID_OX_HISTORY_COMBO_DELETE "Delete this item\nDelete (Delete)"
+    ID_OX_HISTORY_COMBO_BROWSE "Browse for a file\nBrowse"
+    ID_OX_HISTORY_COMBO_RESERVED_1 "Reserved 1\nReserved"
+    ID_OX_HISTORY_COMBO_RESERVED_2 "Reserved 2\nReserved"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Dutch (Belgium) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NLB)
+#ifdef _WIN32
+LANGUAGE LANG_DUTCH, SUBLANG_DUTCH_BELGIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#endif    // Dutch (Belgium) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+#endif //_OXHISTORYCOMBO_RC__

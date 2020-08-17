@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UTStaticLib", "UTStaticLib2005.vcproj", "{0946B82D-46C5-4EEE-8FC9-884CBDBC4EAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DebugMFCShared|Win32 = DebugMFCShared|Win32
+		DebugMFCStatic|Win32 = DebugMFCStatic|Win32
+		ReleaseMFCShared|Win32 = ReleaseMFCShared|Win32
+		ReleaseMFCStatic|Win32 = ReleaseMFCStatic|Win32
+		UnicodeDebugMFCShared|Win32 = UnicodeDebugMFCShared|Win32
+		UnicodeDebugMFCStatic|Win32 = UnicodeDebugMFCStatic|Win32
+		UnicodeReleaseMFCShared|Win32 = UnicodeReleaseMFCShared|Win32
+		UnicodeReleaseMFCStatic|Win32 = UnicodeReleaseMFCStatic|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0946B82D-46C5-4EEE-8FC9-884CBDBC4EAB}.DebugMFCShared|Win32.ActiveCfg = DebugMFCShared|Win32
+		{0946B82D-46C5-4EEE-8FC9-884CBDBC4EAB}.DebugMFCShared|Win32.Build.0 = DebugMFCShared|Win32
+		{0946B82D-46C5-4EEE-8FC9-884CBDBC4EAB}.DebugMFCStatic|Win32.ActiveCfg = DebugMFCStatic|Win32
+		{0946B82D-46C5-4EEE-8FC9-884CBDBC4EAB}.DebugMFCStatic|Win32.Build.0 = DebugMFCStatic|Win32
+		{0946B82D-46C5-4EEE-8FC9-884CBDBC4EAB}.ReleaseMFCShared|Win32.ActiveCfg = ReleaseMFCShared|Win32
+		{0946B82D-46C5-4EEE-8FC9-884CBDBC4EAB}.ReleaseMFCShared|Win32.Build.0 = ReleaseMFCShared|Win32
+		{0946B82D-46C5-4EEE-8FC9-884CBDBC4EAB}.ReleaseMFCStatic|Win32.ActiveCfg = ReleaseMFCStatic|Win32
+		{0946B82D-46C5-4EEE-8FC9-884CBDBC4EAB}.ReleaseMFCStatic|Win32.Build.0 = ReleaseMFCStatic|Win32
+		{0946B82D-46C5-4EEE-8FC9-884CBDBC4EAB}.UnicodeDebugMFCShared|Win32.ActiveCfg = UnicodeDebugMFCShared|Win32
+		{0946B82D-46C5-4EEE-8FC9-884CBDBC4EAB}.UnicodeDebugMFCShared|Win32.Build.0 = UnicodeDebugMFCShared|Win32
+		{0946B82D-46C5-4EEE-8FC9-884CBDBC4EAB}.UnicodeDebugMFCStatic|Win32.ActiveCfg = UnicodeDebugMFCStatic|Win32
+		{0946B82D-46C5-4EEE-8FC9-884CBDBC4EAB}.UnicodeDebugMFCStatic|Win32.Build.0 = UnicodeDebugMFCStatic|Win32
+		{0946B82D-46C5-4EEE-8FC9-884CBDBC4EAB}.UnicodeReleaseMFCShared|Win32.ActiveCfg = UnicodeReleaseMFCShared|Win32
+		{0946B82D-46C5-4EEE-8FC9-884CBDBC4EAB}.UnicodeReleaseMFCShared|Win32.Build.0 = UnicodeReleaseMFCShared|Win32
+		{0946B82D-46C5-4EEE-8FC9-884CBDBC4EAB}.UnicodeReleaseMFCStatic|Win32.ActiveCfg = UnicodeReleaseMFCStatic|Win32
+		{0946B82D-46C5-4EEE-8FC9-884CBDBC4EAB}.UnicodeReleaseMFCStatic|Win32.Build.0 = UnicodeReleaseMFCStatic|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

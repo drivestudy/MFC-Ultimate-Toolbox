@@ -1,0 +1,2950 @@
+# Microsoft Developer Studio Generated Dependency File, included by UT.mak
+
+..\..\source\CONVFILE.CPP : \
+	"..\..\include\convfile.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\watchbuf.h"\
+	
+
+..\..\source\COPYTREE.CPP : \
+	"..\..\include\copytree.h"\
+	"..\..\include\cpystdlg.h"\
+	"..\..\include\dir.h"\
+	"..\..\include\dstrlist.h"\
+	"..\..\include\file.h"\
+	"..\..\include\mdeldlg.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\path.h"\
+	"..\..\include\pathiter.h"\
+	"..\..\include\returns.h"\
+	
+
+..\..\source\CPYSTDLG.CPP : \
+	"..\..\include\cpystdlg.h"\
+	"..\..\include\mdeldlg.h"\
+	"..\..\include\oxdllext.h"\
+	
+
+..\..\source\DIR.CPP : \
+	"..\..\include\copytree.h"\
+	"..\..\include\cpystdlg.h"\
+	"..\..\include\dir.h"\
+	"..\..\include\dstrlist.h"\
+	"..\..\include\file.h"\
+	"..\..\include\filelmt.h"\
+	"..\..\include\mdeldlg.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\path.h"\
+	"..\..\include\pathiter.h"\
+	"..\..\include\returns.h"\
+	
+
+..\..\source\DIRLIST.CPP : \
+	"..\..\include\dir.h"\
+	"..\..\include\dirlist.h"\
+	"..\..\include\file.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\path.h"\
+	"..\..\include\pathiter.h"\
+	
+
+..\..\source\DSTRLIST.CPP : \
+	"..\..\include\dstrlist.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\returns.h"\
+	
+
+..\..\source\EVNTLOG.CPP : \
+	"..\..\include\evntlog.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxiteratorregistryitem.h"\
+	"..\..\include\oxregistryitem.h"\
+	"..\..\include\oxregistryitem.inl"\
+	
+
+..\..\source\FILE.CPP : \
+	"..\..\include\file.h"\
+	"..\..\include\filelmt.h"\
+	"..\..\include\oxdllext.h"\
+	
+
+..\..\source\FILELIST.CPP : \
+	"..\..\include\dir.h"\
+	"..\..\include\file.h"\
+	"..\..\include\filelist.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\path.h"\
+	"..\..\include\pathiter.h"\
+	
+
+..\..\source\MDELDLG.CPP : \
+	"..\..\include\mdeldlg.h"\
+	"..\..\include\oxdllext.h"\
+	
+
+..\..\source\MFCToolBar.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxdllext.h"\
+	
+
+..\..\source\OX3DTabView.cpp : \
+	"..\..\include\ox3dtabview.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxskinnedcombobox.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxskinnedwnd.h"\
+	"..\..\include\oxskins.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxuxtheme.h"\
+	"..\..\include\stdafx.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXActiveDesktop.cpp : \
+	"..\..\include\oxactivedesktop.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\stdafx.h"\
+	
+
+..\..\source\OXAdvancedAssert.cpp : \
+	"..\..\include\oxadvancedassertmail.h"\
+	"..\..\include\oxdllext.h"\
+	
+
+..\..\source\OXAdvancedAssertMail.cpp : \
+	"..\..\include\oxadvancedassertmail.h"\
+	"..\..\include\oxdllext.h"\
+	
+
+..\..\source\OXAppBar.cpp : \
+	"..\..\include\oxappbar.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxregistryvalfile.h"\
+	
+
+..\..\source\OXAutoComplete.cpp : \
+	"..\..\include\oxautocomplete.h"\
+	"..\..\include\oxautolistbox.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxregistryvalfile.h"\
+	
+
+..\..\source\OXAutoListBox.cpp : \
+	"..\..\include\oxautocomplete.h"\
+	"..\..\include\oxautolistbox.h"\
+	"..\..\include\oxdllext.h"\
+	
+
+..\..\source\OXBackgroundPainter.cpp : \
+	"..\..\include\oxbackgroundpainter.h"\
+	"..\..\include\oxbmpfle.h"\
+	"..\..\include\oxdib.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxgphfle.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oxjpgcod.h"\
+	"..\..\include\oxjpgcom.h"\
+	"..\..\include\oxjpgdom.h"\
+	"..\..\include\oxjpgexp.h"\
+	"..\..\include\oxjpgfle.h"\
+	"..\..\include\oxmainres.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	"..\jpeg\jpegsrc6\jversion.h"\
+	
+
+..\..\source\OXBITBUF.CPP : \
+	"..\..\include\oxbitbuf.h"\
+	"..\..\include\oxdllext.h"\
+	
+
+..\..\source\OXBitmapButton.cpp : \
+	"..\..\include\oxbitmapbutton.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	
+
+..\..\source\OXBitmapMenu.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\ox3dtabview.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxbitmapmenuorganizer.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxdragdropcommands.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxskinnedcombobox.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxskinnedwnd.h"\
+	"..\..\include\oxskins.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxuxtheme.h"\
+	"..\..\include\stdafx.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXBitmapMenuOrganizer.cpp : \
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxbitmapmenuorganizer.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\oleimpl2.h"\
+	
+
+..\..\source\OXBMPFilePickerCombo.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxbmpfilepickercombo.h"\
+	"..\..\include\oxbmpfle.h"\
+	"..\..\include\oxdib.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxgphfle.h"\
+	"..\..\include\oxhistorycombo.h"\
+	"..\..\include\oximagelistbox.h"\
+	"..\..\include\oxjpgcod.h"\
+	"..\..\include\oxjpgcom.h"\
+	"..\..\include\oxjpgdom.h"\
+	"..\..\include\oxjpgexp.h"\
+	"..\..\include\oxjpgfle.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmetafile.h"\
+	"..\..\include\oxpreviewdialog.h"\
+	"..\..\include\oxsound.h"\
+	"..\..\include\oxsoundwnd.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	"..\jpeg\jpegsrc6\jversion.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXBMPFle.cpp : \
+	"..\..\include\oxbmpfle.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxgphfle.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	
+
+..\..\source\OXBrowseColorEdit.cpp : \
+	"..\..\include\oxbrowsecoloredit.h"\
+	"..\..\include\oxcolorpickerctrl.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdropedit.h"\
+	"..\..\include\oxedit.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxpopupbarctrl.h"\
+	
+
+..\..\source\OXBrowseDirEdit.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxbrowsediredit.h"\
+	"..\..\include\oxdirdlg.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdropedit.h"\
+	"..\..\include\oxedit.h"\
+	"..\..\include\oxfolderpickerdlg.h"\
+	"..\..\include\oxhistorycombo.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxshellfoldertree.h"\
+	"..\..\include\oxshellnamespacenavigator.h"\
+	
+
+..\..\source\OXBrowseDirEditList.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxbrowsediredit.h"\
+	"..\..\include\oxbrowsedireditlist.h"\
+	"..\..\include\oxdirdlg.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdropedit.h"\
+	"..\..\include\oxedit.h"\
+	"..\..\include\oxeditlist.h"\
+	"..\..\include\oxfolderpickerdlg.h"\
+	"..\..\include\oxgridedit.h"\
+	"..\..\include\oxgridhdr.h"\
+	"..\..\include\oxgridlist.h"\
+	"..\..\include\oxhistorycombo.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxshellfoldertree.h"\
+	"..\..\include\oxshellnamespacenavigator.h"\
+	"..\..\include\oxuxtheme.h"\
+	
+
+..\..\source\OXButtonAppearanceDlg.cpp : \
+	"..\..\include\oxbuttonappearancedlg.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oximagelistbox.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxseparator.h"\
+	
+
+..\..\source\OXCalculatorCtrl.cpp : \
+	"..\..\include\oxbitmapbutton.h"\
+	"..\..\include\oxcalculatorctrl.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxstatic.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	
+
+..\..\source\OXCalculatorEdit.cpp : \
+	"..\..\include\oxbitmapbutton.h"\
+	"..\..\include\oxcalculatorctrl.h"\
+	"..\..\include\oxcalculatoredit.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdropedit.h"\
+	"..\..\include\oxedit.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxstatic.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	
+
+..\..\source\OXCalendar.cpp : \
+	"..\..\include\oxcalendar.h"\
+	"..\..\include\oxcalendarpopup.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	
+
+..\..\source\OXCalendarEdit.cpp : \
+	"..\..\include\oxcalendaredit.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdropedit.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmaskededit.h"\
+	
+
+..\..\source\OXCalendarPopup.cpp : \
+	"..\..\include\oxcalendar.h"\
+	"..\..\include\oxcalendarpopup.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	
+
+..\..\source\OXCaptionPainter.cpp : \
+	"..\..\include\oxcaptionpainter.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxregistryvalfile.h"\
+	
+
+..\..\source\OXChildFrameState.cpp : \
+	"..\..\include\oxchildframestate.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdoctemplatespy.h"\
+	"..\..\include\oxsplittercolrowstate.h"\
+	
+
+..\..\source\OXClipPocket.cpp : \
+	"..\..\include\oxbmpfle.h"\
+	"..\..\include\oxclippocket.h"\
+	"..\..\include\oxdib.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxgphfle.h"\
+	"..\..\include\oxjpgcod.h"\
+	"..\..\include\oxjpgcom.h"\
+	"..\..\include\oxjpgdom.h"\
+	"..\..\include\oxjpgexp.h"\
+	"..\..\include\oxjpgfle.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmulticlipboarddlg.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	"..\jpeg\jpegsrc6\jversion.h"\
+	
+
+..\..\source\OXCMPFL.CPP : \
+	"..\..\include\oxcmpfl.h"\
+	"..\..\include\oxcompr.h"\
+	"..\..\include\oxdllext.h"\
+	
+
+..\..\source\OXColorPickerButton.cpp : \
+	"..\..\include\oxbitmapbutton.h"\
+	"..\..\include\oxcolorpickerbutton.h"\
+	"..\..\include\oxcolorpickerctrl.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxpopupbarctrl.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	
+
+..\..\source\OXColorPickerCtrl.cpp : \
+	"..\..\include\oxcolorpickerctrl.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxpopupbarctrl.h"\
+	
+
+..\..\source\OXComboPickerCtrl.cpp : \
+	"..\..\include\oxcombopickerctrl.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	
+
+..\..\source\OXCOMPR.CPP : \
+	"..\..\include\oxbitbuf.h"\
+	"..\..\include\oxcompr.h"\
+	"..\..\include\oxdllext.h"\
+	
+
+..\..\source\OXContextHelpDialog.cpp : \
+	"..\..\include\oxcontexthelpdialog.h"\
+	"..\..\include\oxdllext.h"\
+	
+
+..\..\source\OXContextHelpPropertyPage.cpp : \
+	"..\..\include\oxcontexthelppropertypage.h"\
+	"..\..\include\oxdllext.h"\
+	
+
+..\..\source\OXContextHelpPropertySheet.cpp : \
+	"..\..\include\oxcontexthelppropertysheet.h"\
+	"..\..\include\oxdllext.h"\
+	
+
+..\..\source\OXCoolBar.cpp : \
+	"..\..\include\oxcoolbar.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	
+
+..\..\source\OXCoolComboBox.cpp : \
+	"..\..\include\oxcoolcombobox.h"\
+	"..\..\include\oxcoolctrl.h"\
+	"..\..\include\oxdllext.h"\
+	
+
+..\..\source\OXCoolControlOrganizer.cpp : \
+	"..\..\include\oxcoolcombobox.h"\
+	"..\..\include\oxcoolcontrolorganizer.h"\
+	"..\..\include\oxcoolctrl.h"\
+	"..\..\include\oxdllext.h"\
+	
+
+..\..\source\OXCoolCtrl.cpp : \
+	"..\..\include\oxcoolctrl.h"\
+	"..\..\include\oxdllext.h"\
+	
+
+..\..\source\OXCoolToolBar.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\ox3dtabview.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxbitmapmenuorganizer.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxdragdropcommands.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxskinnedcombobox.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxskinnedwnd.h"\
+	"..\..\include\oxskins.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxuxtheme.h"\
+	"..\..\include\stdafx.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXCRCChk.CPP : \
+	"..\..\include\oxcrcchk.h"\
+	"..\..\include\oxcrcchk.inl"\
+	"..\..\include\oxdllext.h"\
+	
+
+..\..\source\OXCsvFile.cpp : \
+	"..\..\include\oxcsvfile.h"\
+	"..\..\include\oxdllext.h"\
+	
+
+..\..\source\OXCustomizeBackgroundPage.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxbackgroundpainter.h"\
+	"..\..\include\oxbitmapbutton.h"\
+	"..\..\include\oxbmpfilepickercombo.h"\
+	"..\..\include\oxbmpfle.h"\
+	"..\..\include\oxcolorpickerbutton.h"\
+	"..\..\include\oxcolorpickerctrl.h"\
+	"..\..\include\oxcustomizebackgroundpage.h"\
+	"..\..\include\oxcustomizepage.h"\
+	"..\..\include\oxdib.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxgphfle.h"\
+	"..\..\include\oxhistorycombo.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oximagelistbox.h"\
+	"..\..\include\oxjpgcod.h"\
+	"..\..\include\oxjpgcom.h"\
+	"..\..\include\oxjpgdom.h"\
+	"..\..\include\oxjpgexp.h"\
+	"..\..\include\oxjpgfle.h"\
+	"..\..\include\oxlayoutmanager.h"\
+	"..\..\include\oxlayoutmanager.inl"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmetafile.h"\
+	"..\..\include\oxpopupbarctrl.h"\
+	"..\..\include\oxpreviewdialog.h"\
+	"..\..\include\oxseparator.h"\
+	"..\..\include\oxsound.h"\
+	"..\..\include\oxsoundwnd.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	"..\jpeg\jpegsrc6\jversion.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXCustomizeCaptionPage.cpp : \
+	"..\..\include\oxbitmapbutton.h"\
+	"..\..\include\oxcaptionpainter.h"\
+	"..\..\include\oxcolorpickerbutton.h"\
+	"..\..\include\oxcolorpickerctrl.h"\
+	"..\..\include\oxcustomizecaptionpage.h"\
+	"..\..\include\oxcustomizepage.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxfontpickerbutton.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oxlayoutmanager.h"\
+	"..\..\include\oxlayoutmanager.inl"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxpopupbarctrl.h"\
+	"..\..\include\oxseparator.h"\
+	"..\..\include\oxstatic.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	
+
+..\..\source\OXCustomizeCommandsPage.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxbackgroundpainter.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxbitmapbutton.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxbitmapmenuorganizer.h"\
+	"..\..\include\oxbmpfilepickercombo.h"\
+	"..\..\include\oxbmpfle.h"\
+	"..\..\include\oxbuttonappearancedlg.h"\
+	"..\..\include\oxcaptionpainter.h"\
+	"..\..\include\oxchildframestate.h"\
+	"..\..\include\oxcolorpickerbutton.h"\
+	"..\..\include\oxcolorpickerctrl.h"\
+	"..\..\include\oxcoolcombobox.h"\
+	"..\..\include\oxcoolcontrolorganizer.h"\
+	"..\..\include\oxcoolctrl.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxcustomizebackgroundpage.h"\
+	"..\..\include\oxcustomizecaptionpage.h"\
+	"..\..\include\oxcustomizecommandspage.h"\
+	"..\..\include\oxcustomizecoolcontrolspage.h"\
+	"..\..\include\oxcustomizeinstancemanagerpage.h"\
+	"..\..\include\oxcustomizeintellimousepage.h"\
+	"..\..\include\oxcustomizemanager.h"\
+	"..\..\include\oxcustomizepage.h"\
+	"..\..\include\oxcustomizeshortkeyspage.h"\
+	"..\..\include\oxcustomizesplashwindowpage.h"\
+	"..\..\include\oxcustomizetabbedmdipage.h"\
+	"..\..\include\oxcustomizetoolbarspage.h"\
+	"..\..\include\oxcustomizetrayiconpage.h"\
+	"..\..\include\oxcustomizeworkspacestatepage.h"\
+	"..\..\include\oxdib.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdragdropcommands.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxfontpickerbutton.h"\
+	"..\..\include\oxgphfle.h"\
+	"..\..\include\oxhistorycombo.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oximagelistbox.h"\
+	"..\..\include\oxinstancemanager.h"\
+	"..\..\include\oxintellimouse.h"\
+	"..\..\include\oxjpgcod.h"\
+	"..\..\include\oxjpgcom.h"\
+	"..\..\include\oxjpgdom.h"\
+	"..\..\include\oxjpgexp.h"\
+	"..\..\include\oxjpgfle.h"\
+	"..\..\include\oxlayoutmanager.h"\
+	"..\..\include\oxlayoutmanager.inl"\
+	"..\..\include\oxlistboxex.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmenubar.h"\
+	"..\..\include\oxmetafile.h"\
+	"..\..\include\oxmulticombobox.h"\
+	"..\..\include\oxmulticombobox.inl"\
+	"..\..\include\oxoptiontreectrl.h"\
+	"..\..\include\oxpopupbarctrl.h"\
+	"..\..\include\oxpreviewdialog.h"\
+	"..\..\include\oxseparator.h"\
+	"..\..\include\oxshortcutbar.h"\
+	"..\..\include\oxshortkeysorganizer.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxsound.h"\
+	"..\..\include\oxsoundwnd.h"\
+	"..\..\include\oxsplashwnd.h"\
+	"..\..\include\oxsplashwnd.inl"\
+	"..\..\include\oxsplashwnddib.h"\
+	"..\..\include\oxstatic.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtaskbaricon.h"\
+	"..\..\include\oxtaskbaricon.inl"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxworkspacestate.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	"..\jpeg\jpegsrc6\jversion.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\oleimpl2.h"\
+	
+
+..\..\source\OXCustomizeCoolControlsPage.cpp : \
+	"..\..\include\oxcoolcombobox.h"\
+	"..\..\include\oxcoolcontrolorganizer.h"\
+	"..\..\include\oxcoolctrl.h"\
+	"..\..\include\oxcustomizecoolcontrolspage.h"\
+	"..\..\include\oxcustomizepage.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxlayoutmanager.h"\
+	"..\..\include\oxlayoutmanager.inl"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxoptiontreectrl.h"\
+	
+
+..\..\source\OXCustomizeInstanceManagerPage.cpp : \
+	"..\..\include\oxcustomizeinstancemanagerpage.h"\
+	"..\..\include\oxcustomizepage.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxinstancemanager.h"\
+	"..\..\include\oxlayoutmanager.h"\
+	"..\..\include\oxlayoutmanager.inl"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxseparator.h"\
+	"..\..\include\oxstatic.h"\
+	
+
+..\..\source\OXCustomizeIntelliMousePage.cpp : \
+	"..\..\include\oxcustomizeintellimousepage.h"\
+	"..\..\include\oxcustomizepage.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oxintellimouse.h"\
+	"..\..\include\oxlayoutmanager.h"\
+	"..\..\include\oxlayoutmanager.inl"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmulticombobox.h"\
+	"..\..\include\oxmulticombobox.inl"\
+	"..\..\include\oxseparator.h"\
+	"..\..\include\oxsplashwnd.h"\
+	"..\..\include\oxsplashwnd.inl"\
+	"..\..\include\oxsplashwnddib.h"\
+	
+
+..\..\source\OXCustomizeManager.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxbackgroundpainter.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxbitmapbutton.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxbitmapmenuorganizer.h"\
+	"..\..\include\oxbmpfilepickercombo.h"\
+	"..\..\include\oxbmpfle.h"\
+	"..\..\include\oxcaptionpainter.h"\
+	"..\..\include\oxchildframestate.h"\
+	"..\..\include\oxcolorpickerbutton.h"\
+	"..\..\include\oxcolorpickerctrl.h"\
+	"..\..\include\oxcoolcombobox.h"\
+	"..\..\include\oxcoolcontrolorganizer.h"\
+	"..\..\include\oxcoolctrl.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxcustomizebackgroundpage.h"\
+	"..\..\include\oxcustomizecaptionpage.h"\
+	"..\..\include\oxcustomizecommandspage.h"\
+	"..\..\include\oxcustomizecoolcontrolspage.h"\
+	"..\..\include\oxcustomizeinstancemanagerpage.h"\
+	"..\..\include\oxcustomizeintellimousepage.h"\
+	"..\..\include\oxcustomizemanager.h"\
+	"..\..\include\oxcustomizepage.h"\
+	"..\..\include\oxcustomizeshortkeyspage.h"\
+	"..\..\include\oxcustomizesplashwindowpage.h"\
+	"..\..\include\oxcustomizetabbedmdipage.h"\
+	"..\..\include\oxcustomizetoolbarspage.h"\
+	"..\..\include\oxcustomizetrayiconpage.h"\
+	"..\..\include\oxcustomizeworkspacestatepage.h"\
+	"..\..\include\oxdib.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxfontpickerbutton.h"\
+	"..\..\include\oxgphfle.h"\
+	"..\..\include\oxhistorycombo.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oximagelistbox.h"\
+	"..\..\include\oxinstancemanager.h"\
+	"..\..\include\oxintellimouse.h"\
+	"..\..\include\oxjpgcod.h"\
+	"..\..\include\oxjpgcom.h"\
+	"..\..\include\oxjpgdom.h"\
+	"..\..\include\oxjpgexp.h"\
+	"..\..\include\oxjpgfle.h"\
+	"..\..\include\oxlayoutmanager.h"\
+	"..\..\include\oxlayoutmanager.inl"\
+	"..\..\include\oxlistboxex.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmenubar.h"\
+	"..\..\include\oxmetafile.h"\
+	"..\..\include\oxmulticombobox.h"\
+	"..\..\include\oxmulticombobox.inl"\
+	"..\..\include\oxoptiontreectrl.h"\
+	"..\..\include\oxpopupbarctrl.h"\
+	"..\..\include\oxpreviewdialog.h"\
+	"..\..\include\oxseparator.h"\
+	"..\..\include\oxshortcutbar.h"\
+	"..\..\include\oxshortkeysorganizer.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxsound.h"\
+	"..\..\include\oxsoundwnd.h"\
+	"..\..\include\oxsplashwnd.h"\
+	"..\..\include\oxsplashwnd.inl"\
+	"..\..\include\oxsplashwnddib.h"\
+	"..\..\include\oxstatic.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtaskbaricon.h"\
+	"..\..\include\oxtaskbaricon.inl"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxworkspacestate.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	"..\jpeg\jpegsrc6\jversion.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\oleimpl2.h"\
+	
+
+..\..\source\OXCustomizePage.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxbackgroundpainter.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxbitmapbutton.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxbitmapmenuorganizer.h"\
+	"..\..\include\oxbmpfilepickercombo.h"\
+	"..\..\include\oxbmpfle.h"\
+	"..\..\include\oxcaptionpainter.h"\
+	"..\..\include\oxchildframestate.h"\
+	"..\..\include\oxcolorpickerbutton.h"\
+	"..\..\include\oxcolorpickerctrl.h"\
+	"..\..\include\oxcoolcombobox.h"\
+	"..\..\include\oxcoolcontrolorganizer.h"\
+	"..\..\include\oxcoolctrl.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxcustomizebackgroundpage.h"\
+	"..\..\include\oxcustomizecaptionpage.h"\
+	"..\..\include\oxcustomizecommandspage.h"\
+	"..\..\include\oxcustomizecoolcontrolspage.h"\
+	"..\..\include\oxcustomizeinstancemanagerpage.h"\
+	"..\..\include\oxcustomizeintellimousepage.h"\
+	"..\..\include\oxcustomizemanager.h"\
+	"..\..\include\oxcustomizepage.h"\
+	"..\..\include\oxcustomizeshortkeyspage.h"\
+	"..\..\include\oxcustomizesplashwindowpage.h"\
+	"..\..\include\oxcustomizetabbedmdipage.h"\
+	"..\..\include\oxcustomizetoolbarspage.h"\
+	"..\..\include\oxcustomizetrayiconpage.h"\
+	"..\..\include\oxcustomizeworkspacestatepage.h"\
+	"..\..\include\oxdib.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxfontpickerbutton.h"\
+	"..\..\include\oxgphfle.h"\
+	"..\..\include\oxhistorycombo.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oximagelistbox.h"\
+	"..\..\include\oxinstancemanager.h"\
+	"..\..\include\oxintellimouse.h"\
+	"..\..\include\oxjpgcod.h"\
+	"..\..\include\oxjpgcom.h"\
+	"..\..\include\oxjpgdom.h"\
+	"..\..\include\oxjpgexp.h"\
+	"..\..\include\oxjpgfle.h"\
+	"..\..\include\oxlayoutmanager.h"\
+	"..\..\include\oxlayoutmanager.inl"\
+	"..\..\include\oxlistboxex.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmenubar.h"\
+	"..\..\include\oxmetafile.h"\
+	"..\..\include\oxmulticombobox.h"\
+	"..\..\include\oxmulticombobox.inl"\
+	"..\..\include\oxoptiontreectrl.h"\
+	"..\..\include\oxpopupbarctrl.h"\
+	"..\..\include\oxpreviewdialog.h"\
+	"..\..\include\oxseparator.h"\
+	"..\..\include\oxshortcutbar.h"\
+	"..\..\include\oxshortkeysorganizer.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxsound.h"\
+	"..\..\include\oxsoundwnd.h"\
+	"..\..\include\oxsplashwnd.h"\
+	"..\..\include\oxsplashwnd.inl"\
+	"..\..\include\oxsplashwnddib.h"\
+	"..\..\include\oxstatic.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtaskbaricon.h"\
+	"..\..\include\oxtaskbaricon.inl"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxworkspacestate.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	"..\jpeg\jpegsrc6\jversion.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\oleimpl2.h"\
+	
+
+..\..\source\OXCustomizeShortkeysPage.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxbackgroundpainter.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxbitmapbutton.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxbitmapmenuorganizer.h"\
+	"..\..\include\oxbmpfilepickercombo.h"\
+	"..\..\include\oxbmpfle.h"\
+	"..\..\include\oxcaptionpainter.h"\
+	"..\..\include\oxchildframestate.h"\
+	"..\..\include\oxcolorpickerbutton.h"\
+	"..\..\include\oxcolorpickerctrl.h"\
+	"..\..\include\oxcoolcombobox.h"\
+	"..\..\include\oxcoolcontrolorganizer.h"\
+	"..\..\include\oxcoolctrl.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxcustomizebackgroundpage.h"\
+	"..\..\include\oxcustomizecaptionpage.h"\
+	"..\..\include\oxcustomizecommandspage.h"\
+	"..\..\include\oxcustomizecoolcontrolspage.h"\
+	"..\..\include\oxcustomizeinstancemanagerpage.h"\
+	"..\..\include\oxcustomizeintellimousepage.h"\
+	"..\..\include\oxcustomizemanager.h"\
+	"..\..\include\oxcustomizepage.h"\
+	"..\..\include\oxcustomizeshortkeyspage.h"\
+	"..\..\include\oxcustomizesplashwindowpage.h"\
+	"..\..\include\oxcustomizetabbedmdipage.h"\
+	"..\..\include\oxcustomizetoolbarspage.h"\
+	"..\..\include\oxcustomizetrayiconpage.h"\
+	"..\..\include\oxcustomizeworkspacestatepage.h"\
+	"..\..\include\oxdib.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxfontpickerbutton.h"\
+	"..\..\include\oxgphfle.h"\
+	"..\..\include\oxhistorycombo.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oximagelistbox.h"\
+	"..\..\include\oxinstancemanager.h"\
+	"..\..\include\oxintellimouse.h"\
+	"..\..\include\oxjpgcod.h"\
+	"..\..\include\oxjpgcom.h"\
+	"..\..\include\oxjpgdom.h"\
+	"..\..\include\oxjpgexp.h"\
+	"..\..\include\oxjpgfle.h"\
+	"..\..\include\oxlayoutmanager.h"\
+	"..\..\include\oxlayoutmanager.inl"\
+	"..\..\include\oxlistboxex.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmenubar.h"\
+	"..\..\include\oxmetafile.h"\
+	"..\..\include\oxmulticombobox.h"\
+	"..\..\include\oxmulticombobox.inl"\
+	"..\..\include\oxoptiontreectrl.h"\
+	"..\..\include\oxpopupbarctrl.h"\
+	"..\..\include\oxpreviewdialog.h"\
+	"..\..\include\oxseparator.h"\
+	"..\..\include\oxshortcutbar.h"\
+	"..\..\include\oxshortkeysorganizer.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxsound.h"\
+	"..\..\include\oxsoundwnd.h"\
+	"..\..\include\oxsplashwnd.h"\
+	"..\..\include\oxsplashwnd.inl"\
+	"..\..\include\oxsplashwnddib.h"\
+	"..\..\include\oxstatic.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtaskbaricon.h"\
+	"..\..\include\oxtaskbaricon.inl"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxworkspacestate.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	"..\jpeg\jpegsrc6\jversion.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\oleimpl2.h"\
+	
+
+..\..\source\OXCustomizeSplashWindowPage.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxbitmapbutton.h"\
+	"..\..\include\oxbmpfilepickercombo.h"\
+	"..\..\include\oxbmpfle.h"\
+	"..\..\include\oxcolorpickerbutton.h"\
+	"..\..\include\oxcolorpickerctrl.h"\
+	"..\..\include\oxcustomizepage.h"\
+	"..\..\include\oxcustomizesplashwindowpage.h"\
+	"..\..\include\oxdib.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxgphfle.h"\
+	"..\..\include\oxhistorycombo.h"\
+	"..\..\include\oximagelistbox.h"\
+	"..\..\include\oxjpgcod.h"\
+	"..\..\include\oxjpgcom.h"\
+	"..\..\include\oxjpgdom.h"\
+	"..\..\include\oxjpgexp.h"\
+	"..\..\include\oxjpgfle.h"\
+	"..\..\include\oxlayoutmanager.h"\
+	"..\..\include\oxlayoutmanager.inl"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmetafile.h"\
+	"..\..\include\oxpopupbarctrl.h"\
+	"..\..\include\oxpreviewdialog.h"\
+	"..\..\include\oxseparator.h"\
+	"..\..\include\oxsound.h"\
+	"..\..\include\oxsoundwnd.h"\
+	"..\..\include\oxsplashwnd.h"\
+	"..\..\include\oxsplashwnd.inl"\
+	"..\..\include\oxsplashwnddib.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	"..\jpeg\jpegsrc6\jversion.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXCustomizeTabbedMDIPage.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxbackgroundpainter.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxbitmapbutton.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxbitmapmenuorganizer.h"\
+	"..\..\include\oxbmpfilepickercombo.h"\
+	"..\..\include\oxbmpfle.h"\
+	"..\..\include\oxcaptionpainter.h"\
+	"..\..\include\oxchildframestate.h"\
+	"..\..\include\oxcolorpickerbutton.h"\
+	"..\..\include\oxcolorpickerctrl.h"\
+	"..\..\include\oxcoolcombobox.h"\
+	"..\..\include\oxcoolcontrolorganizer.h"\
+	"..\..\include\oxcoolctrl.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxcustomizebackgroundpage.h"\
+	"..\..\include\oxcustomizecaptionpage.h"\
+	"..\..\include\oxcustomizecommandspage.h"\
+	"..\..\include\oxcustomizecoolcontrolspage.h"\
+	"..\..\include\oxcustomizeinstancemanagerpage.h"\
+	"..\..\include\oxcustomizeintellimousepage.h"\
+	"..\..\include\oxcustomizemanager.h"\
+	"..\..\include\oxcustomizepage.h"\
+	"..\..\include\oxcustomizeshortkeyspage.h"\
+	"..\..\include\oxcustomizesplashwindowpage.h"\
+	"..\..\include\oxcustomizetabbedmdipage.h"\
+	"..\..\include\oxcustomizetoolbarspage.h"\
+	"..\..\include\oxcustomizetrayiconpage.h"\
+	"..\..\include\oxcustomizeworkspacestatepage.h"\
+	"..\..\include\oxdib.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxfontpickerbutton.h"\
+	"..\..\include\oxgphfle.h"\
+	"..\..\include\oxhistorycombo.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oximagelistbox.h"\
+	"..\..\include\oxinstancemanager.h"\
+	"..\..\include\oxintellimouse.h"\
+	"..\..\include\oxjpgcod.h"\
+	"..\..\include\oxjpgcom.h"\
+	"..\..\include\oxjpgdom.h"\
+	"..\..\include\oxjpgexp.h"\
+	"..\..\include\oxjpgfle.h"\
+	"..\..\include\oxlayoutmanager.h"\
+	"..\..\include\oxlayoutmanager.inl"\
+	"..\..\include\oxlistboxex.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmenubar.h"\
+	"..\..\include\oxmetafile.h"\
+	"..\..\include\oxmulticombobox.h"\
+	"..\..\include\oxmulticombobox.inl"\
+	"..\..\include\oxoptiontreectrl.h"\
+	"..\..\include\oxpopupbarctrl.h"\
+	"..\..\include\oxpreviewdialog.h"\
+	"..\..\include\oxseparator.h"\
+	"..\..\include\oxshortcutbar.h"\
+	"..\..\include\oxshortkeysorganizer.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxsound.h"\
+	"..\..\include\oxsoundwnd.h"\
+	"..\..\include\oxsplashwnd.h"\
+	"..\..\include\oxsplashwnd.inl"\
+	"..\..\include\oxsplashwnddib.h"\
+	"..\..\include\oxstatic.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtaskbaricon.h"\
+	"..\..\include\oxtaskbaricon.inl"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxworkspacestate.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	"..\jpeg\jpegsrc6\jversion.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\oleimpl2.h"\
+	
+
+..\..\source\OXCustomizeToolbarsPage.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\ox3dtabview.h"\
+	"..\..\include\oxbackgroundpainter.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxbitmapbutton.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxbitmapmenuorganizer.h"\
+	"..\..\include\oxbmpfilepickercombo.h"\
+	"..\..\include\oxbmpfle.h"\
+	"..\..\include\oxcaptionpainter.h"\
+	"..\..\include\oxchildframestate.h"\
+	"..\..\include\oxcolorpickerbutton.h"\
+	"..\..\include\oxcolorpickerctrl.h"\
+	"..\..\include\oxcoolcombobox.h"\
+	"..\..\include\oxcoolcontrolorganizer.h"\
+	"..\..\include\oxcoolctrl.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxcustomizebackgroundpage.h"\
+	"..\..\include\oxcustomizecaptionpage.h"\
+	"..\..\include\oxcustomizecommandspage.h"\
+	"..\..\include\oxcustomizecoolcontrolspage.h"\
+	"..\..\include\oxcustomizeinstancemanagerpage.h"\
+	"..\..\include\oxcustomizeintellimousepage.h"\
+	"..\..\include\oxcustomizemanager.h"\
+	"..\..\include\oxcustomizepage.h"\
+	"..\..\include\oxcustomizeshortkeyspage.h"\
+	"..\..\include\oxcustomizesplashwindowpage.h"\
+	"..\..\include\oxcustomizetabbedmdipage.h"\
+	"..\..\include\oxcustomizetoolbarspage.h"\
+	"..\..\include\oxcustomizetrayiconpage.h"\
+	"..\..\include\oxcustomizeworkspacestatepage.h"\
+	"..\..\include\oxdib.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxfontpickerbutton.h"\
+	"..\..\include\oxgphfle.h"\
+	"..\..\include\oxhistorycombo.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oximagelistbox.h"\
+	"..\..\include\oxinstancemanager.h"\
+	"..\..\include\oxintellimouse.h"\
+	"..\..\include\oxjpgcod.h"\
+	"..\..\include\oxjpgcom.h"\
+	"..\..\include\oxjpgdom.h"\
+	"..\..\include\oxjpgexp.h"\
+	"..\..\include\oxjpgfle.h"\
+	"..\..\include\oxlayoutmanager.h"\
+	"..\..\include\oxlayoutmanager.inl"\
+	"..\..\include\oxlistboxex.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmenubar.h"\
+	"..\..\include\oxmetafile.h"\
+	"..\..\include\oxmulticombobox.h"\
+	"..\..\include\oxmulticombobox.inl"\
+	"..\..\include\oxoptiontreectrl.h"\
+	"..\..\include\oxpopupbarctrl.h"\
+	"..\..\include\oxpreviewdialog.h"\
+	"..\..\include\oxseparator.h"\
+	"..\..\include\oxshortcutbar.h"\
+	"..\..\include\oxshortkeysorganizer.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxskinnedcombobox.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxskinnedwnd.h"\
+	"..\..\include\oxskins.h"\
+	"..\..\include\oxsound.h"\
+	"..\..\include\oxsoundwnd.h"\
+	"..\..\include\oxsplashwnd.h"\
+	"..\..\include\oxsplashwnd.inl"\
+	"..\..\include\oxsplashwnddib.h"\
+	"..\..\include\oxstatic.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtaskbaricon.h"\
+	"..\..\include\oxtaskbaricon.inl"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxuxtheme.h"\
+	"..\..\include\oxworkspacestate.h"\
+	"..\..\include\stdafx.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	"..\jpeg\jpegsrc6\jversion.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\oleimpl2.h"\
+	
+
+..\..\source\OXCustomizeTrayIconPage.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxbitmapmenuorganizer.h"\
+	"..\..\include\oxcustomizepage.h"\
+	"..\..\include\oxcustomizetrayiconpage.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxhistorycombo.h"\
+	"..\..\include\oximagelistbox.h"\
+	"..\..\include\oxlayoutmanager.h"\
+	"..\..\include\oxlayoutmanager.inl"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxseparator.h"\
+	"..\..\include\oxtaskbaricon.h"\
+	"..\..\include\oxtaskbaricon.inl"\
+	"..\..\include\oxtooltipctrl.h"\
+	
+
+..\..\source\OXCustomizeWorkspaceStatePage.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxbackgroundpainter.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxbitmapbutton.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxbitmapmenuorganizer.h"\
+	"..\..\include\oxbmpfilepickercombo.h"\
+	"..\..\include\oxbmpfle.h"\
+	"..\..\include\oxcaptionpainter.h"\
+	"..\..\include\oxchildframestate.h"\
+	"..\..\include\oxcolorpickerbutton.h"\
+	"..\..\include\oxcolorpickerctrl.h"\
+	"..\..\include\oxcoolcombobox.h"\
+	"..\..\include\oxcoolcontrolorganizer.h"\
+	"..\..\include\oxcoolctrl.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxcustomizebackgroundpage.h"\
+	"..\..\include\oxcustomizecaptionpage.h"\
+	"..\..\include\oxcustomizecommandspage.h"\
+	"..\..\include\oxcustomizecoolcontrolspage.h"\
+	"..\..\include\oxcustomizeinstancemanagerpage.h"\
+	"..\..\include\oxcustomizeintellimousepage.h"\
+	"..\..\include\oxcustomizemanager.h"\
+	"..\..\include\oxcustomizepage.h"\
+	"..\..\include\oxcustomizeshortkeyspage.h"\
+	"..\..\include\oxcustomizesplashwindowpage.h"\
+	"..\..\include\oxcustomizetabbedmdipage.h"\
+	"..\..\include\oxcustomizetoolbarspage.h"\
+	"..\..\include\oxcustomizetrayiconpage.h"\
+	"..\..\include\oxcustomizeworkspacestatepage.h"\
+	"..\..\include\oxdib.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxfontpickerbutton.h"\
+	"..\..\include\oxgphfle.h"\
+	"..\..\include\oxhistorycombo.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oximagelistbox.h"\
+	"..\..\include\oxinstancemanager.h"\
+	"..\..\include\oxintellimouse.h"\
+	"..\..\include\oxjpgcod.h"\
+	"..\..\include\oxjpgcom.h"\
+	"..\..\include\oxjpgdom.h"\
+	"..\..\include\oxjpgexp.h"\
+	"..\..\include\oxjpgfle.h"\
+	"..\..\include\oxlayoutmanager.h"\
+	"..\..\include\oxlayoutmanager.inl"\
+	"..\..\include\oxlistboxex.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmenubar.h"\
+	"..\..\include\oxmetafile.h"\
+	"..\..\include\oxmulticombobox.h"\
+	"..\..\include\oxmulticombobox.inl"\
+	"..\..\include\oxoptiontreectrl.h"\
+	"..\..\include\oxpopupbarctrl.h"\
+	"..\..\include\oxpreviewdialog.h"\
+	"..\..\include\oxseparator.h"\
+	"..\..\include\oxshortcutbar.h"\
+	"..\..\include\oxshortkeysorganizer.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxsound.h"\
+	"..\..\include\oxsoundwnd.h"\
+	"..\..\include\oxsplashwnd.h"\
+	"..\..\include\oxsplashwnd.inl"\
+	"..\..\include\oxsplashwnddib.h"\
+	"..\..\include\oxstatic.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtaskbaricon.h"\
+	"..\..\include\oxtaskbaricon.inl"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxworkspacestate.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	"..\jpeg\jpegsrc6\jversion.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\oleimpl2.h"\
+	
+
+..\..\source\OXDao.cpp : \
+	"..\..\include\oxdao.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	
+
+..\..\source\OXDateTimeCtrl.cpp : \
+	"..\..\include\oxdatetimectrl.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmonthcalctrl.h"\
+	
+
+..\..\source\OXDckPPg.cpp : \
+	"..\..\include\oxdckppg.h"\
+	"..\..\include\oxdllext.h"\
+	
+
+..\..\source\OXDckPSh.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxdckppg.h"\
+	"..\..\include\oxdckpsh.h"\
+	"..\..\include\oxdlgbar.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxdragdockcontext.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxszminidockfrmwnd.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXDFlHdr.cpp : \
+	"..\..\include\oxdflhdr.h"\
+	"..\..\include\oxdllext.h"\
+	
+
+..\..\source\Oxdib.cpp : \
+	"..\..\include\oxbmpfle.h"\
+	"..\..\include\oxdib.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxgphfle.h"\
+	"..\..\include\oxhlftne.h"\
+	"..\..\include\oxjpgcod.h"\
+	"..\..\include\oxjpgcom.h"\
+	"..\..\include\oxjpgdom.h"\
+	"..\..\include\oxjpgexp.h"\
+	"..\..\include\oxjpgfle.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	"..\jpeg\jpegsrc6\jversion.h"\
+	
+
+..\..\source\OXDirDlg.cpp : \
+	"..\..\include\dir.h"\
+	"..\..\include\file.h"\
+	"..\..\include\oxdirdlg.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\path.h"\
+	"..\..\include\pathiter.h"\
+	
+
+..\..\source\OXDlgBar.cpp : \
+	"..\..\include\oxdlgbar.h"\
+	"..\..\include\oxdllext.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\occimpl.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\ocdb.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\ocdbid.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\olebind.h"\
+	
+
+..\..\source\OXDLLManager.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdllmanager.h"\
+	
+
+..\..\source\oxdocktabctrl.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXDocTemplateSpy.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdoctemplatespy.h"\
+	
+
+..\..\source\OXDragDockContext.CPP : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxdragdockcontext.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxframewnddock.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmdifloatwnd.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxszminidockfrmwnd.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXDragDropCommands.cpp : \
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxbitmapmenuorganizer.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdragdropcommands.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	
+
+..\..\source\OXEdit.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxedit.h"\
+	
+
+..\..\source\OXEditList.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxeditlist.h"\
+	"..\..\include\oxgridedit.h"\
+	"..\..\include\oxgridhdr.h"\
+	"..\..\include\oxgridlist.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxuxtheme.h"\
+	
+
+..\..\source\OXFileChanger.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxfilechanger.h"\
+	"..\..\include\oxmainres.h"\
+	
+
+..\..\source\OXFileWatcher.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxfilewatcher.h"\
+	"..\..\include\oxfilewatchnotifier.h"\
+	"..\..\include\oxidmanager.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxwatcheddir.h"\
+	
+
+..\..\source\OXFileWatchNotifier.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxfilewatchnotifier.h"\
+	
+
+..\..\source\OXFolderPickerDlg.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxfolderpickerdlg.h"\
+	"..\..\include\oxhistorycombo.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxshellfoldertree.h"\
+	"..\..\include\oxshellnamespacenavigator.h"\
+	
+
+..\..\source\OXFontComboBox.cpp : \
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxfontcombobox.h"\
+	"..\..\include\oxlistboxex.h"\
+	
+
+..\..\source\OXFontPickerButton.cpp : \
+	"..\..\include\oxbitmapbutton.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxfontpickerbutton.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxstatic.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	
+
+..\..\source\OXFrameWndDock.CPP : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxdragdockcontext.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxframewnddock.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmdifloatwnd.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxszminidockfrmwnd.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\oleimpl2.h"\
+	
+
+..\..\source\OXFullScreenFrame.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxfullscreenframe.h"\
+	
+
+..\..\source\OXGphFle.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxgphfle.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	
+
+..\..\source\OXGraphics.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxgraphics.h"\
+	
+
+..\..\source\oxgridedit.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxgridedit.h"\
+	
+
+..\..\source\OXGridHdr.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxgridhdr.h"\
+	"..\..\include\oxuxtheme.h"\
+	
+
+..\..\source\OXGridList.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxgridedit.h"\
+	"..\..\include\oxgridhdr.h"\
+	"..\..\include\oxgridlist.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxuxtheme.h"\
+	
+
+..\..\source\OXHashTable.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxhashtable.h"\
+	
+
+..\..\source\OXHistoryCombo.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxhistorycombo.h"\
+	"..\..\include\oxmainres.h"\
+	
+
+..\..\source\OXHistoryCtrl.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxhistoryctrl.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxscrollwnd.h"\
+	
+
+..\..\source\OXHookWnd.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oxmainres.h"\
+	
+
+..\..\source\OXHTMLParser.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxhashtable.h"\
+	"..\..\include\oxhtmlparser.h"\
+	"..\..\include\oxparser.h"\
+	"..\..\include\oxquickstring.h"\
+	
+
+..\..\source\OXHyperLinkAction.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxhyperlinkaction.h"\
+	"..\..\include\oxmainres.h"\
+	
+
+..\..\source\OXImageListBox.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oximagelistbox.h"\
+	
+
+..\..\source\OXImageViewer.cpp : \
+	"..\..\include\oxbmpfle.h"\
+	"..\..\include\oxdib.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxgphfle.h"\
+	"..\..\include\oximageviewer.h"\
+	"..\..\include\oxjpgcod.h"\
+	"..\..\include\oxjpgcom.h"\
+	"..\..\include\oxjpgdom.h"\
+	"..\..\include\oxjpgexp.h"\
+	"..\..\include\oxjpgfle.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxscrollwnd.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	"..\jpeg\jpegsrc6\jversion.h"\
+	
+
+..\..\source\OXInstanceManager.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxinstancemanager.h"\
+	"..\..\include\oxmainres.h"\
+	
+
+..\..\source\OXInteger.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxinteger.h"\
+	"..\..\include\oxinteger.inl"\
+	
+
+..\..\source\OXIntelliMouse.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oxintellimouse.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxsplashwnd.h"\
+	"..\..\include\oxsplashwnd.inl"\
+	"..\..\include\oxsplashwnddib.h"\
+	
+
+..\..\source\OXIPEdit.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxipedit.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmaskededit.h"\
+	
+
+..\..\source\OXItemTip.cpp : \
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oxitemtip.h"\
+	"..\..\include\oxitemtipwnd.h"\
+	"..\..\include\oxmainres.h"\
+	
+
+..\..\source\OXItemTipWnd.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxitemtipwnd.h"\
+	
+
+..\..\source\OXIteratorRegistryItem.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxiteratorregistryitem.h"\
+	"..\..\include\oxregistryitem.h"\
+	"..\..\include\oxregistryitem.inl"\
+	
+
+..\..\source\OXIteratorService.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxiteratorservice.h"\
+	"..\..\include\oxservice.h"\
+	
+
+..\..\source\OXIteratorUNC.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxiteratorunc.h"\
+	"..\..\include\oxiteratorunc.inl"\
+	"..\..\include\oxunc.h"\
+	"..\..\include\oxunc.inl"\
+	"..\..\include\oxuncstandardactor.h"\
+	
+
+..\..\source\OXJPGCod.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxjpgcod.h"\
+	"..\..\include\oxjpgexp.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	"..\jpeg\jpegsrc6\jversion.h"\
+	
+
+..\..\source\OXJPGCom.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxgphfle.h"\
+	"..\..\include\oxjpgcod.h"\
+	"..\..\include\oxjpgcom.h"\
+	"..\..\include\oxjpgexp.h"\
+	"..\..\include\oxjpgfle.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	"..\jpeg\jpegsrc6\jversion.h"\
+	
+
+..\..\source\OXJPGDom.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxgphfle.h"\
+	"..\..\include\oxjpgcod.h"\
+	"..\..\include\oxjpgdom.h"\
+	"..\..\include\oxjpgexp.h"\
+	"..\..\include\oxjpgfle.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	"..\jpeg\jpegsrc6\jversion.h"\
+	
+
+..\..\source\OXJPGExp.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxjpgexp.h"\
+	
+
+..\..\source\OXJPGFle.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxjpgfle.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	
+
+..\..\source\OXLayoutManager.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxlayoutmanager.h"\
+	"..\..\include\oxlayoutmanager.inl"\
+	
+
+..\..\source\OXListBoxEx.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxlistboxex.h"\
+	"..\..\include\oxmainres.h"\
+	
+
+..\..\source\OXListEdit.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxbrowsecoloredit.h"\
+	"..\..\include\oxcalendar.h"\
+	"..\..\include\oxcalendarpopup.h"\
+	"..\..\include\oxcolorpickerctrl.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxdropedit.h"\
+	"..\..\include\oxedit.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oxitemtip.h"\
+	"..\..\include\oxitemtipwnd.h"\
+	"..\..\include\oxlistedit.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxpopupbarctrl.h"\
+	"..\..\include\oxpropertieswnd.h"\
+	"..\..\include\oxpropertydescriptionpane.h"\
+	"..\..\include\oxpropertytree.h"\
+	"..\..\include\oxtreecal.h"\
+	"..\..\include\oxtreecombo.h"\
+	"..\..\include\oxtreectrl.h"\
+	"..\..\include\oxtreeedit.h"\
+	"..\..\include\oxtreeheader.h"\
+	"..\..\include\oxtreeitem.h"\
+	"..\..\include\oxuxtheme.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXMaskedEdit.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmaskededit.h"\
+	
+
+..\..\source\OXMDIFloatWnd.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxdragdockcontext.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxframewnddock.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmdifloatwnd.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxszminidockfrmwnd.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXMenuBar.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\ox3dtabview.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxbitmapmenuorganizer.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxdragdropcommands.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmenubar.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxskinnedcombobox.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxskinnedwnd.h"\
+	"..\..\include\oxskins.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxuxtheme.h"\
+	"..\..\include\stdafx.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\oleimpl2.h"\
+	
+
+..\..\source\OXMetaFile.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmetafile.h"\
+	
+
+..\..\source\OXMonthCalCtrl.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmonthcalctrl.h"\
+	
+
+..\..\source\OXMulticlipboardDlg.cpp : \
+	"..\..\include\oxbmpfle.h"\
+	"..\..\include\oxclippocket.h"\
+	"..\..\include\oxdib.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxgphfle.h"\
+	"..\..\include\oxjpgcod.h"\
+	"..\..\include\oxjpgcom.h"\
+	"..\..\include\oxjpgdom.h"\
+	"..\..\include\oxjpgexp.h"\
+	"..\..\include\oxjpgfle.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmulticlipboarddlg.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	"..\jpeg\jpegsrc6\jversion.h"\
+	
+
+..\..\source\OXMultiComboBox.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmulticombobox.h"\
+	"..\..\include\oxmulticombobox.inl"\
+	
+
+..\..\source\OXNetBrowseTree.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxnetbrowsetree.h"\
+	
+
+..\..\source\OXNotesEditView.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxnoteseditview.h"\
+	
+
+..\..\source\OXOptionTreeCtrl.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxoptiontreectrl.h"\
+	
+
+..\..\source\OXParser.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxhashtable.h"\
+	"..\..\include\oxparser.h"\
+	"..\..\include\oxquickstring.h"\
+	
+
+..\..\source\OXPhysicalEdit.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdropedit.h"\
+	"..\..\include\oxedit.h"\
+	"..\..\include\oxphysicaledit.h"\
+	
+
+..\..\source\OXPhysicalEditEx.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdropedit.h"\
+	"..\..\include\oxedit.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxphysicaledit.h"\
+	"..\..\include\oxphysicaleditex.h"\
+	
+
+..\..\source\OXPopupBarCtrl.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxpopupbarctrl.h"\
+	
+
+..\..\source\OXPreviewDialog.cpp : \
+	"..\..\include\oxbmpfle.h"\
+	"..\..\include\oxdib.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxgphfle.h"\
+	"..\..\include\oximagelistbox.h"\
+	"..\..\include\oxjpgcod.h"\
+	"..\..\include\oxjpgcom.h"\
+	"..\..\include\oxjpgdom.h"\
+	"..\..\include\oxjpgexp.h"\
+	"..\..\include\oxjpgfle.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmetafile.h"\
+	"..\..\include\oxpreviewdialog.h"\
+	"..\..\include\oxsound.h"\
+	"..\..\include\oxsoundwnd.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	"..\jpeg\jpegsrc6\jversion.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXProcess.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxprocess.h"\
+	
+
+..\..\source\OXPropertiesWnd.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\ox3dtabview.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxbrowsecoloredit.h"\
+	"..\..\include\oxcalendar.h"\
+	"..\..\include\oxcalendarpopup.h"\
+	"..\..\include\oxcolorpickerctrl.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxdropedit.h"\
+	"..\..\include\oxedit.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oxitemtip.h"\
+	"..\..\include\oxitemtipwnd.h"\
+	"..\..\include\oxlistedit.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmaskededit.h"\
+	"..\..\include\oxpopupbarctrl.h"\
+	"..\..\include\oxpropertieswnd.h"\
+	"..\..\include\oxpropertydescriptionpane.h"\
+	"..\..\include\oxpropertytree.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxskinnedcombobox.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxskinnedwnd.h"\
+	"..\..\include\oxskins.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxtreecal.h"\
+	"..\..\include\oxtreecombo.h"\
+	"..\..\include\oxtreectrl.h"\
+	"..\..\include\oxtreeedit.h"\
+	"..\..\include\oxtreeheader.h"\
+	"..\..\include\oxtreeitem.h"\
+	"..\..\include\oxuxtheme.h"\
+	"..\..\include\stdafx.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXPropertyDescriptionPane.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\ox3dtabview.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxbrowsecoloredit.h"\
+	"..\..\include\oxcalendar.h"\
+	"..\..\include\oxcalendarpopup.h"\
+	"..\..\include\oxcolorpickerctrl.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxdropedit.h"\
+	"..\..\include\oxedit.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oxitemtip.h"\
+	"..\..\include\oxitemtipwnd.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxpopupbarctrl.h"\
+	"..\..\include\oxpropertieswnd.h"\
+	"..\..\include\oxpropertydescriptionpane.h"\
+	"..\..\include\oxpropertytree.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxskinnedcombobox.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxskinnedwnd.h"\
+	"..\..\include\oxskins.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxtreecal.h"\
+	"..\..\include\oxtreecombo.h"\
+	"..\..\include\oxtreectrl.h"\
+	"..\..\include\oxtreeedit.h"\
+	"..\..\include\oxtreeheader.h"\
+	"..\..\include\oxtreeitem.h"\
+	"..\..\include\oxuxtheme.h"\
+	"..\..\include\stdafx.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXPropertyTree.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxbrowsecoloredit.h"\
+	"..\..\include\oxcalendar.h"\
+	"..\..\include\oxcalendarpopup.h"\
+	"..\..\include\oxcolorpickerctrl.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxdropedit.h"\
+	"..\..\include\oxedit.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oxitemtip.h"\
+	"..\..\include\oxitemtipwnd.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxpopupbarctrl.h"\
+	"..\..\include\oxpropertieswnd.h"\
+	"..\..\include\oxpropertydescriptionpane.h"\
+	"..\..\include\oxpropertytree.h"\
+	"..\..\include\oxtreecal.h"\
+	"..\..\include\oxtreecombo.h"\
+	"..\..\include\oxtreectrl.h"\
+	"..\..\include\oxtreeedit.h"\
+	"..\..\include\oxtreeheader.h"\
+	"..\..\include\oxtreeitem.h"\
+	"..\..\include\oxuxtheme.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXQuickString.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxquickstring.h"\
+	
+
+..\..\source\OXRectTracker.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxrecttracker.h"\
+	
+
+..\..\source\OXRegExpression.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxregexpression.h"\
+	
+
+..\..\source\OXRegistryItem.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxregistryitem.h"\
+	"..\..\include\oxregistryitem.inl"\
+	
+
+..\..\source\OXRegistryValFile.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxregistryvalfile.h"\
+	
+
+..\..\source\OXRegistryWatcher.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxregistrywatcher.h"\
+	"..\..\include\oxregistrywatchnotifier.h"\
+	"..\..\include\oxregistrywatchnotifier.inl"\
+	
+
+..\..\source\OXRegistryWatchNotifier.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxregistrywatchnotifier.h"\
+	"..\..\include\oxregistrywatchnotifier.inl"\
+	
+
+..\..\source\OXResourceFile.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxresourcefile.h"\
+	"..\..\include\oxresourcefile.inl"\
+	"..\..\include\oxresourcelibrary.h"\
+	"..\..\include\oxresourcelibrary.inl"\
+	
+
+..\..\source\OXResourceLibrary.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxresourcefile.h"\
+	"..\..\include\oxresourcefile.inl"\
+	"..\..\include\oxresourcelibrary.h"\
+	"..\..\include\oxresourcelibrary.inl"\
+	
+
+..\..\source\OXRollup.CPP : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxrollup.h"\
+	"..\..\include\oxtlebar.h"\
+	
+
+..\..\source\OXRoundedButton.cpp : \
+	"..\..\include\oxbitmapbutton.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxgraphics.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxroundedbutton.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	
+
+..\..\source\OXRulerOrganizer.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxrulerorganizer.h"\
+	
+
+..\..\source\OXScreenGrab.cpp : \
+	"..\..\include\oxbmpfle.h"\
+	"..\..\include\oxdib.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxgphfle.h"\
+	"..\..\include\oxjpgcod.h"\
+	"..\..\include\oxjpgcom.h"\
+	"..\..\include\oxjpgdom.h"\
+	"..\..\include\oxjpgexp.h"\
+	"..\..\include\oxjpgfle.h"\
+	"..\..\include\oxscreengrab.h"\
+	"..\jpeg\jpegsrc6\cderror.h"\
+	"..\jpeg\jpegsrc6\jconfig.h"\
+	"..\jpeg\jpegsrc6\jerror.h"\
+	"..\jpeg\jpegsrc6\jinclude.h"\
+	"..\jpeg\jpegsrc6\jmorecfg.h"\
+	"..\jpeg\jpegsrc6\jpeglib.h"\
+	"..\jpeg\jpegsrc6\jversion.h"\
+	
+
+..\..\source\OXScript.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxscript.h"\
+	
+
+..\..\source\OXScrollTip.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxscrolltip.h"\
+	
+
+..\..\source\OXScrollTipOwner.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxscrolltip.h"\
+	"..\..\include\oxscrolltipowner.h"\
+	
+
+..\..\source\OXScrollWnd.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxscrollwnd.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXSeparator.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxseparator.h"\
+	
+
+..\..\source\OXService.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxservice.h"\
+	
+
+..\..\source\OXShape.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxshape.h"\
+	
+
+..\..\source\OXShdWnd.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxshdwnd.h"\
+	
+
+..\..\source\OXShellFolderTree.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxshellfoldertree.h"\
+	"..\..\include\oxshellnamespacenavigator.h"\
+	
+
+..\..\source\OXShellNamespaceNavigator.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxshellnamespacenavigator.h"\
+	
+
+..\..\source\OXShellObjectList.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxshellnamespacenavigator.h"\
+	"..\..\include\oxshellobjectlist.h"\
+	
+
+..\..\source\OXShortcut.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxshortcut.h"\
+	"..\..\include\oxshortcut.inl"\
+	
+
+..\..\source\OXShortcutBar.cpp : \
+	"..\..\include\ox3dtabview.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxshortcutbar.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxskinnedcombobox.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxskinnedwnd.h"\
+	"..\..\include\oxskins.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxuxtheme.h"\
+	"..\..\include\stdafx.h"\
+	
+
+..\..\source\OXShortkeysOrganizer.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxregistryvalfile.h"\
+	"..\..\include\oxshortkeysorganizer.h"\
+	
+
+..\..\source\OXSizeCtrlBar.CPP : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\ox3dtabview.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxdragdockcontext.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxframewnddock.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmdifloatwnd.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxskinnedcombobox.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxskinnedwnd.h"\
+	"..\..\include\oxskins.h"\
+	"..\..\include\oxszminidockfrmwnd.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxuxtheme.h"\
+	"..\..\include\stdafx.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXSizeDlgBar.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedlgbar.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\occimpl.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\ocdb.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\ocdbid.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\olebind.h"\
+	
+
+..\..\source\OXSizeDockBar.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\ox3dtabview.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmenubar.h"\
+	"..\..\include\oxrecttracker.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxsizetoolbar.h"\
+	"..\..\include\oxskinnedcombobox.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxskinnedwnd.h"\
+	"..\..\include\oxskins.h"\
+	"..\..\include\oxsplitterrect.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxuxtheme.h"\
+	"..\..\include\stdafx.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\oleimpl2.h"\
+	
+
+..\..\source\OXSizeToolBar.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizetoolbar.h"\
+	
+
+..\..\source\OXSkinnedComboBox.cpp : \
+	"..\..\include\ox3dtabview.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxskinnedcombobox.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxskinnedwnd.h"\
+	"..\..\include\oxskins.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxuxtheme.h"\
+	"..\..\include\stdafx.h"\
+	
+
+..\..\source\OXSkinnedSpinCtrl.cpp : \
+	"..\..\include\ox3dtabview.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxskinnedcombobox.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxskinnedwnd.h"\
+	"..\..\include\oxskins.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxuxtheme.h"\
+	"..\..\include\stdafx.h"\
+	
+
+..\..\source\OXSkinnedTabCtrl.cpp : \
+	"..\..\include\ox3dtabview.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxskinnedcombobox.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxskinnedwnd.h"\
+	"..\..\include\oxskins.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxuxtheme.h"\
+	"..\..\include\stdafx.h"\
+	
+
+..\..\source\OXSkins.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\ox3dtabview.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxbitmapmenuorganizer.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxdragdockcontext.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxframewnddock.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmenubar.h"\
+	"..\..\include\oxshortcutbar.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxskinnedcombobox.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxskinnedwnd.h"\
+	"..\..\include\oxskins.h"\
+	"..\..\include\oxsplitterrect.h"\
+	"..\..\include\oxszminidockfrmwnd.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxuxtheme.h"\
+	"..\..\include\stdafx.h"\
+	"..\..\include\xstatus4.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\oleimpl2.h"\
+	
+
+..\..\source\OXSound.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxsound.h"\
+	"..\..\include\oxsoundwnd.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXSoundCustomizeDlg.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxbitmapbutton.h"\
+	"..\..\include\oxcalendar.h"\
+	"..\..\include\oxcalendarpopup.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxhistorycombo.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oxitemtip.h"\
+	"..\..\include\oxitemtipwnd.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxmulticombobox.h"\
+	"..\..\include\oxmulticombobox.inl"\
+	"..\..\include\oxsound.h"\
+	"..\..\include\oxsoundcustomizedlg.h"\
+	"..\..\include\oxsoundeffectmanager.h"\
+	"..\..\include\oxsoundwnd.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxtreecal.h"\
+	"..\..\include\oxtreecombo.h"\
+	"..\..\include\oxtreectrl.h"\
+	"..\..\include\oxtreeedit.h"\
+	"..\..\include\oxtreeheader.h"\
+	"..\..\include\oxtreeitem.h"\
+	"..\..\include\oxuxtheme.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXSoundEffectManager.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxregistryvalfile.h"\
+	"..\..\include\oxsound.h"\
+	"..\..\include\oxsoundeffectmanager.h"\
+	"..\..\include\oxsoundwnd.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXSoundWnd.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxsound.h"\
+	"..\..\include\oxsoundwnd.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXSpinCtrl.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxspinctrl.h"\
+	
+
+..\..\source\OXSplashWnd.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxsplashwnd.h"\
+	"..\..\include\oxsplashwnd.inl"\
+	"..\..\include\oxsplashwnddib.h"\
+	
+
+..\..\source\OXSplashWndDIB.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxsplashwnd.h"\
+	"..\..\include\oxsplashwnd.inl"\
+	"..\..\include\oxsplashwnddib.h"\
+	
+
+..\..\source\OXSplitterColRowState.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxsplittercolrowstate.h"\
+	
+
+..\..\source\OXSplitterRect.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxsplitterrect.h"\
+	
+
+..\..\source\OXSplitterWnd.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxsplitterwnd.h"\
+	
+
+..\..\source\OXStatic.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxstatic.h"\
+	
+
+..\..\source\OXStaticHyperLink.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxhyperlinkaction.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxstatic.h"\
+	"..\..\include\oxstatichyperlink.h"\
+	
+
+..\..\source\OXStaticText.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxstatictext.h"\
+	"..\..\include\oxstatictext.inl"\
+	
+
+..\..\source\OXSysInfo.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxsysinfo.h"\
+	"..\processor\intel\cpuinf32\cpuid.h"\
+	"..\processor\intel\cpuinf32\speed.h"\
+	
+
+..\..\source\OXSzMiniDockFrmWnd.cpp : \
+	"..\..\include\mfctoolbar.h"\
+	"..\..\include\ox3dtabview.h"\
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxcooltoolbar.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxdragdockcontext.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxframewnddock.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxskinnedcombobox.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxskinnedwnd.h"\
+	"..\..\include\oxskins.h"\
+	"..\..\include\oxszminidockfrmwnd.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxuxtheme.h"\
+	"..\..\include\stdafx.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXTabClientWnd.cpp : \
+	"..\..\include\ox3dtabview.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxskinnedcombobox.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxskinnedwnd.h"\
+	"..\..\include\oxskins.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxuxtheme.h"\
+	"..\..\include\stdafx.h"\
+	
+
+..\..\source\OXTabView.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxtabview.h"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\OXTaskbarIcon.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxtaskbaricon.h"\
+	"..\..\include\oxtaskbaricon.inl"\
+	
+
+..\..\source\OXTleBar.CPP : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxrollup.h"\
+	"..\..\include\oxtlebar.h"\
+	
+
+..\..\source\OXToolTipCtrl.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	
+
+..\..\source\OXTrace.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxtrace.h"\
+	
+
+..\..\source\OXTreeCal.cpp : \
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxcalendar.h"\
+	"..\..\include\oxcalendarpopup.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oxitemtip.h"\
+	"..\..\include\oxitemtipwnd.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxtreecal.h"\
+	"..\..\include\oxtreecombo.h"\
+	"..\..\include\oxtreectrl.h"\
+	"..\..\include\oxtreeedit.h"\
+	"..\..\include\oxtreeheader.h"\
+	"..\..\include\oxtreeitem.h"\
+	"..\..\include\oxuxtheme.h"\
+	
+
+..\..\source\OXTreeCombo.cpp : \
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxcalendar.h"\
+	"..\..\include\oxcalendarpopup.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oxitemtip.h"\
+	"..\..\include\oxitemtipwnd.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxtreecal.h"\
+	"..\..\include\oxtreecombo.h"\
+	"..\..\include\oxtreectrl.h"\
+	"..\..\include\oxtreeedit.h"\
+	"..\..\include\oxtreeheader.h"\
+	"..\..\include\oxtreeitem.h"\
+	"..\..\include\oxuxtheme.h"\
+	
+
+..\..\source\OXTreeCtrl.cpp : \
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxcalendar.h"\
+	"..\..\include\oxcalendarpopup.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oxitemtip.h"\
+	"..\..\include\oxitemtipwnd.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxtreecal.h"\
+	"..\..\include\oxtreecombo.h"\
+	"..\..\include\oxtreectrl.h"\
+	"..\..\include\oxtreeedit.h"\
+	"..\..\include\oxtreeheader.h"\
+	"..\..\include\oxtreeitem.h"\
+	"..\..\include\oxuxtheme.h"\
+	
+
+..\..\source\OXTreeEdit.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxtreeedit.h"\
+	
+
+..\..\source\OXTreeHeader.cpp : \
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxcalendar.h"\
+	"..\..\include\oxcalendarpopup.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oxitemtip.h"\
+	"..\..\include\oxitemtipwnd.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxtreecal.h"\
+	"..\..\include\oxtreecombo.h"\
+	"..\..\include\oxtreectrl.h"\
+	"..\..\include\oxtreeedit.h"\
+	"..\..\include\oxtreeheader.h"\
+	"..\..\include\oxtreeitem.h"\
+	"..\..\include\oxuxtheme.h"\
+	
+
+..\..\source\OXTreeItem.cpp : \
+	"..\..\include\oxbasesubclassedcombobox.h"\
+	"..\..\include\oxcalendar.h"\
+	"..\..\include\oxcalendarpopup.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxhookwnd.h"\
+	"..\..\include\oxitemtip.h"\
+	"..\..\include\oxitemtipwnd.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxtreecal.h"\
+	"..\..\include\oxtreecombo.h"\
+	"..\..\include\oxtreectrl.h"\
+	"..\..\include\oxtreeedit.h"\
+	"..\..\include\oxtreeheader.h"\
+	"..\..\include\oxtreeitem.h"\
+	"..\..\include\oxuxtheme.h"\
+	
+
+..\..\source\OXUNC.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxunc.h"\
+	"..\..\include\oxunc.inl"\
+	"..\..\include\oxuncstandardactor.h"\
+	
+
+..\..\source\OXUNCStandardActor.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxunc.h"\
+	"..\..\include\oxunc.inl"\
+	"..\..\include\oxuncstandardactor.h"\
+	
+
+..\..\source\OXURL.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxunc.h"\
+	"..\..\include\oxunc.inl"\
+	"..\..\include\oxurl.h"\
+	"..\..\include\oxurl.inl"\
+	
+
+..\..\source\OXUsertl.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxusertl.h"\
+	
+
+..\..\source\OXUUDec.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxuudec.h"\
+	"..\..\include\oxuudret.h"\
+	
+
+..\..\source\OXUxTheme.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxuxtheme.h"\
+	
+
+..\..\source\OXWABook.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxwabook.h"\
+	
+
+..\..\source\OXWatchedDir.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxwatcheddir.h"\
+	
+
+..\..\source\oxwebctrl.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxwebctrl.h"\
+	
+
+..\..\source\OXWorkspaceState.cpp : \
+	"..\..\include\oxchildframestate.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxsplittercolrowstate.h"\
+	"..\..\include\oxworkspacestate.h"\
+	
+
+..\..\source\Oxzoomvw.cpp : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxzoomvw.h"\
+	"..\..\include\oxzoomvw.inl"\
+	"c:\program files\microsoft visual studio\vc98\mfc\src\afximpl.h"\
+	
+
+..\..\source\Path.cpp : \
+	"..\..\include\dir.h"\
+	"..\..\include\file.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\path.h"\
+	"..\..\include\pathiter.h"\
+	"..\..\include\xstring.h"\
+	
+
+..\..\source\PATHITER.CPP : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\pathiter.h"\
+	
+
+..\..\source\PROGRESS.CPP : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\progress.h"\
+	
+
+..\..\source\WATCHBUF.CPP : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\watchbuf.h"\
+	
+
+..\..\source\Xstatus4.cpp : \
+	"..\..\include\ox3dtabview.h"\
+	"..\..\include\oxbitmapmenu.h"\
+	"..\..\include\oxdllext.h"\
+	"..\..\include\oxdocktabctrl.h"\
+	"..\..\include\oxdragdropsupport.h"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\oxsizectrlbar.h"\
+	"..\..\include\oxsizedockbar.h"\
+	"..\..\include\oxskinnedcombobox.h"\
+	"..\..\include\oxskinnedspinctrl.h"\
+	"..\..\include\oxskinnedtabctrl.h"\
+	"..\..\include\oxskinnedwnd.h"\
+	"..\..\include\oxskins.h"\
+	"..\..\include\oxtabclientwnd.h"\
+	"..\..\include\oxtooltipctrl.h"\
+	"..\..\include\oxuxtheme.h"\
+	"..\..\include\stdafx.h"\
+	"..\..\include\xstatus4.h"\
+	
+
+..\..\source\XSTRING.CPP : \
+	"..\..\include\oxdllext.h"\
+	"..\..\include\xstring.h"\
+	
+
+..\..\include\OXMain.rc : \
+	"..\..\include\OXBitmapButton.rc"\
+	"..\..\include\OXBitmapMenu.rc"\
+	"..\..\include\OXBMPFilePickerCombo.rc"\
+	"..\..\include\OXBrowseDirEdit.rc"\
+	"..\..\include\OXCalculatorCtrl.rc"\
+	"..\..\include\OXCalendarPopup.rc"\
+	"..\..\include\OXCoolBar.rc"\
+	"..\..\include\OXCoolToolBar.rc"\
+	"..\..\include\OXCustomizeManager.rc"\
+	"..\..\include\OXDao.rc"\
+	"..\..\include\OXDirDlg.rc"\
+	"..\..\include\OXDockCtrlBars.RC"\
+	"..\..\include\OXEditList.rc"\
+	"..\..\include\OXFileWatcher.rc"\
+	"..\..\include\OXFolderPickerDlg.rc"\
+	"..\..\include\OXFrameWndDock.rc"\
+	"..\..\include\OXGridList.rc"\
+	"..\..\include\OXHistoryCombo.rc"\
+	"..\..\include\OXHyperLinkAction.rc"\
+	"..\..\include\OXImageViewer.rc"\
+	"..\..\include\OXIntelliMouse.rc"\
+	"..\..\include\OXListBoxEx.rc"\
+	"..\..\include\oxmainres.h"\
+	"..\..\include\OXMenuBar.rc"\
+	"..\..\include\OXMetaFile.rc"\
+	"..\..\include\OXMulticlipboardDlg.rc"\
+	"..\..\include\OXNetBrowseTree.rc"\
+	"..\..\include\OXNotesEditView.rc"\
+	"..\..\include\OXOptionTreeCtrl.rc"\
+	"..\..\include\OXPhysicalEditEx.rc"\
+	"..\..\include\OXPopupBarCtrl.rc"\
+	"..\..\include\OXPreviewDialog.rc"\
+	"..\..\include\OXProcess.rc"\
+	"..\..\include\OXPropertiesWnd.rc"\
+	"..\..\include\OXRegExpression.rc"\
+	"..\..\include\OXRollUp.rc"\
+	"..\..\include\OXScrollWnd.rc"\
+	"..\..\include\OXShellFolderTree.rc"\
+	"..\..\include\OXShellObjectList.rc"\
+	"..\..\include\OXShortcut.rc"\
+	"..\..\include\OXShortcutBar.rc"\
+	"..\..\include\OXSoundCustomizeDlg.rc"\
+	"..\..\include\OXSpinCtrl.rc"\
+	"..\..\include\OXSysInfo.rc"\
+	"..\..\include\OXUNCStandartActor.rc"\
+	"..\..\include\OXUndo.rc"\
+	"..\..\include\OXWABook.rc"\
+	"..\..\include\res\bkgnd_painter.bmp"\
+	"..\..\include\res\caption.bmp"\
+	"..\..\include\res\command_group.ico"\
+	"..\..\include\res\commands.bmp"\
+	"..\..\include\res\coolcontrols.bmp"\
+	"..\..\include\res\custom_button.ico"\
+	"..\..\include\res\il_fonttype.bmp"\
+	"..\..\include\res\il_oxcustomize_custom_images.bmp"\
+	"..\..\include\res\instance_manager.bmp"\
+	"..\..\include\res\intellitarget.bmp"\
+	"..\..\include\res\new_popup_menu.ico"\
+	"..\..\include\res\noimage.ico"\
+	"..\..\include\res\oxcustcoolcontrols_controls.bmp"\
+	"..\..\include\res\oxcustom.bmp"\
+	"..\..\include\res\oxcusttabmdi_appearance.bmp"\
+	"..\..\include\res\oxcusttabmdi_display.bmp"\
+	"..\..\include\res\oxcusttabmdi_orient.bmp"\
+	"..\..\include\res\oxcusttabmdi_positioning.bmp"\
+	"..\..\include\res\oxcusttabmdi_settings.bmp"\
+	"..\..\include\res\OXEditListImg.bmp"\
+	"..\..\include\res\OXGridListImg.bmp"\
+	"..\..\include\res\OXHandCursor.cur"\
+	"..\..\include\res\OXHistoryComboImg.bmp"\
+	"..\..\include\res\OXMulticlipboardDlg.bmp"\
+	"..\..\include\res\OXNetBrowseTreeImg.bmp"\
+	"..\..\include\res\OXNoHandCursor.cur"\
+	"..\..\include\res\OXNotes.cur"\
+	"..\..\include\res\OXNotesBkmarks.bmp"\
+	"..\..\include\res\OXNotesBrush.bmp"\
+	"..\..\include\res\oxoption.bmp"\
+	"..\..\include\res\OXOptionHighContrast.bmp"\
+	"..\..\include\res\oxpreviewbtn.bmp"\
+	"..\..\include\RES\OXRUpBar.bmp"\
+	"..\..\include\res\OXSpinHor.cur"\
+	"..\..\include\res\OXSpinVer.cur"\
+	"..\..\include\res\oxtbcopy.cur"\
+	"..\..\include\res\oxtbmove.cur"\
+	"..\..\include\res\oxtbremove.cur"\
+	"..\..\include\res\properties_toolbar.bmp"\
+	"..\..\include\res\scrl_all.cur"\
+	"..\..\include\res\scrl_bottomleft.cur"\
+	"..\..\include\res\scrl_bottomright.cur"\
+	"..\..\include\res\scrl_down.cur"\
+	"..\..\include\res\scrl_left.cur"\
+	"..\..\include\res\scrl_leftright.cur"\
+	"..\..\include\res\scrl_right.cur"\
+	"..\..\include\res\scrl_topbottom.cur"\
+	"..\..\include\res\scrl_topleft.cur"\
+	"..\..\include\res\scrl_topright.cur"\
+	"..\..\include\res\scrl_up.cur"\
+	"..\..\include\res\separator.ico"\
+	"..\..\include\res\shortkeys.bmp"\
+	"..\..\include\res\sndplay.bmp"\
+	"..\..\include\res\sndstop.bmp"\
+	"..\..\include\res\splashwindow.bmp"\
+	"..\..\include\res\tabbedmdi.bmp"\
+	"..\..\include\res\toolbars.bmp"\
+	"..\..\include\res\trayicon.bmp"\
+	"..\..\include\res\treelist.bmp"\
+	"..\..\include\res\workspace_state.bmp"\
+	
+
+.\StdAfx.cpp : \
+	"..\..\include\oxadvancedassert.h"\
+	"..\..\include\oxdllext.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\UT.cpp : \
+	"..\..\include\oxdllext.h"\
+	

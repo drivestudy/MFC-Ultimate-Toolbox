@@ -1,0 +1,69 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\froman\fprq2 Times New Roman;}{\f1\froman\fprq2\fcharset0 Times New Roman;}{\f2\froman Times New Roman;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\cf1\b\f0\fs48 COX3DTabViewContainer\cf0\par
+\f1\fs16 Copyright \'a9 The Code Project 1997 - 1999, All Rights Reserved\f0\par
+\b0\fs24\par
+For most applications it's not enough to use only one window to provide its all output. There are different solutions for this problem like splitters or docking windows. But they usually have common inconvenience: all windows are shown at the same time. They take a precious screen space while could be rarely used. \par
+\par
+\cf1\ul COXShortcutBar\cf0\ulnone  control can be used in order to show a number of child windows while keeping active (fully displayed) only one at a time. But COXShortcutBar was primarily designed to show icons and have a set of notifications that make sense only while using such controls as treeview or listview. \par
+\par
+Very good example of how the problem could be resolved can be found in \b Microsoft Visual Studio IDE\b0 . For instance "Output" window (with "Build", "Debug", "Find in Files..." panes) or "Result List" window (with "Search", "Lookup", "See Also" and "History" panes). We call them \b TabViews\b0 . \par
+\par
+\b TabViews\b0  can be a good alternative for splitter window when you need to have more than one view per document. Also TabViews can be used within a docking window and used as a container for associated windows (pages) that usually implemented as dialog bars. \par
+\par
+We already have in the library \cf1\ul COXTabViewContainer\cf0\ulnone  class that implements the \b TabViews\b0  paradigm. In terms of graphical representation this class duplicates the functionality that can be found in such products as \b Microsoft Visual Studio IDE\b0  (Output window) or \b Microsoft Excel\b0  (multiple sheets in the same book). Tab buttons are positioned at the bottom of the window on the same line as the horizontal scroll bar. \par
+\par
+Here we introduce new implementation of the \b TabViews\b0 . The paradigm remains the same but we've changed the way associated windows (pages) represented in the container. We used standard \b Tab control\b0  and displayed a tab button for each page. When a user clicks a button the corresponding page is activated and displayed. Tab buttons can be positioned at any side of the container window by means of applying corresponding Tab control styles (refer to \cf1\ul Create()\cf0\ulnone  function for details). \par
+\par
+The new class is called \b COX3DTabViewContainer\b0 . It is derived from the standard \b CTabCtrl\b0  and implements all functionality needed to support tab views. \par
+\b COX3DTabViewContainer\b0  is easy to use. If you previously worked with \cf1\ul COXTabViewContainer\cf0\ulnone  class then you are already know ho to use this class because we decide to implement it as close as possible to the existing COXTabViewContainer\~ class. If you haven't used this class yet then the closest comparison would be \b splitter windows\b0 . \par
+\par
+\par
+Here is the list of steps that should be taken in order to deploy \b TabViews\b0  in your application: \par
+\par
+\ul\b First Case\ulnone\b0 : COX3DTabViewContainer will be used as a container for \b document view(s)\b0 . \par
+\par
+1) Embed a COX3DTabViewContainer member variable in the parent frame (main frame window for SDI application, MDIChild window for MDI application). \par
+\par
+2) Override the parent frame's \b CFrameWnd::OnCreateClient()\b0  member function. \par
+\par
+3) From within the overridden OnCreateClient, call the \cf1\ul Create()\cf0\ulnone  member function of COX3DTabViewContainer. In this function you have to specify the parent window and optionally you can specify the initial rectangle, window styles and window ID. This function is the place where you can specify \b Tab control styles\b0  that defines the way tab buttons are positioned and displayed. \par
+\par
+4) If you plan to assign \b images\b0  to TabView pages then you have to create and load image list with images and associate it with COX3DTabViewContainer object using \b CTabCtrl::SetImageList()\b0  function.\par
+\par
+5) After COX3DTabViewContainer window was successfully created you can populate it with window objects using \cf1\ul AddPage\cf0\ulnone () or \cf1\ul InsertPage\cf0\ulnone () functions. If you are inserting view object you have to specify runtime class and context information in order to keep the document/view architecture in place. If you are adding a window object that is not a document view then \b you have to create it before adding it to COX3DTabViewContainer window\b0 . In AddPage() or InsertPage() functions you can specify text that will be used as page title in the corresponding tab button. Also you can specify the index of image in the tab control image list that should be displayed in the tab button. \par
+\par
+\ul\b\par
+Second Case\ulnone\b0 : COX3DTabViewContainer will be used as a container for \b windows within a control bar\b0 . \par
+\par
+1) Create your own CControlBar-derived class (you can use our \b COXSizeControlBar\b0  as parent class if you need sizable docking windows). Let's call it CMyControlBar. \par
+\par
+2) Embed a COX3DTabViewContainer member variable in this class. \par
+\par
+3) Override \b CMyControlBar::OnCreate\b0 () member function. \par
+\par
+4) From within the overridden OnCreate(), call the \cf1\ul Create\cf0\ulnone () member function of COX3DTabViewContainer. In this function you have to specify the parent window and optionally you can specify the initial rectangle, window styles and window ID. This function is the place where you can specify \b Tab control styles\b0  that defines the way tab buttons are positioned and displayed. \par
+\par
+5) If you plan to assign images to TabView pages then you have to create and load image list with images and associate it with COX3DTabViewContainer object using \b CTabCtrl::SetImageLis\b0 t() function.\par
+\par
+6) After COX3DTabViewContainer window was successfully created you can populate it with window objects using \cf1\ul AddPage\cf0\ulnone () or \cf1\ul InsertPage\cf0\ulnone () function. You have to create window object before adding it to COX3DTabViewContainer. In AddPage or InsertPage functions you can specify text that will be used as page title in tab button. Also you can specify the index of image in the tab control image list that should be displayed in the tab button. \par
+\par
+7) Override \b CMyControlBar::OnSize\b0 () member function and resize in it COX3DTabViewContainer object as appropriate\par
+\par
+\par
+Note, that \b any child window\b0  can be used as COX3DTabViewContainer page.\par
+\par
+The steps that should be taken in order to implement COX3DTabViewContainer in CControlBar derived window can be applied in general case too. We just decided to show it using CControlBar derived window because we think it's going to be used as parent window for COX3DTabViewContainer in most cases. \par
+Above we described the process of creating and populating of COX3DTabViewContainer object. In most cases that would be all the code you need. For those who need to change dynamically the contents of COX3DTabViewContainer object we provide a set of the following functions. \par
+\par
+In order to remove any page at run time you have to use \cf1\ul DeletePage\cf0\ulnone () function. \par
+\par
+To set/retrieve page title that is displayed in corresponding tab button use \cf1\ul GetPageTitle\cf0\ulnone () and \cf1\ul SetPageTitle\cf0\ulnone () functions. \par
+\par
+To set/retrive active page index call \cf1\ul GetActivePageIndex\cf0\ulnone () and \cf1\ul SetActivepageIndex\cf0\ulnone () functions. \par
+\par
+Refer to the \cf1\ul class reference\cf0\ulnone  for the list and description of all public functions.\par
+\par
+\f2\fs20\par
+}
+ 

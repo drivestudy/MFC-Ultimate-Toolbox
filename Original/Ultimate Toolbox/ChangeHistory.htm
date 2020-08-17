@@ -1,0 +1,538 @@
+<html>
+
+<head>
+
+<title>Ultimate ToolBox Change History</title>
+<style>
+BODY, P, H1, H2, H3, H4, H5, H6, LI, TD, TH, DD, DT
+{
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 10pt;
+	color: black;
+}
+BODY
+{
+	background-color: #ffffff;
+	color: #000000;
+}
+LI,UL,OL
+{
+	list-style-image: none;
+}
+H1, H2, H3, H4, H5, TH
+{
+	font-weight: bold;
+}
+H2, H3, H4, H5
+{
+	color: #009999;
+}
+H1
+{
+	font-size: 16pt;
+	color: #007777;
+}
+H2
+{
+	font-size: 13pt;
+}
+H3
+{
+	font-family: Arial, sans-serif;
+	font-size: 11pt;
+}
+H4
+{
+	font-size: 10pt;
+	margin-bottom: 2px;
+}
+H5
+{
+	font-size: 9pt;
+	margin-bottom: 2px;
+}
+H6
+{
+	color: #626262;
+	font-size: 65%;
+	font-weight: normal;
+}
+CODE
+{
+	color: #1111BB;
+	font-family: "Courier New", Courier, mono;
+	font-weight: bold;
+}</style>
+
+</head>
+
+<body lang=EN-US>
+
+<h1>Ultimate Toolbox Change History </h1>
+<h2>Version 9.3</h2>
+    <h3>
+        Major release feature:</h3>
+
+<div>
+    <ul>
+        <li>The Hyperbar classes provide an easy way to add some cool UI functionality to any
+            existing or new project that uses a toolbar.&nbsp;</li>
+    </ul>
+
+
+
+</div>
+    <h3>
+        Bug Fixes:</h3>
+    <ul>
+        <li><code>OXSkins</code> - it's now possible ( and preferred ) to specify the desired
+            skin using an enum</li>
+        <li>The CustomiseManager sample has a minor bug fix, which caused a very rare
+            crash</li><li><code>OutlookStyleDemo</code> : Added ability to change skin type at run time,
+      and improved overall skin support. </li>
+        <li><code>COXBItmapMenu</code> : Fixed bug which caused documents to close when dirty
+            without prompting &nbsp;</li><li><strong><span style="color: #1111bb; font-family: Courier New">COXFrameWndDock::MakeItDockable</span></strong>
+      : Can now specify which sides to support and if we should dock immediately &nbsp;&nbsp;</li>
+        <li><code>COXFrameWndDock::AttachMDIChild</code>
+            : Allows users to specify the side to dock to, before it would dock to the first
+            one that was available.&nbsp; Also fixed some docking bugs in this class.</li>
+        <li><code>COXListEdit</code> : Added code to send a message to indicate editing has ended when the
+            drop button is pressed.&nbsp;</li>
+        <li><code>COXPropertyTree</code> : Added code to send a message to indicate editing has ended when
+            focus is lost.</li>
+        <li>Moved all the skinning drawing into seperate classes, so they are all handled polymorphically
+            by the toolbox controls.</li>
+        <li><code>COXSizeDockBar::TabAllDockedControlBars</code> : Added code so that the visible bar can
+            be selected, via a pointer or by index.&nbsp;</li>
+    </ul>
+    <h2>
+        Version 9.2</h2>
+<h3>Major release feature:</h3>
+<ul>
+	<li>The entire code base is now compatible with VC++ 2005, VC++ 2003, and 
+	VC++ 6. You get zero-warning compilation on VC++ 2005.</li>
+</ul>
+<h3>Bug Fixes:</h3>
+<ul>
+	<li><code>COXComboPickerCtrl::OnPaint</code> now checks if the OS version is 
+	XP or higher, and if so it uses the default OS painting, else it does custom 
+	painting for the combo box arrow</li>
+	<li><code>COXCalendarPopup::OnPaint</code> : A bug (missing cast) has been 
+	fixed which caused an error in VC++ 7.1 or higher</li>
+	<li><code>COXDateTimeCtrl::OnDropDown</code> : The return value has been 
+	changed from TRUE to FALSE, thus fixing a bad bug where the parent window 
+	never gets to handle the notification.</li>
+	<li>The bug in MDI child menus (in skinned mode) where the restore, 
+	minimize, and close items were shown in an un-skinned condition has been 
+	fixed.</li>
+	<li><code>COXSysInfo</code> has been updated to correctly identify all OSes 
+	up to Windows Vista.</li>
+	<li>The Cool Controls demo had a bug where the Listbox tooltips came up as 
+	garbage - this has been fixed.</li>
+	<li>Minor bugs have been fixed in the Status Bar demo (which caused garbage 
+	to show up in it)</li>
+	<li>The Screen Grabber demo has been fixed to not crash on a multiple 
+	monitor setup.</li>
+	<li>A trivial bug in <code>COXMDIFrameWndSizeDock::OnActivate</code> has 
+	been fixed.</li>
+	<li>A bug in <code>COXTreeCtrl</code> that caused random crashes during 
+	drag/drop scenarios has been fixed.</li>
+</ul>
+<h2>Version
+9.0</h2>
+
+<h3><b> </b>Major Upgrades: </h3>
+
+<ol start=1 type=1>
+ <li>The Office 2003 Look and Feel was added. The following
+     Ultimate ToolBox UI elements support this new skin:
+ <ol start=1 type=a>
+  <li>Menus</li>
+  <li>Toolbars and menubars</li>
+  <li>Docking windows</li>
+  <li>MDI tabs and Tear-off tabs</li>
+  <li>Shortcut bar</li>
+  <li>Properties window</li>
+  <li>Status bar</li>
+ </ol>
+</li>
+</ol>
+
+<ol start=2 type=1>
+ <li>The Properties window was enhanced to look more like
+     the VS.NET properties window.</li>
+</ol>
+
+<h3>Minor Changes and Fixes: </h3>
+<ol>
+	<li>A bug causing the Caption Painter
+not to work in Windows XP was fixed.</li>
+	<li>A problem casing excessive flashing
+of the toolbar, menu bar and docking windows under the Office XP skin was
+fixed.</li>
+	<li>A problem causing the close,
+minimize and maximize buttons of the menu bar to appear too large in skinned
+Windows XP was fixed.</li>
+	<li>A bug causing a floating toolbar to
+stick to the mouse cursor even after the user has released the button was
+fixed.</li>
+	<li>A GDI leak found in the Office XP
+skin causing problems in Windows ME was removed.</li>
+	<li>Several upgrades to the <code>COXTreeCtrl </code>were implemented:<ol>
+		<li>Arrow key navigation was added.</li>
+		<li>Various drawing problems involving
+different back colors were fixed.</li>
+		<li>An item indentation problem involving
+adding a child item to a collapsed parent was fixed.</li>
+	</ol>
+	</li>
+	<li>A problem in <code>COXPreviewDialog</code> caused
+by a font that does not exist in all operating systems was fixed.</li>
+	<li>The classes <code>COXTreeCtrl</code> and
+<code>COXGridCtrl</code> will draw their sort headers correctly now in Windows XP skinned
+mode.</li>
+	<li>Several upgrades to the
+<code>COXPropertiesWnd</code> class were implemented:<ol>
+		<li><code>OnDeleteProperty()</code> notification was
+added.</li>
+		<li>A method for deleting all properties
+called <code>DeleteAll()</code> was added.</li>
+		<li>A problem causing a crash if a
+property is deleted while being edited was fixed.</li>
+		<li>A problem causing the combo box drop
+list not to show in its entirety was fixed.</li>
+		<li>Added the following functionality:
+when editing a property the changes will be accepted if Enter is pressed and
+discarded when Escape is pressed.</li>
+	</ol>
+	</li>
+	<li>Fixed a problem in <code>COXMultiComboBox</code>
+causing uncontrolled scrolling to the bottom of the drop list in Windows XP
+skinned mode.</li>
+</ol>
+
+<h3> Sample Changes: </h3>
+
+<ol start=1 type=1>
+ <li>The SkinsDemo sample was enhanced to show the new
+     Office 2003 look and feel.</li>
+ <li>The SkinsDemo sample was upgraded to demonstrate how to
+     show and hide the different docking windows from the View menu.</li>
+</ol>
+
+<h3> New Classes: </h3>
+
+<ol>
+	<li><code>COXUxTheme</code> – internal class used by
+various Ultimate Toolbox classes designed to detect the presence of Windows XP
+skins and retrieve their color schemas.</li>
+</ol>
+
+<h2>Version
+8.1</h2>
+<h3>Major Upgrades:</h3>
+<ol>
+	<li>Visual
+Studio.NET 2003 full compatibility.</li>
+<li>Enhancements to
+the VS.NET like properties window: the following property types with their
+appropriate editors are now supported:<ol>
+		<li>Text</li>
+	<li>Numeric (with
+the ability to specify the number of decimal places)</li>
+		<li>List of items
+(enumeration)</li>
+	<li>Date</li>
+		<li>IP address</li>
+	<li>Currency</li>
+		<li>Color</li>
+	<li>Filename</li>
+		<li>Directory</li>
+	<li>Time (from
+nanoseconds to days)</li>
+		<li>Angle (degrees,
+radians or grades)</li>
+	<li>Length (metric
+or imperial)</li>
+		<li>Temperature
+(Celsius, Fahrenheit, Kelvin)</li>
+	<li>Custom field
+with a custom editor.</li>
+	</ol>
+</li>
+</ol>
+
+<h3> Minor Changes and Fixes: </h3>
+
+<ol>
+	<li>The <code>TVOXS_NOFOCUSRECT</code> style was
+introduced in <code>COXTreeView </code>to provide the ability to turn off the item focus
+rectangle for selected items.</li>
+<li>A buggy assertion statement was
+removed from <code>COXMDIChildWndSizeDock::Create(…)</code></li>
+	<li>An auto-scrolling problem in <code>COXMultiComboBox</code> was fixed.</li>
+<li>A bug in <code>COXPhysicalEdit</code> causing a
+crash was fixed.</li>
+	<li>A bug causing all drop edit controls
+to show garbage characters in the tooltips was fixed.</li>
+<li>A bug preventing <code>COXTreeCtrl::SelectItem(…)</code> from having any effect in single selection mode was
+fixed.</li>
+	<li>A bug causing a floating menu to
+jump away from the mouse cursor was fixed.</li>
+</ol>
+
+<h3> Sample Changes:</h3>
+
+<ol>
+	<li>The SkinsDemo sample was enhanced to
+demonstrate the use of <code>COXPropertiesWnd</code> and all the different type of
+properties that are supported.</li>
+<li>The CustomizeManager sample was
+modified to reflect that in <code>CMainFrame::OnCreate()</code> <code>InitializeToolbars()</code> must be
+called prior to calling <code>InitializeCommands()</code>.</li>
+</ol>
+
+<h3> New Classes:</h3>
+
+<ol>
+	<li><code>COXPropertyTree</code> – internal class
+used by <code>COXPropertiesWnd</code>.</li>
+	<li><code>COXListEdit</code> – A drop edit control
+with the ability to display a list of items.</li>
+	<li><code>COXListPopup</code> – internal class used
+by <code>COXListEdit</code>.</li>
+	<li><code>COXIPEdit</code> – A an IP address edit
+control.</li>
+	<li><code>COXCalendarEdit</code> – A drop edit
+control for dates.</li>
+	<li><code>COXMonthCalPopup</code> – internal class
+used by <code>COXCalendarEdit</code>.<b> </b></li>
+</ol>
+
+<h2>Version
+8.02<b> </b></h2>
+
+<h3>Changes and Fixes: </h3>
+<ol start=1 type=1>
+ <li>When the snapping and tear-off behavior is enabled a
+     floating window could not be resized. This was fixed.</li>
+ <li>OXShdWnd.cpp was not added to the build library project
+     causing link errors. This was fixed.</li>
+ <li>In <code>COXPropertiesWnd</code> it was possible to edit a category
+     name, which caused a crash. This was fixed.</li>
+ <li>When the extended tree control (<code>COXTreeCtrl</code>) is
+     automatically populated the user could not expand the tree by single
+     clicking on the plus. This was fixed.</li>
+ <li>Some painting problems of the edit control of the
+     extended tree were fixed.</li>
+ <li>A problem preventing a date item from being edited in
+     the extended tree was fixed.</li>
+ <li>The <code>COXShdWnd</code> class was not declared as exportable,
+     which caused some link errors. This problem was fixed.</li>
+ <li>In the Customize Manager it was possible to turn off
+     the “cool look” of the toolbars while in OfficeXP skin mode, which caused
+     a crash. This problem was fixed.</li>
+ <li>A paining problem of <code>COXCustomTBComboBox</code> with the
+     <code>CBS_DROPLIST</code> style under the Office XP skin was fixed.</li>
+ <li>A problem causing <code>COXSkinnedCombo</code> not to send
+     <code>CBN_SELCHANGE</code> message was fixed.</li>
+ <li>A problem causing a floating window not to redraw the
+     window behind it fast enough while moving was fixed.</li>
+ <li>In <code>COXDao</code> the <code>FindNext</code> method will work properly with
+     searches on string values.</li>
+</ol>
+
+<h3> Sample Changes:</h3>
+<ol start=1 type=1>
+ <li>A new sample called CustomizeManager was added to the
+     samples/advanced/ directory. This sample demonstrates how to use
+     COXCustomizeManager. The different steps required are written as comments
+     in the source code. Just search for the string “STEP”.</li>
+ <li>A new sample called ExtendedTreeControl was added to
+     the samples/gui/ directory. This sample shows how to achieve the
+     functionality of COXTreeCtrl demonstrated in the downloadable Demo
+     Browser.</li>
+ <li>The link errors in the TabViews sample were fixed.</li>
+</ol>
+
+<h2>Version
+8.01<b> </b></h2>
+
+<h3>New
+Functionality: </h3>
+
+<ol start=1 type=1>
+ <li>Ability
+     to programmatically tab all docked windows on a dock bar. Use 
+
+	<code>COXSizeDockBar:: TabAllDockedControlBars(…)</code> to accomplish
+this.</li></ol>
+
+<h3> Changes
+and Fixes:</h3>
+<ol start=1 type=1>
+ <li><code>COXSkinnedComboBox</code>
+     now sends proper notification messages.</li>
+ <li>A combo
+     box custom toolbar button is now properly centered in the Windows XP skin.</li>
+ <li>A
+     behavior problem was fixed when the user double-clicks the gripper of a tabbed
+     docking window.</li>
+ <li>A
+     behavior problem was fixed preventing the user from moving a docked
+     toolbar to the left edge of the windows without the toolbar going into
+     float mode.</li>
+ <li>A crash
+     in <code>COXPreviewDialog</code> which only occurred in Windows 2000 when compiled with
+     VC7 was fixed.</li>
+ <li>Missing
+     files causing links errors were added to the SideBySideToolbars sample.</li>
+</ol>
+
+<h2>Version
+8.0<b> </b></h2>
+
+<h3>Major Features:<b> </b></h3>
+
+<table border=1 cellspacing=0 cellpadding=0>
+ <tr>
+  <td width=221>
+  <p><b>Snapping Toolbars, Menubars and
+  Docking Windows</b></p>
+  </td>
+  <td width=403>
+  <p>When a toolbar, menubar or a docking windows is being
+  dragged the entire content is shown instead of just the outline. When it is
+  being docked it snaps to its appropriate position before the user releases
+  the mouse button. This behaviour is the same as the snapping toolbars and
+  docking windows of Visual Studio .NET. </p>
+  </td>
+ </tr>
+ <tr>
+  <td width=221>
+  <p><b>Detachable tabs</b></p>
+  </td>
+  <td width=403>
+  <p>Two or more docking windows can be docked to the same area
+  of then screen. When they are only one of the is shown and the others can be
+  activated by clicking on the appropriate tab on the bottom. The user can
+  click on a tab an drag it away, therefore separating a docking window from
+  the group, hence the name "detachable tabs". Behaviour is similar
+  but not identical to the detachable tabs of Visual Studio .NET</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=221>
+  <p><b>Properties Window </b></p>
+  </td>
+  <td width=403>
+  <p>A new window designed to provide UI for properties and
+  property categories.</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=221>
+  <p><b>Window Shadows</b></p>
+  </td>
+  <td width=403>
+  <p>A new template class called <code>COXShadowedWnd&lt;...&gt;
+  </code>providing the ability to display a shadow behind any window. The
+  implementation does not require Win 2000 or higher and allows the shadowed
+  window to be moveable and sizeable.</p>
+  </td>
+ </tr>
+</table>
+
+<p> There are also numerous minor features, updates and bug fixes<b>.</b></p>
+<h2>Version
+7.52<b> </b></h2>
+
+<h3>Changes and Fixes: </h3>
+
+<ol start=1 type=1>
+ <li>The “octodll” project was renamed to “UT”.</li>
+ <li>The “octolib” project was renamed to “UTStaticLib”</li>
+ <li>The files “UTDLL.h” and “UTStaticLib.h” were added to
+     the /include folder to automatically link to the appropriate .LIB file.</li>
+ <li>A <code>CFormView</code> constructor was added to COXSkinnedView.h</li>
+ <li>Various bug fixes.</li>
+</ol>
+
+<h3>Sample Changes:</h3>
+
+<ol>
+	<li>Two new samples were added to
+/samples/GettingStarted<ol>
+		<li>UsingDLL –
+explains how to use the Ultimate ToolBox in a DLL.</li>
+		<li>UsingStaticLib –
+explains how to use the UltimateToolBox in a static library.</li>
+	</ol>
+</li>
+</ol>
+
+<h2>Version
+7.51 </h2>
+
+<h3>Office XP Skin Fixes: </h3>
+
+<ol>
+	<li>The colors of a skinned application are now
+determined exactly the same way as Office XP, so a skinned application will
+look the&nbsp; same as Office XP under any color scheme.</li>
+<li>A drawing problem of <code>COXSkinnedCombo</code> in Win
+XP with Common Controls 6.0 was fixed.</li>
+	<li>A skinned mini frame window will no longer
+show a non skinned close button when sized.</li>
+<li>A GDI leak was removed that could lead to a
+crash on some systems.</li>
+	<li>A menu positioning problem causing the menu
+to pop on top of the menu bar item when the menu bar is docked at the bottom of
+the&nbsp; application was fixed.</li>
+<li>A problem causing the <code>COXCoolToolBar</code> to draw
+incorrectly when the item images are very large was fixed.</li>
+	<li>The main frame will now properly recalculate
+it layout when the skins are changed dynamically.</li>
+<li><code>COXStatusBar</code> will now properly draw a bitmap
+under the Office XP skin.</li>
+<li>Win 9x: The slit window separators will now
+be properly drawn.</li>
+	<li>The size of the menu check boxes was
+corrected.</li>
+<li>The skin classes will no longer report Level
+4 warnings.</li>
+	<li>Win 9x: A drawing problem with the menu
+shadow when the menu bar is docked to the bottom was fixed.</li>
+<li>Win 9X: A popup window will no longer
+interfere with the shadow if its parent window.</li>
+	<li>Win 9x: A problem causing the menu bar not
+to draw while moving was fixed.</li>
+<li>Win 9x: The hot icons of a toolbar or a menu
+will now be raised and will drop a shadow.</li>
+	<li>Win 9x: A problem causing the toolbar and
+shortcut bar images not to draw transparently in 32-bit color was fixed. &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+	</li>
+</ol>
+
+<h3>Other Changes: </h3>
+
+<ol>
+	<li>Multi-monitor support was added.</li>
+<li>OXToolTipCtrl.cpp was added as a dependency
+to OXBitmapMenu.cpp, so you might have to add OXToolTipCtrl.cpp to your project
+to avoid linker error LNK2001. </li>
+</ol>
+
+<h3> Sample Changes:</h3>
+
+<ol>
+	<li>The OulookLikeDemo sample was modified to
+demonstrate skinned drop down buttons properly.</li>
+<li>More comments were added to the SkinsDemo to
+show the steps involved in adding skins to an application. Just search for
+"STEP".</li>
+</ol>
+
+</body>
+
+</html>

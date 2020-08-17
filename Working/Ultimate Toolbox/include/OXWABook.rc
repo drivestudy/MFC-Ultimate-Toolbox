@@ -1,0 +1,210 @@
+//Microsoft Developer Studio generated resource script.
+//
+// Version: 9.3
+
+#ifndef _OXWABOOK_RC__
+#define _OXWABOOK_RC__
+#include "OXMainRes.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "OXMainRes.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+
+
+
+IDS_OX_WABOOK_ROWID							"Rowid"
+IDS_OX_WABOOK_DISPLAYNAME					"Display name"
+IDS_OX_WABOOK_ADDRTYPE						"Addrtype"
+IDS_OX_WABOOK_EMAILADDRESS					"Email address"
+IDS_OX_WABOOK_COMMENT						"Comment"
+IDS_OX_WABOOK_DEPTH							"Depth"
+IDS_OX_WABOOK_PROVIDERDISPLAY				"Provider display"
+IDS_OX_WABOOK_CREATIONTIME					"Creation time"
+IDS_OX_WABOOK_MODIFICATIONTIME				"Last modification time"
+IDS_OX_WABOOK_RESOURCEFLAGS					"Resource flags"
+IDS_OX_WABOOK_PROVIDERDLL					"Provider dll name"
+IDS_OX_WABOOK_SEARCHKEY						"Search key"
+IDS_OX_WABOOK_PROVIDERUID					"Provider uid"
+IDS_OX_WABOOK_PROVIDERORIGINAL				"Provider ordinal"
+IDS_OX_WABOOK_CONTAINERFLAGS				"Container flags"
+IDS_OX_WABOOK_FOLDERTYPE					"Folder type"
+IDS_OX_WABOOK_CONTENTCOUNT					"Content count"
+IDS_OX_WABOOK_CONTENTUNREAD					"Content unread"
+IDS_OX_WABOOK_CREATETEMPLATES				"Create templates"
+IDS_OX_WABOOK_DETAILSTABLE					"Details table"
+IDS_OX_WABOOK_SEARCH						"Search"
+IDS_OX_WABOOK_SELECTABLE					"Selectable"
+IDS_OX_WABOOK_SUBFOLDERS					"Subfolders"
+IDS_OX_WABOOK_STATUS						"Status"
+IDS_OX_WABOOK_ANR							"Anr"
+IDS_OX_WABOOK_CONTENTSSORT					"Contents sort order"
+IDS_OX_WABOOK_CONTAINERHIERARCHY			"Container hierarchy"
+IDS_OX_WABOOK_CONTAINERCONTENTS				"Container contents"
+IDS_OX_WABOOK_FOLDERASSOSIATED				"Folder associated contents"
+IDS_OX_WABOOK_DEFCREATEDL					"Def create dl"
+IDS_OX_WABOOK_DEFCREATEMAILUSER				"Def create mailuser"
+IDS_OX_WABOOK_CONTAINERCLASS				"Container class"
+IDS_OX_WABOOK_CONTAINERMODIFY				"Container modify version"
+IDS_OX_WABOOK_ABPROVIDERID					"Ab provider id"
+IDS_OX_WABOOK_DEFAULTVIEWENTRYID			"Default view entryid"
+IDS_OX_WABOOK_ASSOCCONTENTCOUNT				"Assoc content count"
+IDS_OX_WABOOK_DISPLAYTYPE					"Display type"
+IDS_OX_WABOOK_TEMPLATEID					"Templateid"
+IDS_OX_WABOOK_PRIMARYCAPABILITY				"Primary capability"
+IDS_OX_WABOOK_7BITDISPLAYNAME				"7bit display name"
+IDS_OX_WABOOK_ACCOUNT						"Account"
+IDS_OX_WABOOK_ALTERNATERECIPIENT			"Alternate recipient"
+IDS_OX_WABOOK_CALLBACKPHONENUMBER			"Callback telephone number"
+IDS_OX_WABOOK_CONVERSIONPROHIBITED			"Conversion prohibited"
+IDS_OX_WABOOK_DISCLOSERECIPIENTS			"Disclose recipients"
+IDS_OX_WABOOK_GENERATION					"Generation"
+IDS_OX_WABOOK_GIVENNAME						"Given name"
+IDS_OX_WABOOK_GOVERMENTIDNUMBER				"Government id number"
+IDS_OX_WABOOK_BUSINESSPHONENUMBER			"Business telephone number"
+IDS_OX_WABOOK_HOMEPHONENUMBER				"Home telephone number"
+IDS_OX_WABOOK_INITIALS						"Initials"
+IDS_OX_WABOOK_KEYWORD						"Keyword"
+IDS_OX_WABOOK_LANGUAGE						"Language"
+IDS_OX_WABOOK_LOCATION						"Location"
+IDS_OX_WABOOK_MAILPERMISSION				"Mail permission"
+IDS_OX_WABOOK_MHSCOMMONNAME					"Mhs common name"
+IDS_OX_WABOOK_ORGANIZATIONALID				"Organizational id number"
+IDS_OX_WABOOK_SURNAME						"Surname"
+IDS_OX_WABOOK_ORIGINALENTRYID				"Original entryid"
+IDS_OX_WABOOK_ORIGINALDISPLAYNAME			"Original display name"
+IDS_OX_WABOOK_ORIGINALSEARCHKEY				"Original search key"
+IDS_OX_WABOOK_POSTALADDRESS					"Postal address"
+IDS_OX_WABOOK_COMPANYNAME					"Company name"
+IDS_OX_WABOOK_TITLE							"Title"
+IDS_OX_WABOOK_DEPARTMENTNAME				"Department name"
+IDS_OX_WABOOK_OFFICELOCATION				"Office location"
+IDS_OX_WABOOK_PHONENUMBER1					"Primary telephone number"
+IDS_OX_WABOOK_BUSINESSPHONE2				"Business2 telephone number"
+IDS_OX_WABOOK_MOBILEPHONENUMBER				"Mobile telephone number"
+IDS_OX_WABOOK_RADIOPHONENUMBER				"Radio telephone number"
+IDS_OX_WABOOK_CARPHONENUMBER				"Car telephone number"
+IDS_OX_WABOOK_OTHERPHONENUMBER				"Other telephone number"
+IDS_OX_WABOOK_TRANSDISPNAME					"Transmitable display name"
+IDS_OX_WABOOK_PAGERPHONENUMBER				"Pager telephone number"
+IDS_OX_WABOOK_USERCERTIFICATE				"User certificate"
+IDS_OX_WABOOK_FAXNUMBER1					"Primary fax number"
+IDS_OX_WABOOK_BUSINESSFAXNUMBER				"Business fax number"
+IDS_OX_WABOOK_HOMEFAXNUMBER					"Home fax number"
+IDS_OX_WABOOK_COUNTRY						"Country"
+IDS_OX_WABOOK_LOCALITY						"Locality"
+IDS_OX_WABOOK_STATEPROVINCE					"State or province"
+IDS_OX_WABOOK_STREETADDRESS					"Street address"
+IDS_OX_WABOOK_POSTALCODE					"Postal code"
+IDS_OX_WABOOK_POSTOFFICEBOX					"Post office box"
+IDS_OX_WABOOK_TELEXNUMBER					"Telex number"
+IDS_OX_WABOOK_ISDNNUMBER					"Isdn number"
+IDS_OX_WABOOK_ASSISTANCEPHONENUMBER			"Assistant telephone number"
+IDS_OX_WABOOK_HOMEPHONENUMBER2				"Home2 telephone number"
+IDS_OX_WABOOK_ASSISTANT						"Assistant"
+IDS_OX_WABOOK_SENDRICHINFO					"Send rich info"
+IDS_OX_WABOOK_WEDDINGANNIVERSARY			"Wedding anniversary"
+IDS_OX_WABOOK_BIRTHDAY						"Birthday"
+IDS_OX_WABOOK_HOBBIES						"Hobbies"
+IDS_OX_WABOOK_MIDDLENAME					"Middle name"
+IDS_OX_WABOOK_DISPLAYNAMEPREFIX				"Display name prefix"
+IDS_OX_WABOOK_PROFESSION					"Profession"
+IDS_OX_WABOOK_PREFFEREDBYNAME				"Preferred by name"
+IDS_OX_WABOOK_SPOUSENAME					"Spouse name"
+IDS_OX_WABOOK_COMPUTERNETWORKNAME			"Computer network name"
+IDS_OX_WABOOK_CUSTOMERID					"Customer id"
+IDS_OX_WABOOK_TTYTDPHONENUMBER				"Ttytdd phone number"
+IDS_OX_WABOOK_FTPSITE						"Ftp site"
+IDS_OX_WABOOK_GENDER						"Gender"
+IDS_OX_WABOOK_MANAGERNAME					"Manager name"
+IDS_OX_WABOOK_NICKNAME						"Nickname"
+IDS_OX_WABOOK_PERSONALHOMEPAGE				"Personal home page"
+IDS_OX_WABOOK_BUSINESSHOMEPAGE				"Business home page"
+IDS_OX_WABOOK_CONTACTVERSION				"Contact version"
+IDS_OX_WABOOK_CONTRACTENTRYIDS				"Contact entryids"
+IDS_OX_WABOOK_CONTACTADDRTYPE				"Contact addrtypes"
+IDS_OX_WABOOK_CONTACTDEFAULTADDRESSINDEX	"Contact default address index"
+IDS_OX_WABOOK_CONTACTEMAILADDRESS			"Contact email addresses"
+IDS_OX_WABOOK_COMPANYMAINPHONENUMBER        "Company main phone number"
+IDS_OX_WABOOK_CHILDRENSNAMES				"Childrens names"
+IDS_OX_WABOOK_HOMEADDRESSCITY				"Home address city"
+IDS_OX_WABOOK_HOMEADDRESSCOUNTRY			"Home address country"
+IDS_OX_WABOOK_HOMEADDRESSPOSTALCODE			"Home address postal code"
+IDS_OX_WABOOK_HOMEADDRESSSTATE				"Home address state or province"
+IDS_OX_WABOOK_HOMEADDRESSSTREET				"Home address street"
+IDS_OX_WABOOK_HOMEADDRESSPOSTOFFICE			"Home address post office box"
+IDS_OX_WABOOK_OTHERADDRESSCITY				"Other address city"
+IDS_OX_WABOOK_OTHERADDRESSCOUNTRY			"Other address country"
+IDS_OX_WABOOK_OTHERADDRESSPOSTALCODE        "Other address postal code"
+IDS_OX_WABOOK_OTHERADDRESSSTATE				"Other address state or province"
+IDS_OX_WABOOK_OTHERADDRESSSTREET			"Other address street"
+IDS_OX_WABOOK_OTHERADDRESSPOSTOFFICE        "Other address post office box"
+
+
+
+ 
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+#endif //_OXWABOOK_RC__

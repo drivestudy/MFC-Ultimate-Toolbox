@@ -1,0 +1,17 @@
+LIBRARY   cpuinf32
+
+
+CODE      PRELOAD MOVEABLE DISCARDABLE
+DATA      PRELOAD SINGLE
+
+EXPORTS
+		cpuspeed		@1
+        wincpuid        @2
+        wincpuidext     @3
+        wincpufeatures  @4
+		winrdtsc		@5
+		getdllversion	@6
+		wincpuidsupport @7
+		cpurawspeed		@8
+		cpunormspeed	@9
+		ProcessorCount	@10
